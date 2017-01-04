@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:appinfo>TeamForge Project Task Board Configuration</xsd:appinfo>
+    <xsd:documentation xml:lang="en-us">
+      This schema defines the XML file structure to configure TeamForge project task boards.
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:element name="TaskBoardConfigurations">
+    <xsd:annotation>
+      <xsd:documentation>Container element for TeamForge project task board configurations.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence maxOccurs="unbounded">
+        <xsd:element name="TaskBoardConfig">
+          <xsd:annotation>
+            <xsd:documentation>TeamForge project task board configuarion.</xsd:documentation>
+          </xsd:annotation>
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="StoryTracker" type="xsd:string" minOccurs="0" maxOccurs="1" nillable="false"/>
+              <xsd:element name ="BacklogTrackers" minOccurs="0" maxOccurs="1" nillable="false">
+                <xsd:annotation>
+                  <xsd:documentation>Container element for backlog trackers.</xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Tracker" minOccurs="0" maxOccurs="unbounded" nillable="false">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="SizeFieldName" type="xsd:string" minOccurs="0" maxOccurs="1" nillable="false">
+                            <xsd:annotation>
+                              <xsd:documentation>TeamForge tracker field name.</xsd:documentation>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="id" type="xsd:string" use="required">
+                          <xsd:annotation>
+                            <xsd:documentation>TeamForge tracker id.</xsd:documentation>
+                          </xsd:annotation>
+                        </xsd:attribute>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="TaskTracker" type="xsd:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+              <xsd:element name="StorySizeField" type="xsd:string" minOccurs="0" maxOccurs="1" nillable="false"/>
+              <xsd:element name="TaskEffortField" type="xsd:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+              <xsd:element name="TaskStatuses" minOccurs="1" maxOccurs="1" nillable="false">
+                <xsd:annotation>
+                  <xsd:documentation>Task board swim lane statuses.</xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Status" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="StoryTemplates" nillable="true">
+                <xsd:annotation>
+                  <xsd:documentation>Task board story templates.</xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="StoryTemplate">
+                      <xsd:annotation>
+                        <xsd:documentation>Task board story template.</xsd:documentation>
+                      </xsd:annotation>
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="Task">
+                            <xsd:annotation>
+                              <xsd:documentation>Task board story template task.</xsd:documentation>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="Title" type="xsd:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                <xsd:element name="Description" type="xsd:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="name" type="xsd:string" use="required">
+                          <xsd:annotation>
+                            <xsd:documentation>Name of the task board story template.</xsd:documentation>
+                          </xsd:annotation>
+                        </xsd:attribute>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+                <xsd:unique name="unique-template-name">
+                  <xsd:annotation>
+                    <xsd:documentation>Uniqueness constraint on task board story template name</xsd:documentation>
+                  </xsd:annotation>
+                  <xsd:selector xpath="StoryTemplate" />
+                  <xsd:field xpath="name" />
+                </xsd:unique>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:string" use="required">
+              <xsd:annotation>
+                <xsd:documentation>Task board configuration identifier.</xsd:documentation>
+              </xsd:annotation>
+            </xsd:attribute>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="version" type="xsd:int" default="1"/>
+    </xsd:complexType>
+    <xsd:unique name="unique-config-id">
+      <xsd:annotation>
+        <xsd:documentation>Uniqueness constraint on task board configuration id</xsd:documentation>
+      </xsd:annotation>
+      <xsd:selector xpath="TaskBoardConfig" />
+      <xsd:field xpath="id" />
+    </xsd:unique>
+  </xsd:element>
+</xsd:schema>

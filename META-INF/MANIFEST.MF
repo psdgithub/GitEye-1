@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: GitEye.app/Contents/Resources/git.icns
+SHA-256-Digest: /9CJ+8DAHe1r4IkZkcHaBemrWY0RMiAgSl6UZIMH5D4=
+
+Name: GitEye.app/Contents/Info.plist
+SHA-256-Digest: N/IMWUY/CN5RpbU09J5J5qitWNmTfS3goTIC1rvNGwk=
+
+Name: GitEye.app/Contents/MacOS/GitEye
+SHA-256-Digest: 1gSb9qkkoC2yAcgeU+cRZIOH+9EK/BJ1f6FRg3GSFEU=
+

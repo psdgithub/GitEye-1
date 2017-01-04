@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+<p>
+  <span color="header" font="header">
+     PROJECT HOME
+  </span>
+</p>
+<p>
+  <b>Project :</b> <control href="summary"/>
+</p>
+<p>
+  <control href="imagegroup"/>
+</p>
+</form>

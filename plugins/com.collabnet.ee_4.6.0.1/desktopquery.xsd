@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:appinfo>CollabNet Desktop Query Import/Export</xsd:appinfo>
+    <xsd:documentation xml:lang="en-us">
+      This schema defines the XML file structure to import/export user-defined queries in CollabNet Desktops.
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:element name="Queries">
+     <xsd:annotation>
+       <xsd:documentation>Container element for CollabNet Desktop queries.</xsd:documentation>
+     </xsd:annotation>
+      <xsd:complexType>
+         <xsd:sequence maxOccurs="unbounded">
+            <xsd:element name="DesktopQuery">
+              <xsd:annotation>
+                <xsd:documentation>CollabNet Desktop Query definition.</xsd:documentation>
+              </xsd:annotation>
+               <xsd:complexType>
+                 <xsd:sequence>
+                   <xsd:element name="QueryDefinition" maxOccurs="1">
+                     <xsd:annotation>
+                       <xsd:documentation>CollabNet Desktop query criteria.</xsd:documentation>
+                     </xsd:annotation>
+                     <xsd:complexType>
+                       <xsd:sequence>
+                         <xsd:element name="Name" type="xsd:string"/>
+                         <xsd:element name="Host" type="xsd:string"/>
+                         <xsd:element name="Project" type="xsd:string" minOccurs="0"/>
+                         <xsd:element name="AppFolder" type="xsd:string" minOccurs="0"/>
+                         <xsd:element name="Parameters" maxOccurs="1">
+                           <xsd:complexType>
+                             <xsd:sequence maxOccurs="unbounded" minOccurs="0">
+                               <xsd:element name="Parameter">
+                                 <xsd:annotation>
+                                   <xsd:documentation>Filter field definition.</xsd:documentation>
+                                 </xsd:annotation>
+                                 <xsd:complexType>
+                                   <xsd:sequence>
+                                     <xsd:element name="Name" type="xsd:string"/>
+                                     <xsd:element name="FieldId" type="xsd:string" minOccurs="0"/>
+                                     <xsd:element name="Values" maxOccurs="1">
+                                       <xsd:complexType>
+                                         <xsd:sequence maxOccurs="unbounded">
+                                           <xsd:element name="Value">
+                                             <xsd:annotation>
+                                               <xsd:documentation>Filter field value definition.</xsd:documentation>
+                                             </xsd:annotation>
+                                             <xsd:complexType>
+                                               <xsd:simpleContent>
+                                                 <xsd:extension base="xsd:string">
+                                                   <xsd:attribute name="fieldValueId" type="xsd:string" use="optional"/>
+                                                 </xsd:extension>                                                              
+                                               </xsd:simpleContent>
+                                             </xsd:complexType>
+                                           </xsd:element>
+                                         </xsd:sequence>
+                                       </xsd:complexType>
+                                     </xsd:element>
+                                   </xsd:sequence>
+                                   <xsd:attribute name="isFlex" type="xsd:boolean" use="optional"/>
+                                 </xsd:complexType>
+                               </xsd:element>
+                             </xsd:sequence>
+                           </xsd:complexType>
+                         </xsd:element>
+                       </xsd:sequence>
+                     </xsd:complexType>
+                   </xsd:element>
+                   <xsd:element name="UIDefinition" minOccurs="0" maxOccurs="1" nillable="true">
+                     <xsd:annotation>
+                       <xsd:appinfo>CollabNet Desktop - Microsoft Windows Edition</xsd:appinfo>
+                       <xsd:documentation>Query result table settings.</xsd:documentation>
+                     </xsd:annotation>
+                     <xsd:complexType>
+                       <xsd:sequence>
+                         <xsd:element name="ColumnStates">
+                           <xsd:complexType>
+                             <xsd:sequence maxOccurs="unbounded">
+                               <xsd:element name="ColumnState">
+                                 <xsd:complexType>
+                                   <xsd:attribute name="name" type="xsd:string" use="required"/>
+                                   <xsd:attribute name="width" type="xsd:string" use="required"/>
+                                   <xsd:attribute name="sortOrder" type="sortOrderEnum" />
+                                   <xsd:attribute name="groupSortOrder" type="sortOrderEnum" />
+                                   <xsd:attribute name="visibleIndex" type="xsd:string" use="required"/>
+                                   <xsd:attribute name="groupedIndex" type="xsd:string" use="required"/>
+                                 </xsd:complexType>
+                               </xsd:element>
+                             </xsd:sequence>
+                           </xsd:complexType>
+                         </xsd:element>
+                         <xsd:element name="GroupStates" minOccurs="0">
+                           <xsd:complexType>
+                             <xsd:sequence maxOccurs="unbounded" minOccurs="0">
+                               <xsd:element name="GroupState">
+                                 <xsd:complexType>
+                                   <xsd:sequence maxOccurs="unbounded">
+                                     <xsd:element name="GroupPath">
+                                       <xsd:complexType>
+                                         <xsd:sequence>
+                                           <xsd:element name="Path" type="xsd:string" maxOccurs="unbounded"/>
+                                         </xsd:sequence>
+                                       </xsd:complexType>
+                                     </xsd:element>
+                                   </xsd:sequence>
+                                   <xsd:attribute name="groupName" type="xsd:string" use="required"/>
+                                 </xsd:complexType>
+                               </xsd:element>
+                             </xsd:sequence>
+                           </xsd:complexType>
+                         </xsd:element>
+                       </xsd:sequence>
+                       <xsd:attribute name="globalGroupState" use ="optional">
+                         <xsd:simpleType>
+                           <xsd:restriction base="xsd:string">
+                             <xsd:enumeration value="GroupCollapsed"/>
+                             <xsd:enumeration value="GroupExpanded"/>
+                           </xsd:restriction>
+                         </xsd:simpleType>
+                       </xsd:attribute>
+                     </xsd:complexType>
+                   </xsd:element>
+                 </xsd:sequence>
+                 <xsd:attribute name="type" type="xsd:string" use="required"/>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+        <xsd:attribute name="version" type="xsd:int" default="0"/>
+      </xsd:complexType>
+   </xsd:element>
+  <xsd:simpleType name="sortOrderEnum">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None"/>
+      <xsd:enumeration value="Ascending"/>
+      <xsd:enumeration value="Descending"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

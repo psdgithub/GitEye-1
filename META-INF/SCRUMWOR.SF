@@ -1,0 +1,15 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: J+y5YHDWxXAH6OJiFO0RQZguhUiw/
+ noevmM6VnwqsN0=
+SHA-256-Digest-Manifest: 1iW5+NF0BhxxoQiHqww3v/01fUwslUGNwPwgO81gdEo=
+Created-By: 1.7.0_79 (Oracle Corporation)
+
+Name: GitEye.app/Contents/Resources/git.icns
+SHA-256-Digest: lmTodTRv9dgwNIY54M/ILM4YuQ0gBsLTg0msyZq1UCo=
+
+Name: GitEye.app/Contents/Info.plist
+SHA-256-Digest: DmPbcxjwDSyimHPTWvzfPf/D1Au5mT3x6M7IPUg/0Vw=
+
+Name: GitEye.app/Contents/MacOS/GitEye
+SHA-256-Digest: Q5c0XBsnqq8DOfrphYrtgMeDcBfs0ugYHT3iC4VqLN8=
+

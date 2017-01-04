@@ -1,0 +1,5011 @@
+Manifest-Version: 1.0
+Export-Package: com.collabnet.ee,com.collabnet.ee.actions,com.collabne
+ t.ee.dialogs,com.collabnet.ee.editor,com.collabnet.ee.model,com.colla
+ bnet.ee.webclient,com.collabnet.ee.wizard
+Bundle-Name: CollabNet TeamForge
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: com.collabnet.webservices.common,com.collabnet.teamfor
+ ge.api;bundle-version="6.1.0",org.eclipse.ui,org.eclipse.core.runtime
+ ,com.collabnet.desktop;bundle-version="1.5.2",org.eclipse.gef,org.ecl
+ ipse.ui.views,org.eclipse.ui.forms,com.collabnet.ee.tracker.core;bund
+ le-version="1.5.2",com.collabnet.ee.tracker.ui;bundle-version="1.5.2"
+ ,org.eclipse.mylyn.tasks.ui,org.eclipse.mylyn.tasks.core,org.eclipse.
+ mylyn.monitor.core,org.eclipse.ui.ide,org.eclipse.core.resources,org.
+ eclipse.mylyn.commons.core,org.eclipse.mylyn.commons.net,org.eclipse.
+ core.net,org.eclipse.draw2d
+Bundle-Vendor: CollabNet
+Eclipse-LazyStart: true
+Bundle-Version: 4.6.0.1
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.collabnet.ee.Activator
+Bundle-SymbolicName: com.collabnet.ee;singleton:=true
+Eclipse-RegisterBuddy: com.collabnet.webservices.common, com.collabnet
+ .teamforge.api
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$61.class
+SHA1-Digest: GCTiZKc3Dg0vU8TXbA5n8EelY+0=
+
+Name: com/collabnet/ee/editor/KanbanGroupStateFigure$1.class
+SHA1-Digest: c7FakhoraUwvGqlH+Pm+BYWwvC8=
+
+Name: com/collabnet/ee/IRenamedSiteHandler.class
+SHA1-Digest: vhGMc+mm3Kyz/2uXsivQk9+5AIs=
+
+Name: com/collabnet/ee/actions/MassUpdateAction$1.class
+SHA1-Digest: UW7qg68tslWkUscOM4MqGt946w8=
+
+Name: com/collabnet/ee/ProjectSitePre80.class
+SHA1-Digest: 3qQkFy2wPWmKfwLdR3glW6R6rjA=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$ReorderAction
+ .class
+SHA1-Digest: ou6+1BfiV9bqPTJjcxQb4SOFiME=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSummaryDialog.class
+SHA1-Digest: XtXq36wgbYupOq4MwU/ZKwBPzMI=
+
+Name: com/collabnet/ee/editor/StrikeThroughLabel.class
+SHA1-Digest: jJP6V9V9t/BPCbC0Rx7MOzCWbPI=
+
+Name: com/collabnet/ee/actions/ShowFavoriteProjectsAction.class
+SHA1-Digest: Kb7ktn+jBKjrGrplLVSqMpQFRt4=
+
+Name: icons/expand15.gif
+SHA1-Digest: MG0gJagF0OdMGfkzZnUCzBzcj3s=
+
+Name: com/collabnet/ee/SourceForgeSite$1.class
+SHA1-Digest: DD7ADx/xr1LstWsJQ1lVqbSAOlk=
+
+Name: com/collabnet/ee/integratedapps/IntegratedAppChildSiteProvider.c
+ lass
+SHA1-Digest: DXRJgaa41DO8g33GRa7rLidRR+g=
+
+Name: com/collabnet/ee/actions/ShowHiddenAction.class
+SHA1-Digest: kQLMWTffGJ2OAJP7sxJouWjm55Q=
+
+Name: com/collabnet/ee/dialogs/CreateAssociationDialog$4.class
+SHA1-Digest: oUTfCEzYt2A/pzQEy6t4xS9USnw=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$2$1.cl
+ ass
+SHA1-Digest: D6t7WUtpxRbZHtEGlcrnVAQDXAk=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$DocumentCo
+ ntentProvider$3.class
+SHA1-Digest: ufPWtcnfTrrqHzW/JI7tro7JKl0=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardSfeePage$3.class
+SHA1-Digest: ahJxdKnQ0g14RykaGPIYZgM5pJY=
+
+Name: icons/git16.png
+SHA1-Digest: DHmsFU/MYEclKq5QB+SnqLXkg1M=
+
+Name: com/collabnet/ee/editor/TaskBoardSavePage$1.class
+SHA1-Digest: Z2/N2Lx7wW654Dff4wZIpj937wE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$ChartsAction.class
+SHA1-Digest: XTJRsnGeWUJKeC3H0AsVmxn7bOg=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$Trac
+ kersContentProvider.class
+SHA1-Digest: wsmWS4z+DyKYXZ/VdWO/HrNiZ6s=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage$2.class
+SHA1-Digest: XR7KjCwN4cZpUQ54tVXREzX1VMk=
+
+Name: icons/planning_folders.gif
+SHA1-Digest: 1Br+MWF5CuXftf+uYL/xgacCLiQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$39.class
+SHA1-Digest: LetMcVa+ujMXQH6krwxyMbpB3V4=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$10.class
+SHA1-Digest: KQLxICPArR6VAJjMhc6f9WcC5m4=
+
+Name: com/collabnet/ee/actions/ShowMonitoringUsersAction.class
+SHA1-Digest: Cs7K40UAwOGMei7Yg2UWgKj2PQA=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$5.
+ class
+SHA1-Digest: Oay9seW6J5VQBQqtSSyuCuU1mQs=
+
+Name: com/collabnet/ee/GerritRepositorySite.class
+SHA1-Digest: Ub+3ZBsunEa7ehdxRHQuc5VT/VQ=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog.class
+SHA1-Digest: IOWF92nsrpZswm6guTk+4glAPOw=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage$1.class
+SHA1-Digest: ohdpZYvgvpRl1HUQv8vEJzYLqEA=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$5.c
+ lass
+SHA1-Digest: sT0MP4aHQVPFmW1hQzAH92CIwAk=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$1.class
+SHA1-Digest: 9BRn1ZUpsoqJwo8opzFmn0OZN1U=
+
+Name: com/collabnet/ee/editor/TaskBoardStatusStoryTasksGroupEditPart.c
+ lass
+SHA1-Digest: qR+aVBgdCykBP0G4TFqhrxiFs6w=
+
+Name: com/collabnet/ee/editor/KanbanBoardActionBarContributor.class
+SHA1-Digest: sPJOf/y09Pnghq7wCMPrel6GKY4=
+
+Name: com/collabnet/ee/editor/KanbanGroupStateFigure.class
+SHA1-Digest: MEheXvQJjD/3Nf/JnBk1c1E1L9M=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackers
+ Page$3.class
+SHA1-Digest: JUAm7e2g6tq9dMfMmbLsTaRWAyU=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardTrackersPa
+ ge.class
+SHA1-Digest: kVjMpaLz9WmE6dUIpuumW0Koovs=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$HighlightAction.class
+SHA1-Digest: BkWVclX7MqsT0LxkA5DxPP2tbJc=
+
+Name: com/collabnet/ee/editor/KanbanGroupHeaderEditPart$1$1.class
+SHA1-Digest: deZgxLcdbt2PbuTFm6Jb5Gc01CI=
+
+Name: com/collabnet/ee/model/PlanningFolder.class
+SHA1-Digest: vUm0lchpC2BD0vebmvDJf/kwhQk=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$AddAction$1.c
+ lass
+SHA1-Digest: xh5NzSXQ36DW35TUuOp04GBumkk=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardFilePage$1.class
+SHA1-Digest: maqPawPVrXIz6UM5J7ZVP3D3LHg=
+
+Name: com/collabnet/ee/PlanningFoldersSite$1.class
+SHA1-Digest: yl7oetOfi/rTbqeIVGncdZ+pbJk=
+
+Name: com/collabnet/ee/wizard/TrackerQueryProjectPage$4.class
+SHA1-Digest: OL9g1DBNBGiF6+xMcERRErSfFL4=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactEditPart.class
+SHA1-Digest: yKWLRYughy0PMTuodSZST0SbPjk=
+
+Name: com/collabnet/ee/IQueryContainer.class
+SHA1-Digest: 9cecu0jUilAi97Wc3LJorK1t4b4=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog.class
+SHA1-Digest: DsQLpK2zvUHH1CUs0NdvH3N/QXE=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$DeleteArtifactActi
+ on.class
+SHA1-Digest: JLjzVAImvuwAmUGdCjpMad3M75Y=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$CreateFrsFileJob.class
+SHA1-Digest: HWv36EzGNstNMGgqKUQWwlRs2OU=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardSfeePage$2.class
+SHA1-Digest: pWu2aUFWqflOWBgPMFlrFeW0SQ0=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizard.class
+SHA1-Digest: TRJxNl8gnxII07zg7YDx/fBsqXA=
+
+Name: com/collabnet/ee/editor/IArtifactEditor.class
+SHA1-Digest: F1TBe8KYHv9OaFzezfjZxvFeMp0=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$3.clas
+ s
+SHA1-Digest: s6Sj4RoknS0ghPBpiDAdgjdl9O8=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$2.class
+SHA1-Digest: c3/GPSFS7MiuzSZxSTFXXCR2JPE=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$AddTeamAction
+ $1.class
+SHA1-Digest: 9D2rIrE2aGC9lBlioqppKKIQvnk=
+
+Name: icons/site-queries-container.gif
+SHA1-Digest: hfosxUtWqvYW6lojbEFgglIXPE8=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage$DocumentCo
+ ntentProvider$2.class
+SHA1-Digest: wKwHvpRnV34VKFnTs5WIGjdw6sk=
+
+Name: com/collabnet/ee/preferences/KanbanBoardPreferencePage.class
+SHA1-Digest: 8Qc2y05/+iVPiANSas7axE3xfB4=
+
+Name: com/collabnet/ee/dialogs/FavoriteProjectsDialog.class
+SHA1-Digest: A0uzpRhqcYPcR7n2AWOgN6Qz2R8=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$26.class
+SHA1-Digest: ooJrsAmHj1C1mNF3A+RZypDj2n4=
+
+Name: com/collabnet/ee/views/RelationshipTreeJob.class
+SHA1-Digest: OxEvc5h/oW2/9AEEtdYDkQOASfs=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$1$1.class
+SHA1-Digest: XDXL4cugOUxLwxEhEWAllcGMvTY=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$18.class
+SHA1-Digest: K2s56NbgcYdmk4kZsxIRU1G3+RI=
+
+Name: com/collabnet/ee/ISourceForgeSiteChild.class
+SHA1-Digest: Xg48hYAM+mpuOPCpRoCEKT05O10=
+
+Name: com/collabnet/ee/actions/DeleteAssociationAction.class
+SHA1-Digest: TY/s6OgTUkawnFr4tywIgxShOaQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$19.class
+SHA1-Digest: jv0lkb7A4x0YjcitVtZi8OiL1I4=
+
+Name: icons/obj16/docversions16.gif
+SHA1-Digest: IDRmeZI4uu14XZxDO3uJ/coTw4w=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$9.class
+SHA1-Digest: a4Na72PljeQA9gDjHOoRQoliU18=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsConfirmationDialo
+ g.class
+SHA1-Digest: 8JFmq70pswLO1Vk6wavZoSDWo74=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$8.class
+SHA1-Digest: P43wEsw8yeAxgVVesL2EgSMVa98=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction$2.
+ class
+SHA1-Digest: X5ocLxrB1uOtxIdVBU9t/aGai/k=
+
+Name: com/collabnet/ee/SourceForgeSiteProvider$1$1.class
+SHA1-Digest: 0TRI39Q8Tu5dlwe93hmizSZUvJY=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction.class
+SHA1-Digest: dpLhtR50SnbcUypq+Apvf13Ku4k=
+
+Name: com/collabnet/ee/model/ModelConstants$ApplicationFolder.class
+SHA1-Digest: Gn8Bmk1SLWMr9WVqKl2fLwO6AB4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$11.class
+SHA1-Digest: gM+cDS1TFbSHxaAWvNd0L+b3/Pc=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$34.class
+SHA1-Digest: TegdVeunBkJir6imFXuic4mJsfA=
+
+Name: com/collabnet/ee/actions/ExportTrackerQueryAction.class
+SHA1-Digest: UF9wcOUdDQlmgfZ5P+U2SDCvdSo=
+
+Name: com/collabnet/ee/preferences/TeamForgePreferenceInitializer.clas
+ s
+SHA1-Digest: z1tryqrsOZQcQNXM3ehHK/sAU8A=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$2.class
+SHA1-Digest: 0z04/2SX4OXjxkUrJrFIpusO37A=
+
+Name: com/collabnet/ee/wizard/NewTaskBoardStoryWizardTrackerPage.class
+SHA1-Digest: uX8bwNwRb4l4ApNEfLLfgASh4Nk=
+
+Name: icons/taskboard_config.png
+SHA1-Digest: GkdvjzZpg5hW1reMk21Jb8Q5dWU=
+
+Name: com/collabnet/ee/editor/ArtifactEditPart$1.class
+SHA1-Digest: 6bmohw4OOF+nFya8VmBJfsWHKIo=
+
+Name: com/collabnet/ee/views/AuditHistoryView$RefreshAction.class
+SHA1-Digest: AKflrN9brAo0pHhfJh1bl/3FXzo=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardTrackersPa
+ ge$2.class
+SHA1-Digest: mVTAOh3hr0meXGReBPMwVfoWJ2o=
+
+Name: com/collabnet/ee/dialogs/CreateAssociationDialog$2.class
+SHA1-Digest: 17XtZ6ZUOtDHQKY2SwkcpxTmXRA=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$3$1.class
+SHA1-Digest: ExJpU3CYwj4nNLwblahJvEh6SfI=
+
+Name: icons/lock.gif
+SHA1-Digest: 3PgpLpopWVz1ZzRdVPLc3i6rN1A=
+
+Name: com/collabnet/ee/actions/ReorderTrackersAction$1.class
+SHA1-Digest: w6bUKr9rawR6BtFgc31MoP3MqhI=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$16.class
+SHA1-Digest: a2CM5y1mn7tB7rd9XSWEh3jbUo8=
+
+Name: com/collabnet/ee/dialogs/AssociationSelectionDialog$1.class
+SHA1-Digest: 0Z/DPkgAzsV+Yldlhj3hIoxHMWY=
+
+Name: com/collabnet/ee/actions/UpdatePlanningFolderAction.class
+SHA1-Digest: KXahF1m9J9TZrmgfdW1vG1DYifI=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$8$1.class
+SHA1-Digest: jNhrSLyGg026Y8/RCn6E4n3skBc=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$1.class
+SHA1-Digest: 1tV6pndi8qv9MKC5ko1NIapKshI=
+
+Name: com/collabnet/ee/editor/IColumnDescriptor.class
+SHA1-Digest: PjKuUrhqCTILg3hMeXCJbQgea4Q=
+
+Name: com/collabnet/ee/actions/NewPlanningFolderAction$1.class
+SHA1-Digest: CiCTZLTwDSb6kiIU9WJNhHJPJn4=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$2$4.
+ class
+SHA1-Digest: OrJUI40Wtqb/PDSsWMsLCIhroSA=
+
+Name: com/collabnet/ee/UserQuerySite.class
+SHA1-Digest: +a3sD8NPV4NjcI/hZx/w9IPhCW8=
+
+Name: icons/obj16/tracker.gif
+SHA1-Digest: GMPYVJJSFAuzmXjT+4nXLCyHmxc=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$CreateFrsFileJob$1.cla
+ ss
+SHA1-Digest: Aj8PQqcSzaA54HAEGcj/EakjG2Y=
+
+Name: com/collabnet/ee/views/AuditHistoryView$1.class
+SHA1-Digest: xzGqv81KFwx7xqCY3OPw3bD2POo=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog$3.class
+SHA1-Digest: woBFzXmlEc+2GpAELWgLpaCU6Tc=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$Preference
+ sAction.class
+SHA1-Digest: gqr6ifTHv6980szz95Rr6yrkSXo=
+
+Name: com/collabnet/ee/dialogs/CreateDependencyDialog$3.class
+SHA1-Digest: 8TIZ0iQNtk8I0eBby6cpFgarA/w=
+
+Name: com/collabnet/ee/GitRepositorySite.class
+SHA1-Digest: zR2UExdMJX/lb24qtfEXM5ZMMzc=
+
+Name: icons/tasks.gif
+SHA1-Digest: a1E+iB6STGXsoU+cN/NgMYuYdrE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$33.class
+SHA1-Digest: WNTWDt8JxHxBqrhxlUTecv83ZcM=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$4.class
+SHA1-Digest: NTBM9Nly+hIPWgfOfswRs9qNlVk=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardTemplatesWizard$2.clas
+ s
+SHA1-Digest: S7g4uSNFmBiagWw+KqUwZDKOZqs=
+
+Name: com/collabnet/ee/dialogs/CreateAssociationDialog.class
+SHA1-Digest: RueeApN0yVuTMFuOW8XmUnBBk1E=
+
+Name: com/collabnet/ee/dialogs/CreateDependencyDialog$2.class
+SHA1-Digest: 3x05xaFGc+ZldPpXuMQX/p7Us8c=
+
+Name: icons/teams.png
+SHA1-Digest: JumaQRmcgeif/9Dk18vs7rgQIgc=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$9.class
+SHA1-Digest: 7Vu8pz4KaScIIQJO3CVVf+OXbrA=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackers
+ Page$2.class
+SHA1-Digest: FC41wZgIg2RNHnq/z99qIurxEZI=
+
+Name: desktopquery.xsd
+SHA1-Digest: Az0ezJ1NqwWZd8r2UFfsVVFOIVc=
+
+Name: com/collabnet/ee/dialogs/ChangeSiteDialog$1.class
+SHA1-Digest: pO7qn4LYuA7yo12YzKgx7BlgjMs=
+
+Name: com/collabnet/ee/editor/KanbanGroupHeaderEditPart$1.class
+SHA1-Digest: 8r0LkiWuziNbOwnM2l8rmRCE3FI=
+
+Name: icons/dependencies_parent.gif
+SHA1-Digest: oUCyffUKm6NFb9LnvXyKq435nro=
+
+Name: com/collabnet/ee/actions/PlanningFolderSummaryAction.class
+SHA1-Digest: zeJ1avBMQPDpnAyF1tW3CqQF9Wk=
+
+Name: com/collabnet/ee/wizard/NewPlanningBoardTaskWizardTrackerPage.cl
+ ass
+SHA1-Digest: fL0dVIiIsFWiXs7R3U8TxhGglTk=
+
+Name: com/collabnet/ee/actions/ConfigureKanbanBoardAction.class
+SHA1-Digest: hDCOO4b5rBzjvfe1ebND//WjZ8A=
+
+Name: com/collabnet/ee/editor/ProjectEditorInput.class
+SHA1-Digest: 5FlkM/Xi/Sj8YBl0FsP8MBHRlE0=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$2.
+ class
+SHA1-Digest: g9zCefFFsFwP6t+WA9xyLW8kv68=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$DocumentCo
+ ntentProvider.class
+SHA1-Digest: 0iv84lrjfxkpAx575Qd8J31Lje4=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$4.
+ class
+SHA1-Digest: I2kJfEwaUP9S4KejuCwXSbRzKVA=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$9.class
+SHA1-Digest: kQaWoSYUp+LWIAhNPPlcST9DwbE=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$11.class
+SHA1-Digest: 8E6MicWITZs+uAUjhlHIUM0GT6s=
+
+Name: com/collabnet/ee/editor/ColumnDescriptor.class
+SHA1-Digest: G0024QtkWqwRTvyNwKDZsMMTdPM=
+
+Name: com/collabnet/ee/SitesViewPlanningFolderListener.class
+SHA1-Digest: u43E04RhboCfAYih5Uv4Ua2Smm4=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$6$1$1.class
+SHA1-Digest: Nig+iI0ctUxz5PXPAc4mXOpA28E=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1$4.class
+SHA1-Digest: bDnHtYrQhTABVNkF2ULuxBeCBNw=
+
+Name: com/collabnet/ee/QueryCategorySite.class
+SHA1-Digest: osgW/F/90PwMC9CPMH+q9RS4Iz0=
+
+Name: com/collabnet/ee/ArtifactSite.class
+SHA1-Digest: AZdo73KbHup79+C8x2ZvT7wuTXM=
+
+Name: icons/save.gif
+SHA1-Digest: U9r6zdvy60UCCQJytBcOUSp+Rbg=
+
+Name: com/collabnet/ee/views/AuditHistoryView$FilterAction.class
+SHA1-Digest: XhsoX3oLcYT26MGomryeplo9/gc=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$7.class
+SHA1-Digest: ZIPpyzi2RGYMUDYNmEDwAQVKvcI=
+
+Name: icons/planningboard_config.gif
+SHA1-Digest: n2V8DoxH6X5HDoZn1D8FzK0BHus=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$1.cl
+ ass
+SHA1-Digest: fO+fAGi+ZEoQ6xX8fWY1ig2NmOk=
+
+Name: schema/artifactReportActionProviders.exsd
+SHA1-Digest: 6LSXuAMlUw9uiV5JFvkbGc59WMA=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$2.cl
+ ass
+SHA1-Digest: 9cbvM45QnFdSsVqtsKn+R/EU/ow=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$28.class
+SHA1-Digest: UrEvtLo/TK8e2dOB/Z25MUeZ1b4=
+
+Name: com/collabnet/ee/actions/RefreshTrackerIconsAction.class
+SHA1-Digest: hXHatklB8YVA8VpyHMtgqqWtJjI=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$Ta
+ sksLabelProvider.class
+SHA1-Digest: /lAxdKDYNHoa6vJdPuQB9URcNU4=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1$2.class
+SHA1-Digest: CAd6WdRQvPL0Yht6zNdFjwZJtOg=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$3.clas
+ s
+SHA1-Digest: Hbunl/1vIASlrZdNoZ92LiTvSYo=
+
+Name: com/collabnet/ee/wizard/NewPlanningBoardTaskWizardTrackerPage$Tr
+ ackersLabelProvider.class
+SHA1-Digest: DmLTYTS0PAvmcwUVNxs0Sw/cRp4=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$16.class
+SHA1-Digest: G46IomDedHYZJ6bTfZjL8YlZMz0=
+
+Name: com/collabnet/ee/editor/KanbanBoardNewTaskAction.class
+SHA1-Digest: JbioozpRcV/ZN2LYMNUT+jD48fQ=
+
+Name: com/collabnet/ee/actions/UpdateFrsFileAction.class
+SHA1-Digest: u8q5Qtv9Vcfo93GxHKqeNhLIAZI=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$3.class
+SHA1-Digest: VSTv18FKlm0rVzReFabS6YbFEow=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$18$1.class
+SHA1-Digest: /GDvnMHzoZqXdeBe2RLoyCSFMCA=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$10.class
+SHA1-Digest: at5BBrp+1jLuo8aCaLlzDQvKImE=
+
+Name: com/collabnet/ee/editor/KanbanArtifactEditPart.class
+SHA1-Digest: EcBoI9gGulWzpmd3GneosnFa2AA=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$HighlightAction$4.clas
+ s
+SHA1-Digest: 7+y5HiGNWuOjD6hUuR5iDtZUYXA=
+
+Name: com/collabnet/ee/actions/DeleteFolderAction.class
+SHA1-Digest: 1nYGg6U5wN4lFZu8OEo8jaWcuBo=
+
+Name: icons/project_locked.gif
+SHA1-Digest: Y30PttPtwteLJCLiQWV/aF8Fhtw=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$16.class
+SHA1-Digest: 22BP9Y0sc4SYCu+oU1SMt/rTG4Y=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$5.class
+SHA1-Digest: vBfhrlrSGmzkvsUIojE4fjHKsao=
+
+Name: com/collabnet/ee/actions/RefreshTrackerIconsAction$1.class
+SHA1-Digest: jTAP7k8TQlkAUWoEXpGLll3UXjE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$27.class
+SHA1-Digest: zfq13M7kclTsRpCFmMRYSKDSeT0=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$2.class
+SHA1-Digest: 6zoapU1Ij+lAbj/548LvMYISxFY=
+
+Name: com/collabnet/ee/actions/DeleteFolderAction$1.class
+SHA1-Digest: OWh/9bfOJsLQ0aPag3KLBDuEFsw=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage$DocumentCo
+ ntentProvider.class
+SHA1-Digest: 1c/8QlTZ2XT3qB+BRZQPXRYHB60=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$MoveArtifactAction
+ .class
+SHA1-Digest: TZAiFTI6d1e43/PbaejvXBuKhGE=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$3.class
+SHA1-Digest: N0GtqsKCTJbDiWkod1T4e9Slxgc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$20.class
+SHA1-Digest: 7OTTcomvkLVIIzjjTFgkE0LkFZ0=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$ReorderAction
+ $1.class
+SHA1-Digest: +pExQ66InepCN4+uiDkciBoNcgU=
+
+Name: com/collabnet/ee/preferences/TaskBoardPreferencePage.class
+SHA1-Digest: HsqjqyNCeD+Fq+w6NvIvYBwckD4=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage.cl
+ ass
+SHA1-Digest: B3wiv3F+17dDGgtgS9Y6o7Dqnpk=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$2.class
+SHA1-Digest: mmHyPGjpLDiW/PT+skQ17bUSs6o=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$7.class
+SHA1-Digest: 73eaXVIsxQVfryjDcV/J9Bx68ww=
+
+Name: com/collabnet/ee/ArtifactDecorator.class
+SHA1-Digest: ES/NvvKrD8ZZAr84kpsrxMXg4Hw=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizard$1.class
+SHA1-Digest: l4BynmnpN/hYB5zyZqyinIXbvv8=
+
+Name: com/collabnet/ee/editor/TaskBoardSortDialog$1.class
+SHA1-Digest: rRSHpE5+sffIZLVBbqlV/73VoLQ=
+
+Name: com/collabnet/ee/dialogs/QueryAlreadyExistsDialog.class
+SHA1-Digest: TzNRaq5GDEDod66vXoJmcrV10Nc=
+
+Name: icons/obj16/srch.gif
+SHA1-Digest: p5f/WMKvr3045Nt1Dpp176cpc6w=
+
+Name: com/collabnet/ee/wizard/NewTaskBoardStoryWizard.class
+SHA1-Digest: nON6K7mW9SispVa5xkzkA0iuesM=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$HighlightAction.class
+SHA1-Digest: 8n9OsqXcavh9nl/lyWRs1ML7h50=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$1.class
+SHA1-Digest: 6s/4fj+ss0kb2w3p1H9RRxKK5kU=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$4.class
+SHA1-Digest: euWsqRbC/vEMMqCa/626jLc7iMA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$5.class
+SHA1-Digest: KuVd0u0dZB2KqVloMQxafMmD4R8=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$3.class
+SHA1-Digest: ldvcD0Djk2OWykMXctXcaS/Q8PM=
+
+Name: com/collabnet/ee/actions/ShowTeamForgeToolsAction.class
+SHA1-Digest: 1vEpDefQ8wS5DPUcC0j4jNjrlmc=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$20$1$1.class
+SHA1-Digest: XlBqK96eN/Js/vgqTipkbTQBwMQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardMenuProvider$FindArtifactAc
+ tion.class
+SHA1-Digest: bzOtJL3CJWTqHuOKBJFlaYOL79s=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage.class
+SHA1-Digest: F6X192rc2ZrcJjMOHkTt/SRz40o=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard$2.class
+SHA1-Digest: qtAEi9zEpzCMDiiefrQvPf7u7BA=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage$DocumentCo
+ ntentProvider$3.class
+SHA1-Digest: S5QyJCMsiwTq6/aKPl4oH+i2ovo=
+
+Name: icons/document_review_query.gif
+SHA1-Digest: 1KnrtKDP0+qaI7vejOC7QQAP25o=
+
+Name: com/collabnet/ee/editor/KanbanGroupsEditPart$1.class
+SHA1-Digest: XJePoPf6T5ywDvaaz2uJjRM86FA=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$9.clas
+ s
+SHA1-Digest: LbBksxjO25mqeCOoBQHObvZkhS4=
+
+Name: com/collabnet/ee/dialogs/QueryAlreadyExistsDialog$2.class
+SHA1-Digest: SVdSaGCac8/eMXxW4jUnIFLEvBA=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$11.class
+SHA1-Digest: AQI/j2LVgXCZBgrqON7DlcquGdA=
+
+Name: icons/tracker_query_wizban.gif
+SHA1-Digest: Ko95n3RRlr+3w67ZzMbqPniXB5Y=
+
+Name: com/collabnet/ee/wizard/NewKanbanBoardTaskWizard.class
+SHA1-Digest: B+rPnqRSbHzTAmU1jPwlUJpLg4c=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$14.class
+SHA1-Digest: l/7RAMTEa9nnJsmx5eYIFtCr+SI=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerPage$1.class
+SHA1-Digest: s6VZ3rsBBxvbDTNCk+8IhWMRm74=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$4.class
+SHA1-Digest: K/IyyrUlub7wqOF1wJdkbWKLv00=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage.class
+SHA1-Digest: JmdyrSlX2qT5q1+A/7oHkM+lFM4=
+
+Name: com/collabnet/ee/preferences/TaskBoardPreferencePage$1.class
+SHA1-Digest: YfaS8Rsn9S9HWIVj2hCBj1qFUl0=
+
+Name: com/collabnet/ee/taskboard/ITaskBoardConstants.class
+SHA1-Digest: C/iZqj+hqLCcTJrKRXQ85KPU6wY=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$3.class
+SHA1-Digest: 4YVSC3OyIJLetnByK1dVulfqqNM=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$DropTargetContentPro
+ vider.class
+SHA1-Digest: lR4kT65Lo2J/p1k4HspmBy3wA4w=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerSpecificCriteriaPage$
+ 3.class
+SHA1-Digest: lOPLyloHyJ0d1vr57WGLxUgl8r4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$4.class
+SHA1-Digest: AC0SXj7LTCMjGc1YCOP0OrKrDBE=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$2$3.cl
+ ass
+SHA1-Digest: Le44r5PXUnDxKiCEfR6CaKMDSLo=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardProperties.class
+SHA1-Digest: bqx4WhVsCYOtNI2EKOtE5KvKo7I=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$TemplatesA
+ ction.class
+SHA1-Digest: 1ae2eJ3CO7AS4rcEZRxupIOdu+A=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardTrackerStatus.class
+SHA1-Digest: ls8Y0+evlclQJupE0cgMWh7tkX0=
+
+Name: com/collabnet/ee/editor/KanbanBoardDropTargetListener$1.class
+SHA1-Digest: L+chwWHa4Y2NGOGdNJ7afaykC9g=
+
+Name: com/collabnet/ee/dialogs/CreateDependencyDialog.class
+SHA1-Digest: IZpvnZXWPlYK7C+yVY0scFQgw3c=
+
+Name: com/collabnet/ee/dialogs/ArtifactSelectionDialog$ArtifactContent
+ Provider.class
+SHA1-Digest: GOab/wYqu/6g6OUMfbGgitQAhpc=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$7.clas
+ s
+SHA1-Digest: XdZ2jVNqbPiydhgpjupW8SrqLsA=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsDialog$2.class
+SHA1-Digest: nVrDW0gC9bJwlMBKh0CC5UoCEmY=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$8.class
+SHA1-Digest: lcsxyAOigyQz65C9EGU8PVUsnmA=
+
+Name: com/collabnet/ee/AbstractSourceForgeSite.class
+SHA1-Digest: uCa5A/UwJScl6iM6pNszUBhwS8Q=
+
+Name: com/collabnet/ee/IConnectionInfoProvider.class
+SHA1-Digest: +b5dQaoFaJ4wsNwTjglOkD6OdIY=
+
+Name: com/collabnet/ee/SourceForgeSiteProvider$1.class
+SHA1-Digest: 5LLZlhnvkSHse7uxhkrxgRzxGoQ=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$2$4.cl
+ ass
+SHA1-Digest: ydcNXYf6zwR4yft1QC2Y88Se/Aw=
+
+Name: icons/source-svn.gif
+SHA1-Digest: kfgit7kAUzl+o4N9EtCSIpQ79Wc=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerSpecificCriteriaPage$
+ 4$1.class
+SHA1-Digest: 0eSjhaRV6vt1ayPc4tcE8LywenY=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage$5.class
+SHA1-Digest: aZ+9CxbqQpfzbbeDFSIrgQiLi/A=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$2.class
+SHA1-Digest: k8w0GPdozsyv6LVZwZeiO/SmCiY=
+
+Name: com/collabnet/ee/actions/DeleteFrsFileAction$1.class
+SHA1-Digest: gSdu4Pc/Zl8p3LobLa2c0rJGWrE=
+
+Name: com/collabnet/ee/actions/DeleteTeamAction$1.class
+SHA1-Digest: ezoYPheYcL22e4P1jds2m4hVMXM=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure.class
+SHA1-Digest: GxYErB/ofYwUAJ4H4Hjxncaof3s=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardSourcePage$1.class
+SHA1-Digest: 2Ki3e01OfoUpIhNPM89kaPXf7r4=
+
+Name: com/collabnet/ee/editor/TaskBoardEditPartFactory.class
+SHA1-Digest: X3EENmI5DKX/o0CPS7JjDXxyIz8=
+
+Name: com/collabnet/ee/editor/PlanningFolderFigure.class
+SHA1-Digest: M4HYJsfrt8gJdYfn3fmcfQo9iEE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$7.class
+SHA1-Digest: hQR/GardAhe3YdC7ggXzzK2FeJY=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatusesPa
+ ge.class
+SHA1-Digest: oYR8Wy23hAwkRXnuUmLNDFytvFc=
+
+Name: com/collabnet/ee/dialogs/ArtifactSelectionDialog$ArtifactContent
+ Provider$1.class
+SHA1-Digest: 30zDC9BKGs+qD3++Yn+oOKnQHIw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$60.class
+SHA1-Digest: GGw5BZKi/vNflwey5I7ydfIUppU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$71.class
+SHA1-Digest: aGiFylsouUoLtGz42ttOGJuCC1o=
+
+Name: com/collabnet/ee/dialogs/FavoriteToolsDialog$3.class
+SHA1-Digest: 06LC6Qs0kkhot0uW2BOFjq4hdvQ=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$TrackersLabelProv
+ ider.class
+SHA1-Digest: 3Q4C9eQ8WnHK0embNtYab9MH4bY=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure.class
+SHA1-Digest: NdUL7MSIsSMPiYLOuEP1hXLLcuA=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$EditArtifactActi
+ on.class
+SHA1-Digest: DR+Ej0ycIaqy34izZfysYaIfHNE=
+
+Name: com/collabnet/ee/dialogs/TeamDialog.class
+SHA1-Digest: bRpYHrJGNUT41kTYNufb2j6kzGY=
+
+Name: com/collabnet/ee/PlanningFolderSite$1.class
+SHA1-Digest: lUAI95eJS2ndMjte5cY/ZEwr61w=
+
+Name: icons/taskboard_automate_preferences.gif
+SHA1-Digest: fA4pes54+F9SjzVFrBcYbF+jcBo=
+
+Name: com/collabnet/ee/actions/ArtifactReportAction.class
+SHA1-Digest: c6BC5ktUQnf7yI3eQ0QdN9pwAFA=
+
+Name: com/collabnet/ee/dialogs/CreateFrsFileDialog.class
+SHA1-Digest: v/RBVtzV/yKrQTxiaOYYmG8FPxM=
+
+Name: com/collabnet/ee/PlanningFolderSite.class
+SHA1-Digest: /p82ZJEjQM6jVuLNmi9cYvnS4HI=
+
+Name: com/collabnet/ee/IAssociatable.class
+SHA1-Digest: w67BFSBUGYenkyI+CbQHc5FnCHw=
+
+Name: com/collabnet/ee/dialogs/CreateFrsFileDialog$3.class
+SHA1-Digest: l5mC5Fy6KgMX84LffV0xOF37jaE=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$4.class
+SHA1-Digest: 3Ul1x7EVc/w+pteuAFQrWsv2gwM=
+
+Name: icons/integrated_app.gif
+SHA1-Digest: XOwbIW82aWutI9ixbJS8Vuua/o0=
+
+Name: com/collabnet/ee/editor/TableConfigurationDialog$1.class
+SHA1-Digest: 1Fw1386lRROL/Xq6k7e9neZeI/o=
+
+Name: icons/show_closed.gif
+SHA1-Digest: 84S90OyYP+taEx+lrerai2tTd10=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$51.class
+SHA1-Digest: TZBCpWInxyehex2crXO1mTGYrD4=
+
+Name: com/collabnet/ee/dialogs/KanbanStatusSelectionDialog$2.class
+SHA1-Digest: ZDuEy4yXVkiMD3r+bx+i1by567g=
+
+Name: com/collabnet/ee/editor/InitializeInputJob.class
+SHA1-Digest: BY1t0+WTCMOcXD0kfOaWCJXV3ls=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$6.class
+SHA1-Digest: h5KTWE+ckW5PQ1KqrahOLkeoQEE=
+
+Name: com/collabnet/ee/SitesViewTeamListener.class
+SHA1-Digest: 3Mo9jkAAwdWhZ1ojZ7qDQvcWnTM=
+
+Name: icons/task_query.gif
+SHA1-Digest: 1KnrtKDP0+qaI7vejOC7QQAP25o=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardFilePage$2.class
+SHA1-Digest: 5KLF7yeAvxlFihCGh6mT/+bQJDA=
+
+Name: com/collabnet/ee/actions/ConfigureFavoriteToolsAction.class
+SHA1-Digest: Xo2GMHANz5hzf2pWa/FbBxVJN5g=
+
+Name: com/collabnet/ee/editor/PlanningBoardColumnsEditPart.class
+SHA1-Digest: kINWVjhJvD0G8IlQ2MQZqwVB4so=
+
+Name: com/collabnet/ee/model/ReleaseFile.class
+SHA1-Digest: h4tZhPo7yBJpxLOmDv2YlkXg9/0=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$3.class
+SHA1-Digest: xtH/2otvbOqZTQcC7P2nXKSlVZM=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$4.
+ class
+SHA1-Digest: MBvgvGxLSTGSDIshEUwxBjqUkz4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$26.class
+SHA1-Digest: qTvngHs4FwpH1RORi/DhJkb0FiY=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardContext.class
+SHA1-Digest: 0NVH/3k/Y5vpYo2RAEbiWKs83p0=
+
+Name: com/collabnet/ee/dialogs/TaskSelectionDialog$2.class
+SHA1-Digest: BvTzjgn6P7Hvt2MPRHA0gi6uyX4=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard$5.class
+SHA1-Digest: 0RNZbJbxWtF7vasLnxw4S/PRQco=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsDialog$1.class
+SHA1-Digest: ovTE2yMwouXvVPKhQy/EEM7fsYo=
+
+Name: com/collabnet/ee/editor/PlanningBoardColumnNonResizableEditPolic
+ y.class
+SHA1-Digest: ar4hWgMRKghuLiLoxCVn7uhVXPs=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$1.class
+SHA1-Digest: yoh/Una0jbkWOVVfw7VFxjrzKyI=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$2.class
+SHA1-Digest: iLb3EIZwwQyRDWEsekpHB24DZLw=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$19.class
+SHA1-Digest: O9ZzUbifgsM8cbZmE+lhRXJI1gY=
+
+Name: com/collabnet/ee/dialogs/ReorderPlanningFoldersDialog$2.class
+SHA1-Digest: F75DHtAwlOx0QaU/Zj9p73LHg40=
+
+Name: icons/reorder_planning_folders.gif
+SHA1-Digest: fA4pes54+F9SjzVFrBcYbF+jcBo=
+
+Name: com/collabnet/ee/TeamsSite.class
+SHA1-Digest: VdaqxSkIqID64IdWGogeUYGFNYM=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackers
+ Page$TrackersContentProvider.class
+SHA1-Digest: HFp+lS7/GhiFdXoiwhSbnaqRz5c=
+
+Name: com/collabnet/ee/model/ModelConstants.class
+SHA1-Digest: U3XZXQ+zSVFLcXettbHv5PkeVDk=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog$4.cla
+ ss
+SHA1-Digest: wobsfQRRspvJybxSN0NPbwAZhHc=
+
+Name: icons/export.gif
+SHA1-Digest: zv+eS+3w2VWQ6T4WB4+wbuwBWkw=
+
+Name: icons/select_cardwall_columns.gif
+SHA1-Digest: Z/PqFWy4IrQgwXdAoSsQaEM3Fws=
+
+Name: com/collabnet/ee/IRepositorySiteProvider.class
+SHA1-Digest: 2HYWflf3HglOVfszQKTyA7vVvrU=
+
+Name: icons/obj16/news.gif
+SHA1-Digest: xBo8UIyfgV44pDR2VsMG5v8tJKM=
+
+Name: com/collabnet/ee/editor/KanbanBoardDropTargetListener.class
+SHA1-Digest: p8N1itvrGrquxg2B9aXSX7UpdDY=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$FieldValue
+ sProvider.class
+SHA1-Digest: H2s4EBUIaaTT/3Ns/rdH5+e/FaY=
+
+Name: com/collabnet/ee/views/RelationshipTreeJob$3.class
+SHA1-Digest: JwS4+HWNzyf9ec+9dvYPAsjLD8U=
+
+Name: icons/project-scm.gif
+SHA1-Digest: bcNHgejJJ+t+DVQTsTqOcgNYNRg=
+
+Name: com/collabnet/ee/editor/PlanningBoardNewTaskAction.class
+SHA1-Digest: M6MuLNlx4F/0iqaBpEsn71R1w+M=
+
+Name: com/collabnet/ee/dialogs/FavoriteTeamsDialog$TeamsContentProvide
+ r.class
+SHA1-Digest: q1xO5SJBbJe8g0i7jrXIJsd5ceg=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction$1.cl
+ ass
+SHA1-Digest: LTlNua5b+FNSPt3WcWqQ4ZYpdKk=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$3.class
+SHA1-Digest: /hvUR2Ps/wBAWQpnu+KOgEzvX+c=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction$1.
+ class
+SHA1-Digest: P5uAIP3d6DhaTz04fivBZC7r0Lo=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$21$1.class
+SHA1-Digest: 7nTR/5Hlip7HfQaknPrZuAgUCx8=
+
+Name: com/collabnet/ee/dialogs/NewStoryTemplateTaskDialog$1.class
+SHA1-Digest: 93qrQRlndigVHX6MQiD2sV1FSu8=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$47.class
+SHA1-Digest: cwCvnu05gmzHTzucjL0Lv6IHUY8=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardSfeePage$1.class
+SHA1-Digest: GlPxCv1VOUxEcF1t1SNi9jE0uls=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$7.cl
+ ass
+SHA1-Digest: 8b2eOcsJm3xy+fx0sC/yFb/Dtjg=
+
+Name: icons/autoSummingOn.gif
+SHA1-Digest: Ka6cTIH6PVjzjBFO5FbyHku+EDU=
+
+Name: com/collabnet/ee/actions/ExportDocumentAction.class
+SHA1-Digest: pYyyCc6mDJwrxZFxI1aSfcqlJ9Q=
+
+Name: com/collabnet/ee/actions/ImportQueryDefinitionAction.class
+SHA1-Digest: P2I3tXlU9tpVLIe+BJFPtKfTTV8=
+
+Name: com/collabnet/ee/editor/TableConfigurationDialog.class
+SHA1-Digest: +rmvveR4MV9sio3yC4SaCiStkhw=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$HighlightAction$1.class
+SHA1-Digest: aCKjc8nyJE6QGdQnXl1jlUtPDkI=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$2.class
+SHA1-Digest: BoNUMS0DQ/6wpnIQ6105tnmvPMY=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$19.class
+SHA1-Digest: OXKq405agQC/VpkCanc7a+2St34=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$ChartsAction$3.class
+SHA1-Digest: f031rO416tdzomvUg8zxvAbucCA=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$ChartsAction$1.class
+SHA1-Digest: fvB71SuEbvIflnnjKS7yNRDkfjM=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInput.class
+SHA1-Digest: OPnlXZ8fYLuTMAdg6DAK0aOknbU=
+
+Name: com/collabnet/ee/QuerySite.class
+SHA1-Digest: sONU35U7FtPcjDnxrZA8TI1GnpM=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$8.cl
+ ass
+SHA1-Digest: 8lhvm0zhGlERrKHizpfCwx9LCmc=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$7.class
+SHA1-Digest: bsh+cQU1N5zPb87tYpwc9nxSH6Q=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardTemplatesWizard.class
+SHA1-Digest: 3mIsUYCLDr0VBdCXdQp44mn/awM=
+
+Name: com/collabnet/ee/actions/ExportQueryDefinitionAction.class
+SHA1-Digest: VKcPpkT3Iwf7fMVSRz7S7Q8D89o=
+
+Name: icons/delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$6.class
+SHA1-Digest: 2LAFbiX3fVYEI7nEI8A1I06YZPU=
+
+Name: com/collabnet/ee/views/RelationshipTreeJob$2.class
+SHA1-Digest: P2ckeWUfMNxJhyxba8Bts8btsB0=
+
+Name: com/collabnet/ee/actions/UpdateFrsFileAction$UpdateFrsFileJob.cl
+ ass
+SHA1-Digest: VY1HDYV82oebnjKWFuuDH1+4URE=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$2.clas
+ s
+SHA1-Digest: VBOZQV5Q7y7oyGda/xbwd6Z0KHU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction$6.cl
+ ass
+SHA1-Digest: nO636naDIUZHWfbb1BJOo8V9mvM=
+
+Name: com/collabnet/ee/dialogs/CreateFrsPackageDialog.class
+SHA1-Digest: Ot0KOom9CwoBD7KwkiLnItfQJTU=
+
+Name: com/collabnet/ee/dialogs/ImportQueryResultsDialog$IgnoredQueries
+ ContentProvider.class
+SHA1-Digest: coe1+Uoda+C5LTfZ99ULEvFh0Wk=
+
+Name: com/collabnet/ee/dialogs/CreateDependencyDialog$1.class
+SHA1-Digest: eFwCn/4RFYvpE1ycsJOiFxARwNA=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$3.cl
+ ass
+SHA1-Digest: wpKKAohwWa7dCTKs+L5GOG2pdgA=
+
+Name: com/collabnet/ee/ProjectSpecificQuerySite.class
+SHA1-Digest: IwYm0pZfMDxRyahnKvmlwICZmIA=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$2$3.
+ class
+SHA1-Digest: XGbaxz8uVYQ7yBfA6x8cBImada4=
+
+Name: com/collabnet/ee/editor/TaskBoardSortDialog$2.class
+SHA1-Digest: YWEIe6royVJB+OOH942LiH9KGzE=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$2$1.class
+SHA1-Digest: V2GXbCNBPQOjDJ3AzOQA8ynfY3I=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$6.class
+SHA1-Digest: FjJcAIn3XT1dbBSevVGlf/Jyk+8=
+
+Name: com/collabnet/ee/actions/NewFrsPackageAction.class
+SHA1-Digest: EIJZvykQ4czt35W0+CpVF3NLB+0=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$41.class
+SHA1-Digest: rz286v6STjFYOa+gMnZcSVbwIeE=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$18.class
+SHA1-Digest: APixpCaJNRxQmQYP4KwQJ6FviRk=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$2$1.
+ class
+SHA1-Digest: gCE5dbYDupZzoYlvwy4cRSyDxdg=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$10.class
+SHA1-Digest: Mt5YaHfi7hGuZUkQ2ZyFcM1w21s=
+
+Name: icons/edit_planning_folder.gif
+SHA1-Digest: Qv2vhp+CiCAi0NNaCv8JAxd1Utw=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInput$2.class
+SHA1-Digest: rapomzkxZevhuajyzkopDWMFFGQ=
+
+Name: com/collabnet/ee/actions/ConfigureTeamsAction.class
+SHA1-Digest: opwq5h3sY0Ie+bmfKvDXKvm6kLg=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardSfeePage$4.class
+SHA1-Digest: d8BY+7gzPKcSPDbrSn3ySAJq3co=
+
+Name: com/collabnet/ee/actions/ShowMyProjectsAction.class
+SHA1-Digest: D4Tl6ZV+XemV7mIfB4mD1i+a4Wk=
+
+Name: icons/all_projects.gif
+SHA1-Digest: rr7lvuJJ6GnNMwtAQaYJJoRVCfs=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1$6.class
+SHA1-Digest: fxKPeafAuVRD+Nv05cy17nIPx90=
+
+Name: com/collabnet/ee/dialogs/BoardConfigurationSelectionDialog.class
+SHA1-Digest: yH8ZaM7WsdT2DM/n0Dinh2+RgDE=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$16.class
+SHA1-Digest: LJDlomiuLHEg0+UY81UNjT8ltk4=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$8.class
+SHA1-Digest: CufQqs92BUSxKJMb5IDAl81Lc88=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$31$1.class
+SHA1-Digest: RtdGyXcuMMMkuS9ndO6Dig5u6jg=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage$4.class
+SHA1-Digest: HuJPDwFximsOvi14NsPleQj/ywY=
+
+Name: com/collabnet/ee/editor/FileDropListener.class
+SHA1-Digest: TEqTlZN2+o3/hZqi5JTJgkpGSG4=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditPartFactory.class
+SHA1-Digest: oB5ZeRSV02weQhh4BA0fTCP4Vzs=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardConstraint.class
+SHA1-Digest: eWc1ORIXeV2GSFhryFscEciBmlI=
+
+Name: com/collabnet/ee/actions/ShowSiteToolsAction.class
+SHA1-Digest: 6mR9XysYrVnrn7EaNc1kYoLBGNk=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$4.class
+SHA1-Digest: QSI6D6FHFKZ+3D8LqYQUf76dUTE=
+
+Name: com/collabnet/ee/model/FrsRelease.class
+SHA1-Digest: dSwm9qvZVgow89ne9CUtTiyv9wc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction$2.cl
+ ass
+SHA1-Digest: T1FIb+pDsjAVYVGphRAa2cQ1pN8=
+
+Name: com/collabnet/ee/TeamForgeDecorator.class
+SHA1-Digest: eLyvcgA2bzQmwX4bPKKLF+fWtJ0=
+
+Name: com/collabnet/ee/webclient/SoapClient$1.class
+SHA1-Digest: JQd//OCxm5Mf1CId3IGFrl95Ch4=
+
+Name: com/collabnet/ee/actions/ExportDocumentAction$ExportDocumentJob.
+ class
+SHA1-Digest: nJ1jS5ALE2GTOLPZTldv316s7K0=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$3$1$1$1.clas
+ s
+SHA1-Digest: hnLzi3J38NlD65oypVfZrZFJ2lU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$35.class
+SHA1-Digest: 4TM90TtXOw2IKqED6W2XGONE2MA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$72.class
+SHA1-Digest: wwZqRI4xLNLBM6xFbY3N321sJPY=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$1.class
+SHA1-Digest: 0TVCs+fT/HN1b9S/HSEBzfRuORg=
+
+Name: com/collabnet/ee/views/AuditHistoryView$HistoryDropAdapter.class
+SHA1-Digest: IivSXS+SS15scjv/6eZwLn0uO50=
+
+Name: com/collabnet/ee/views/AssociationsView$AssociationsLabelProvide
+ r.class
+SHA1-Digest: hdJUs6xOAiRLV1+9AGlyhaiJO7U=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$UsersContentProvider.clas
+ s
+SHA1-Digest: Yw9H5FUHjSdCsG4iQQgFXRbFjbc=
+
+Name: com/collabnet/ee/ProjectSite$1.class
+SHA1-Digest: +0XEV0TSpcAhTlzqFdVayuRwcKM=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$2$2.cl
+ ass
+SHA1-Digest: /g7AQHQ7oA4nle+ToK2eyBZCVZA=
+
+Name: com/collabnet/ee/editor/UserEditPart.class
+SHA1-Digest: 6LPlDLVaLfderySi+upK6kjn9E4=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage.class
+SHA1-Digest: sDzl3LItBOpiqFWwU5dsLASkDfE=
+
+Name: com/collabnet/ee/model/FolderItem.class
+SHA1-Digest: qSEPew30kPSYZUXD/VqbuC+58k4=
+
+Name: com/collabnet/ee/dialogs/CreateFrsReleaseDialog$1.class
+SHA1-Digest: A6v7QcMkLNAVlucXO7dphdNZd0M=
+
+Name: icons/obj16/frs.gif
+SHA1-Digest: OTIaEAHeJKMlx0H/h+IV9QXx9kE=
+
+Name: com/collabnet/ee/dialogs/ImportQueryResultsDialog$ImportedQuerie
+ sContentProvider.class
+SHA1-Digest: NJimmLnskhmymKR64Dy5gwPIrlc=
+
+Name: com/collabnet/ee/editor/ArtifactEditPart.class
+SHA1-Digest: 2A6lIhnCJbIA3k/3fw8YPUJXNMw=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizard.class
+SHA1-Digest: RkHX4ZCMju9yKNL6EEK60Blxw/8=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$ChartsAction$5.class
+SHA1-Digest: R5w4Nbonro68pVe0LlhrMmJWoZ4=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$2$1.class
+SHA1-Digest: IfRKYpF7+2dcPcz1rOIhTaYekr0=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$6.class
+SHA1-Digest: BGecgW9KxqSloD4nd6B5J97Xn6M=
+
+Name: com/collabnet/ee/dialogs/KanbanStatusSelectionDialog.class
+SHA1-Digest: p5JJAed2M9tq8iqoPLz8iqguiTY=
+
+Name: icons/edit_artifact_wizban.png
+SHA1-Digest: vtGxgxzPOeR3BdC7h1N9ce376go=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$17.class
+SHA1-Digest: t3hPRPO9KasQlvFlgT/wyQFqQa0=
+
+Name: icons/tracker_queries.gif
+SHA1-Digest: SdcrJwsBbMUpP0oskAnvWoGYY64=
+
+Name: com/collabnet/ee/editor/KanbanGroupEditPart.class
+SHA1-Digest: n2mNlOGjtAGWlTcbu/sKIqWFYug=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider.class
+SHA1-Digest: qhh86asW8OwZhnE63S0T+8GtvnM=
+
+Name: com/collabnet/ee/dialogs/ChangeLogDialog.class
+SHA1-Digest: vt0uWZTOr6iXoCCMGyNbnE6yhhA=
+
+Name: com/collabnet/ee/dialogs/ChangeSiteDialog$3.class
+SHA1-Digest: I4oGD2XGA1Vg9Uc8Z3CDMvJyuGE=
+
+Name: com/collabnet/ee/editor/TaskBoardDropTargetListener$2.class
+SHA1-Digest: pGng+XOT+F0ksg2cnD8oxwq0FTU=
+
+Name: com/collabnet/ee/editor/PlanningBoardListViewDropAdapter.class
+SHA1-Digest: 1VBEoTwMS9yq/dIgsDA7I4lU7PE=
+
+Name: icons/project-trackers.gif
+SHA1-Digest: SdcrJwsBbMUpP0oskAnvWoGYY64=
+
+Name: com/collabnet/ee/editor/ColumnsViewMoveArtifactCommand.class
+SHA1-Digest: 7ifSSG3/HcA4X7HasMM7xs1VokI=
+
+Name: com/collabnet/ee/wizard/TrackerQueryProjectPage.class
+SHA1-Digest: HYvaC6Qivcs4nE6xjp8+gqkjNYk=
+
+Name: com/collabnet/ee/actions/MassUpdateAction.class
+SHA1-Digest: uCOovxz1TkNsZ9IsN/3i808bmCI=
+
+Name: com/collabnet/ee/views/AssociationsView$3.class
+SHA1-Digest: sltcMEwxnD6uvfG3LveJuZYjTKM=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$7.class
+SHA1-Digest: cBcBUZuIeXs+CUWZSpUK7RKeZXE=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardTrackersPa
+ ge$TrackersLabelProvider.class
+SHA1-Digest: OFK+UsEZ8Pvhk3O/+mCJdOtXu1Y=
+
+Name: com/collabnet/ee/dialogs/FavoriteTeamsDialog$TeamsLabelProvider.
+ class
+SHA1-Digest: vFAizWvESmoaIpJm6cmfHWEuIfU=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$3.c
+ lass
+SHA1-Digest: 8cvag05wU6ad3gIrKB1G3S/ghX8=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor.class
+SHA1-Digest: loNA7kUBkh47Jb4UM6wBkbLWiKw=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$9.class
+SHA1-Digest: YmkO48lZ1splpeEXfx5CH3ZVbzw=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$Alphabetizer.clas
+ s
+SHA1-Digest: SkE/iCgKIC4ht3kFc8jO2Cwkpyc=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$3.class
+SHA1-Digest: UVb7+KxbPtOuR7a9BN1ycbKivek=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardInitializationData$3
+ .class
+SHA1-Digest: FWGSO0JlTlGQTKGDFXAHtkNKpXU=
+
+Name: com/collabnet/ee/views/AssociationsView$4.class
+SHA1-Digest: 0Dafnaozv/1AUjOumbQ+PhHGNgE=
+
+Name: com/collabnet/ee/views/AuditHistoryView$AuditHistoryLabelProvide
+ r.class
+SHA1-Digest: HLLl+dfSawDjp5x+B/63XTkh5nk=
+
+Name: com/collabnet/ee/model/AuditHistory.class
+SHA1-Digest: ky3evv3Tu0Yg1wGM2IPV2W9BGSI=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$5.class
+SHA1-Digest: L8yiz4j1dIkHxv4ww1wUKvv8nQ0=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$10.cl
+ ass
+SHA1-Digest: 6+mll010cSX0rwxpULlsie2E2gc=
+
+Name: icons/binaries.gif
+SHA1-Digest: XOwbIW82aWutI9ixbJS8Vuua/o0=
+
+Name: com/collabnet/ee/editor/KanbanBoardActionBarContributor$RefreshA
+ ction.class
+SHA1-Digest: pTL6lpsnAF7GiWfOiNpsCTLX4KI=
+
+Name: com/collabnet/ee/IGitRepositoryChildProvider.class
+SHA1-Digest: tOathcTNAcBWwGWLWm2M+xn5OoQ=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider.class
+SHA1-Digest: Id83LuFmkJtjTmlW/om6NmNeLaM=
+
+Name: com/collabnet/ee/QueryDefinitionDocumentFileSite.class
+SHA1-Digest: E4vus/xS9MiD5elVk6uqMCxNNoU=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog$Query
+ ContentProvider.class
+SHA1-Digest: /xw337Ox1juC1nJyccBvzxWgkok=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizard.class
+SHA1-Digest: tnR+WqaDG/0UtemvuPzcLYF8gIc=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizard$1.class
+SHA1-Digest: hpASqJ18tReC+E6uPL7z/x9m9Tc=
+
+Name: com/collabnet/ee/actions/UpdateFrsFileAction$1.class
+SHA1-Digest: 97wzZeNbKWyor5uiXTBX5knEdzg=
+
+Name: com/collabnet/ee/actions/NewTaskAction$1.class
+SHA1-Digest: 481/lvd//iuOqSrdweiOyv8CQh0=
+
+Name: com/collabnet/ee/actions/DeleteFrsFileAction.class
+SHA1-Digest: p5jBYUPt/JiL7sR4fw2woOnwU/U=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizard.class
+SHA1-Digest: 0yehK1q4pcwD7uXN0LYca2srVoc=
+
+Name: com/collabnet/ee/wizard/NewTeamForgeSiteWizard.class
+SHA1-Digest: 8H3FuZbcXfVrB+aV5iy6S4Bt3Dw=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$6.class
+SHA1-Digest: SpQ/grzDGXQc2uBUAwwmMNjTir0=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatesPage
+ $2.class
+SHA1-Digest: gdRh9ACas9oU+UG+0q/cf/d3cQU=
+
+Name: com/collabnet/ee/actions/ReorderPlanningFoldersAction$1.class
+SHA1-Digest: FqBUwaeqXMY49j9WdMQOVdVaVlQ=
+
+Name: com/collabnet/ee/dialogs/ChangeLogDialog$1.class
+SHA1-Digest: PhTgNS/dNL9t3j6ziOlke4W52Fk=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$1.cla
+ ss
+SHA1-Digest: TaZBv15gEE3gkIIr35pSre4tUr0=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardSfeePage.class
+SHA1-Digest: vuqNRZVjHf+P8kh5BvyEMQdzaTo=
+
+Name: com/collabnet/ee/views/AuditHistoryView$HistorySorter.class
+SHA1-Digest: pM+cn8UWbtAbYZ8zfQbKcaNzWsw=
+
+Name: com/collabnet/ee/editor/TaskBoardOutlinePage.class
+SHA1-Digest: TmcjrzG+nxpl+L26CVlsPQFxYzM=
+
+Name: com/collabnet/ee/webclient/SourceForgeConnectionHelper.class
+SHA1-Digest: LA2d9R/iz8T9L6YkPaXEqDmlE38=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardInitializationData$4
+ .class
+SHA1-Digest: uJfh+EmSRy9LUb1Qg792ZLh00Qo=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction$4$
+ 2.class
+SHA1-Digest: srr8q3X+y4EsYrVQSZyCov8rtls=
+
+Name: icons/favorite_teams.gif
+SHA1-Digest: 4Ln/P0hbIqCUaG/PRgNFjxm9mKY=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$23.class
+SHA1-Digest: aZG29/yNRlidVkS9bmmC5QiYy0w=
+
+Name: com/collabnet/ee/taskboard/EffortSummary.class
+SHA1-Digest: KQBKc+S497fKR+c7CQ+ZbYhOMj4=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$14$1.class
+SHA1-Digest: eKOnPC+FzhywDPag3apjyNs5nic=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$1$1.class
+SHA1-Digest: BZv8c1IiCc63pp7GrYWw32nFMaQ=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$2.class
+SHA1-Digest: TnakRAw1KPvVY9ryZ3jDCylpyrE=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$13.class
+SHA1-Digest: fCQ6yVptbBJLrMdqtZNzHOZlkqU=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$MassUpdateAction.c
+ lass
+SHA1-Digest: F3H6Wd6Ep2QEgnMOoSK3jmUQROU=
+
+Name: com/collabnet/ee/preferences/TeamForgePreferencePage.class
+SHA1-Digest: MWEOdRi2dsi9XBGh85yPc6mej50=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$3.class
+SHA1-Digest: jlJ+Md/Z4JWSIs9RByr1c2vzbCo=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardUsersPag
+ e$3.class
+SHA1-Digest: Z3YpL5ZS0eMNROItgXB7/9msH8w=
+
+Name: com/collabnet/ee/editor/KanbanGroupStateEditPart$2.class
+SHA1-Digest: Qq25AvSB17Vuk/vnQM2d8Yxjxbc=
+
+Name: com/collabnet/ee/dialogs/KanbanStatusSelectionDialog$1.class
+SHA1-Digest: /WBbLEJNgxnkyWWdsEnlxWM/m48=
+
+Name: icons/change_log_view.gif
+SHA1-Digest: Ph//ilrWY4huP9J6jR0S7TJMnPk=
+
+Name: com/collabnet/ee/DocumentVersionsSite.class
+SHA1-Digest: wZRLHn7MQc8HYMO85Nyh6HUmsfg=
+
+Name: icons/inactiveiteration16.png
+SHA1-Digest: kV2TFL09fnVxRkUSsMOp56weUpE=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$1.class
+SHA1-Digest: uuoTGg9+g6pkQDkShnTMTLVKDoc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$52.class
+SHA1-Digest: dvFfDkfRB4RwdmFWYSEEMFfhoUQ=
+
+Name: com/collabnet/ee/actions/OpenTaskEditorAction.class
+SHA1-Digest: IuNwkMdf3omiKWWCM96lFGJi6v8=
+
+Name: com/collabnet/ee/editor/PlanningBoardSelectionDragAdapter.class
+SHA1-Digest: +kEGn1UyIGpJ1QZFVWOyz1PuNq0=
+
+Name: icons/card_wall.gif
+SHA1-Digest: S3tv7xmf03EsnXZRgN4VhRsD5V8=
+
+Name: com/collabnet/ee/actions/CreateLogMessageAction.class
+SHA1-Digest: YyGS+861PSIUWWzDAHq6h0uuvn0=
+
+Name: com/collabnet/ee/editor/TaskBoardDropTargetListener.class
+SHA1-Digest: qVOByORXKdxB49hJJPOooSq2J1Y=
+
+Name: com/collabnet/ee/editor/TaskBoardSortDialog$3.class
+SHA1-Digest: 3PmgpBXMFfor5mxSvIzYJzguk18=
+
+Name: com/collabnet/ee/taskboard/TaskBoardStory.class
+SHA1-Digest: z81xVYbcSeLkYeYN5MsAj5FGRs8=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardInitializationData$2
+ .class
+SHA1-Digest: lAHvr89ztMnvSLI1NS6rzGrT01I=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentFolderDialog$2.class
+SHA1-Digest: YgT2CBpgADdoVFLJ58c6sy08ITU=
+
+Name: com/collabnet/ee/TeamSite.class
+SHA1-Digest: e/s0/3RunNiFqxQbahRQH3YcNeM=
+
+Name: com/collabnet/ee/SourceForgeSite$4.class
+SHA1-Digest: Zb1BMRSj04p45hAHh36w5vfR1LM=
+
+Name: com/collabnet/ee/editor/KanbanGroupHeaderEditPart.class
+SHA1-Digest: 2+IVNVyPv1OL90xzwlPAwOCZm2s=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$RefreshAct
+ ion.class
+SHA1-Digest: xhemXyFsTFzUHgrhLobDbjZpcd4=
+
+Name: com/collabnet/ee/actions/PlanningFolderOpenVsClosedChartAction.c
+ lass
+SHA1-Digest: bOEEnDjoAUq+k6OnVHGqgMfYa8g=
+
+Name: icons/merge.gif
+SHA1-Digest: m/c+xhDy39UzD+zkQDlpKjJHaLI=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizard.class
+SHA1-Digest: SYaZOu/Shs/HjvNQ/gKY3uBFMrQ=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$3.
+ class
+SHA1-Digest: egcxOqHuvgfAVBsVZRhL7oyt9No=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$6.class
+SHA1-Digest: K6Zyd6Ymppk3qsaM+TpLe5tharg=
+
+Name: com/collabnet/ee/integratedapps/IIntegratedAppSite.class
+SHA1-Digest: AOrk4UjMgl/9oRG1ZrECkOLJJE4=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerSpecificCriteriaPage$
+ 2.class
+SHA1-Digest: ZH7XKNetwz+qGVnCgOBKFBcX9PM=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardState.class
+SHA1-Digest: 1r1XorJqvumky0SSgOim4vvXpnM=
+
+Name: com/collabnet/ee/actions/MassUpdateAction$4.class
+SHA1-Digest: oEX8xVsXzlpZyf19ZEY45Js8EnI=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$AddTeamAction
+ .class
+SHA1-Digest: sNyDYcjiW7lUGShW46CJfSdujCU=
+
+Name: icons/obj16/docr.gif
+SHA1-Digest: 5DGz5MEmepN9AuT77mGfU4A9yRk=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$12
+ .class
+SHA1-Digest: Eek6gWSYP0HHwpuK4KGnxJ4SjhE=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$DropTargetLabelProvi
+ der.class
+SHA1-Digest: 3DTopDn1p9Skx2T1TiBWET1fPzo=
+
+Name: icons/piecharticon.gif
+SHA1-Digest: O1dBqoAy6VBo8gWUkMm6wR0hfRU=
+
+Name: icons/dependencies_child.gif
+SHA1-Digest: FqMT6dxGuPPA62fLVsG2FLICbr4=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$1.class
+SHA1-Digest: PExcidJhiw0iszEGe1AHaSqIWzw=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackers
+ Page.class
+SHA1-Digest: A/WKtSsg/d8UaxG0eMu7NVKtPH4=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog.class
+SHA1-Digest: Zt+nnTbAyOMcXyVGgBnCWr1CDrs=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$7.class
+SHA1-Digest: 1AVdWXogs6KMnSGvX6nCyXu9l/E=
+
+Name: com/collabnet/ee/DocumentFolderSite.class
+SHA1-Digest: IrMr0msRKdtxHJdEjshOwEc6gcI=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$3.class
+SHA1-Digest: J9eaec7vAnsLrpgg56p+B8hexTE=
+
+Name: com/collabnet/ee/IArtifactBoard.class
+SHA1-Digest: qIUf3/raB+Z7/Z51pFD5pZVfPPA=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardTargetPage$1.class
+SHA1-Digest: hjJZgtTwFCdQF0IK4bTCL8HB4SY=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$5.class
+SHA1-Digest: PgNrqR523HEtPqthbIEpquJf/sc=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$RefreshAction
+ .class
+SHA1-Digest: 5/DrS3g7/58OK/jpPdqOtdEavTA=
+
+Name: com/collabnet/ee/actions/DeleteFrsReleaseAction$1.class
+SHA1-Digest: gdmWH0iPUgl98vrTFol+4e764Uo=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$5$1.class
+SHA1-Digest: M7PJfdQP57dfsiDLLTOuxcEaztY=
+
+Name: com/collabnet/ee/actions/NewDocumentAction.class
+SHA1-Digest: yL/7pQ8Z4NvEZoe4HZaV4mbt2vI=
+
+Name: com/collabnet/ee/messages.properties
+SHA1-Digest: 7o/M/GIYPpKRzL9F3ODOKq9kTvw=
+
+Name: com/collabnet/ee/editor/AbstractColumnProvider.class
+SHA1-Digest: Wp4zModu2CNA0t7P8r/F+GYoduA=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoard.class
+SHA1-Digest: B2Ri9VH7O2qG3QO4kS9FzziSYO0=
+
+Name: com/collabnet/ee/views/AssociationsView$1.class
+SHA1-Digest: zancRpyqjA903rmJJNNyp9PW/7M=
+
+Name: com/collabnet/ee/editor/ArtifactChangeNotificationJob.class
+SHA1-Digest: vl/XbNG8JbDQGEnN3uyFchnPuRE=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$5.class
+SHA1-Digest: SKfJKU0DYOwWoH1dYki2GVWhDyo=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$15.class
+SHA1-Digest: T2bk42bHUfyPEFBekFDpVSfx6Kc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$8.class
+SHA1-Digest: RpDGVNkLecxLzvZ6s9ap604u2Ls=
+
+Name: com/collabnet/ee/integratedapps/EventsSite.class
+SHA1-Digest: Sm5X/FlGph5ZJ7AB8eNOlWsGn5I=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$8.clas
+ s
+SHA1-Digest: kMD9MtlWHZxAVJQmr0bHlNgG5Ug=
+
+Name: com/collabnet/ee/editor/ArtifactFigure.class
+SHA1-Digest: lLpCgKt0CnRKwmuOBg3XxJLma/I=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizard.class
+SHA1-Digest: dYb24N0XyUhxj8xDPh1hA7Qp2vo=
+
+Name: com/collabnet/ee/ProjectsSite.class
+SHA1-Digest: 3806FSyxaDXI1fZCbZBms0Dvs9E=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$1.class
+SHA1-Digest: kSvHmmVIf690D/NGhFsPQw0HPBU=
+
+Name: com/collabnet/ee/dialogs/CreateMultipleDocumentsDialog$3.class
+SHA1-Digest: qzcfcQ71X9/bYt62+4UudrMYJI0=
+
+Name: com/collabnet/ee/views/AssociationsView$DeleteAction$1.class
+SHA1-Digest: iSEbDCR+H6vseJLDvKD9kjFw2Qw=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$CreateMultipleFrsFiles
+ Job$1.class
+SHA1-Digest: Neh6qmSoQam2+/LtDQ6I+ConNZw=
+
+Name: com/collabnet/ee/editor/KanbanBoardNonResizableEditPolicy.class
+SHA1-Digest: sXJpnVOe5fvKmnEixyA3QD3mfAk=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$2.class
+SHA1-Digest: dvkgpbTMZCSI+NrO5hxxxTZ9LtA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$23.class
+SHA1-Digest: MIxW6USpsERfLPNTxwHw98PsVwg=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$22.class
+SHA1-Digest: wyhChUOTPJCUo8lR03vj31d5vmQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$17.class
+SHA1-Digest: ag6/Nf0vPtw8yq52JfpVb3SAxuk=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$6.class
+SHA1-Digest: 0iwlPlGUmDp+40TAz4H9iKP78nE=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$ToggleShow
+ ClosedAction.class
+SHA1-Digest: eRuLsG83a0MOwrm3ZAvYtyKwULI=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$4.class
+SHA1-Digest: xPEcxvJCl9TQ/fTdC3kVCW6bvGY=
+
+Name: com/collabnet/ee/editor/TaskBoardProgressEditPartFactory.class
+SHA1-Digest: l1kVkjTvxZtzPm9QECEJyiS99a4=
+
+Name: com/collabnet/ee/actions/ConfigureKanbanBoardAction$1.class
+SHA1-Digest: GDSIio3eBaZtihOHjKLZgCf6HCM=
+
+Name: com/collabnet/ee/TeamForgeDecorator$TeamForgeCompositeImage.clas
+ s
+SHA1-Digest: FtnO+5zz3FbcIswb1wifQsElzIU=
+
+Name: com/collabnet/ee/editor/TaskBoardSortDialog$4.class
+SHA1-Digest: JYD1lljNKswkq2UvIgoJOxaj6jk=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$10.class
+SHA1-Digest: ug7BOZV4j69zcAPPMlV8d9kLOwY=
+
+Name: com/collabnet/ee/actions/ReorderTrackersAction.class
+SHA1-Digest: i+s5Pks8BKlDaRhaCdpgwbEehSg=
+
+Name: com/collabnet/ee/editor/BoardSchedulingRule.class
+SHA1-Digest: oIkYimJPs9c+fNb/X6CvQu9OlP8=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$CreateDocumentJob$1.c
+ lass
+SHA1-Digest: otOad0Uh3iAYNonPpz8D2pzLzpE=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderChartDialog.class
+SHA1-Digest: rO5YDD/OmAVfauGb9+64bLIWm+k=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$10.class
+SHA1-Digest: scSjLT3XO/vIir+SKQYCY7srxfQ=
+
+Name: com/collabnet/ee/ProjectSpecificUserQuerySite.class
+SHA1-Digest: Bklt11uyAaq0D0eFpKnOKtnv5L8=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$CreateFolderDocuments
+ Job$1.class
+SHA1-Digest: X/HCXtomMpswrk/X+0NGNS9u+Po=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardTemplatesWizard$1.clas
+ s
+SHA1-Digest: UF8atUi3NulmAc67ep4wxu9oRus=
+
+Name: com/collabnet/ee/dialogs/CreateMultipleDocumentsDialog$2.class
+SHA1-Digest: u0zkc2aNubTgSfGA69CJSqPklTY=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$3.class
+SHA1-Digest: uhZSyGFzsx2gmSXh1AGssR0OmT0=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$3.cla
+ ss
+SHA1-Digest: r0Ohxmxj/LwlCouJ3VewV5vSkjY=
+
+Name: com/collabnet/ee/IgnoredQuery.class
+SHA1-Digest: DNm15zmn4Yb/y7V3CsSYIMTl+NI=
+
+Name: icons/monitor.gif
+SHA1-Digest: 7D55ttxfHraEVfTnz73brnnmN7Q=
+
+Name: icons/details.gif
+SHA1-Digest: BHt43XQrqXCfHHDcy45L4/FKiqc=
+
+Name: com/collabnet/ee/taskboard/ArtifactComparator.class
+SHA1-Digest: BlMyLX1BiNOs3YqjT0XcZNj4k3k=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$7.class
+SHA1-Digest: P2up8Wltag5Mu+TeMRCHQzfuhO4=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage$3.cla
+ ss
+SHA1-Digest: h4/oPQ3N0fUuEO5tmoNZWTJobw4=
+
+Name: com/collabnet/ee/editor/IBoardConfiguration.class
+SHA1-Digest: 2Fr2xYft1cHAPQbzn+uBaLSSmkA=
+
+Name: com/collabnet/ee/integratedapps/BinariesSite.class
+SHA1-Digest: nSCMuL/IoiwhPd7kg8ckkhnjHI0=
+
+Name: com/collabnet/ee/SourceForgeSite$2.class
+SHA1-Digest: Fs85snNzuZrtPvW1BHcxocOuBT4=
+
+Name: com/collabnet/ee/actions/MoveDocumentAction.class
+SHA1-Digest: mDvTA7hXSd1uKVKIaNYHiHxlXv8=
+
+Name: com/collabnet/ee/dialogs/ReorderPlanningFoldersDialog$3.class
+SHA1-Digest: 7KN4pCckRnUkl/hYLfTI/0AU0fw=
+
+Name: com/collabnet/ee/dialogs/ChangeSiteDialog$2.class
+SHA1-Digest: PbPSIObesFaew2rEfcGE/cype3w=
+
+Name: com/collabnet/ee/actions/MassUpdateAction$2.class
+SHA1-Digest: tZ5NvdPgZXptOHp7r5IDBflGduw=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizard$2.class
+SHA1-Digest: Xr7TjBBA/owzFUIQh9iG98WAedw=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardTrackersPa
+ ge$TrackersContentProvider.class
+SHA1-Digest: q1aj2FLq/Wy9+AjOV8LIcIJpmks=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$11
+ .class
+SHA1-Digest: XCzm4n6mRYfX7RnVx3dAdTchMiM=
+
+Name: com/collabnet/ee/actions/PlanningFolderChartAction.class
+SHA1-Digest: bzdGAQLFZY3UlaQ7p5fSEFgHfLg=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction.class
+SHA1-Digest: anCbaIRKkIaDvfqCCAZmZrWJxy8=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$1.class
+SHA1-Digest: TRfbYWPv7SSmicUp0dpN2epJaPA=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInputElementFactory$
+ 1.class
+SHA1-Digest: 0hmm0T+yj6bhGMY8VH58teWvpaU=
+
+Name: com/collabnet/ee/FileReleasesSite.class
+SHA1-Digest: SkCF/omEVWdFTEQyyqkeOi+ZubA=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$18.class
+SHA1-Digest: DHzZghlPrufONYQIoSIGHfSw4G8=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$UsersContentProv
+ ider.class
+SHA1-Digest: mCDk2Q51YhLfvCIdVJjGDOLa76s=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$1.class
+SHA1-Digest: cxq0q7itMRFIHHYlIxtQEWNf9Xw=
+
+Name: com/collabnet/ee/actions/ConfigureFavoriteProjectsAction.class
+SHA1-Digest: 9icP2p+T+bqmSA/yDlJpmgjIWWQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$Refres
+ hAction.class
+SHA1-Digest: djJD+rALiX9PSWLihpeizW4VKmw=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$4.c
+ lass
+SHA1-Digest: vymeA0aa0p8GDYuEiSkCQOAcJOw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$3.class
+SHA1-Digest: UMZ/f+0rh5pzteX2JeyzXyy7xD4=
+
+Name: com/collabnet/ee/dialogs/ReorderPlanningFoldersDialog.class
+SHA1-Digest: ebb4PLAMWWhSe1U3OoNJLxOg3Fk=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage.class
+SHA1-Digest: rgDdaQg166xPApRCzkZg9VOnErI=
+
+Name: com/collabnet/ee/editor/TaskBoardSavePage$UndoAction.class
+SHA1-Digest: CiuFtM5M3BiIbfyMWERExCfyi2s=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$27.class
+SHA1-Digest: lWCPZUN6dc6CKaaN9yIkT6OtnDg=
+
+Name: com/collabnet/ee/model/Artifact.class
+SHA1-Digest: l4i5FNNdOZlKpD0relPHSmqzSPU=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$13.cl
+ ass
+SHA1-Digest: ptAO3erOKSbdZ0+cb8mqsqYIkHc=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardUser.class
+SHA1-Digest: XEJ6NY8j24kQKEw/Qd3GE0kXPnw=
+
+Name: com/collabnet/ee/dialogs/ArtifactSelectionDialog$1.class
+SHA1-Digest: u8WSsvLu3ZF22+39WuxKRC8OncQ=
+
+Name: com/collabnet/ee/FrsPackageSite.class
+SHA1-Digest: v2AG6y4Yu1UEj0qPbCbul7xIY88=
+
+Name: icons/reviewboard-icon.png
+SHA1-Digest: QoezNYB/MT9pPXHpvm2gS/DOPlA=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$4.class
+SHA1-Digest: uw5HLRfPKXP8BXL3QO2PvJ2Wn8o=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$2.class
+SHA1-Digest: RdRRCzKlJU4NbFzDynomNcxkIbg=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$21.class
+SHA1-Digest: 9AzCZZaePxMSGo6TRNJ/iHt8jbw=
+
+Name: icons/obj16/docfolderview16.png
+SHA1-Digest: La5NqYawLUyp4O/EM6lybr5uLHY=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardTrackersPa
+ ge$1.class
+SHA1-Digest: noylvnxXMXdQplLo9dHmofkvF3c=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$24.class
+SHA1-Digest: ES6iTOaTXdUS5V/qlnAUEGfi5uA=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$HighlightAction$3.clas
+ s
+SHA1-Digest: +SnBLfCBjOmbYqbF4oe5uTPGRwk=
+
+Name: com/collabnet/ee/dialogs/CreateAssociationDialog$3.class
+SHA1-Digest: l6HApNN/hIhgt8BsfHZretypm7w=
+
+Name: com/collabnet/ee/dialogs/FavoriteProjectsDialog$2.class
+SHA1-Digest: VuDIqUtlvcjLJxezDGHWcoI+KPo=
+
+Name: com/collabnet/ee/dialogs/AuditHistoryFilterDialog.class
+SHA1-Digest: EVWUXE88XYQpVMsuzmN8HyboPt0=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditPartFactory$1.class
+SHA1-Digest: Kmf1GUQYv96252iD/mmSTgdvR/s=
+
+Name: com/collabnet/ee/dialogs/FavoriteToolsDialog.class
+SHA1-Digest: j/oSVan8wD6bm+MKo8NJL2eXVqQ=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardContext$3.class
+SHA1-Digest: 7ZStotwS56pAjgoNFq65KKha7Zw=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactLabelProvider.class
+SHA1-Digest: jh/sXgMYPQ3rN70fiGeBiy2s66U=
+
+Name: com/collabnet/ee/actions/MonitoringAction.class
+SHA1-Digest: RKYkF6nFPwakiLxiQmTstDwIYOU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$4.class
+SHA1-Digest: FFzCBuag2b/Ap+oXYeVzaZdsedI=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$7.c
+ lass
+SHA1-Digest: blbDS1ai/xeYLxORvY/OoeHrQNo=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$5.class
+SHA1-Digest: aOv+559ni6Jjg5Zme8gfbRr1oJc=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$6.cla
+ ss
+SHA1-Digest: 0g+XsYjrUO58ZS69e43KrVG2bF8=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$12.class
+SHA1-Digest: FNOiOTKzL4CS3utsE/eOLBLfrOg=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$6.class
+SHA1-Digest: 2Il+Lr/fISbeEwWd/ni03VUBXmM=
+
+Name: com/collabnet/ee/FrsFileSite.class
+SHA1-Digest: HAkRhRENPwxjTUVpYsNi9d1H9zU=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardTargetPage.class
+SHA1-Digest: KZxvlc+Y8FNNZydhUdA5tFWycBE=
+
+Name: com/collabnet/ee/dialogs/AuditHistoryFilterDialog$1.class
+SHA1-Digest: 2W/irFarEyISkjbVeyGetcWV45s=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$ShowAction
+ .class
+SHA1-Digest: 8c3ZSjVGz1wjQUE7QHGKy7DLX2M=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$38.class
+SHA1-Digest: ON7Z4rzTJv1p8QWYcvxUMOwJUlY=
+
+Name: icons/alien_artifact_overlay.gif
+SHA1-Digest: eFLGVtInN/YwgyQP4r74He2cXkU=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$DeleteAction.
+ class
+SHA1-Digest: t+pXVztp09x+wQPvyGt0QTQJeAk=
+
+Name: icons/templates.gif
+SHA1-Digest: JVU1OAKYzH1IcISspuuGcMhTPcQ=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage.class
+SHA1-Digest: VznT5KbzFVx4ybV3H3mWyG7vINQ=
+
+Name: com/collabnet/ee/editor/TaskBoardSimpleTaskPage$1.class
+SHA1-Digest: H/fq6r0HZR/t/gDsp6uLXae99Kk=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$7$1.class
+SHA1-Digest: RveVJ0fCDHlbyU+SLqh/Zhd6Pbg=
+
+Name: com/collabnet/ee/DocumentReviewQuerySite.class
+SHA1-Digest: vVH0X6M1LmiPcCvKF8uzInUG72M=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizard.class
+SHA1-Digest: aI66+SQRYsqofSnHZFt4hdvzUNc=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$4$1.class
+SHA1-Digest: IF+Zx2moWArpJt9pTKfWT2WzkKA=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$4$1.class
+SHA1-Digest: EZFtfbwY+1g010/tslTLeEXPmj0=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatusesPa
+ ge$StatusesContentProvider.class
+SHA1-Digest: Uxqe/DblhusqA8wlL063InXi+ak=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1$1.class
+SHA1-Digest: yab+Z1PqUH+AQqP4xztxq5DtJlA=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$3.class
+SHA1-Digest: ijP8JLlF8aweRTApvb7RJ60eCSI=
+
+Name: com/collabnet/ee/editor/TaskBoardDropTargetListener$1.class
+SHA1-Digest: qZgjbNnSVQoSJXf9LHBcfUhmCO4=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizard$1.class
+SHA1-Digest: Ic7rB1CYghiRgsYduy/rPIeUaRE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$30.class
+SHA1-Digest: UJa7Am8MGmPHOV3r5qjr7nqj4fw=
+
+Name: com/collabnet/ee/dialogs/AddAttachmentDialog$3$1.class
+SHA1-Digest: lt+MyI4pIVeHV+1KPVjDHO/uwtE=
+
+Name: com/collabnet/ee/dialogs/AddAttachmentDialog$1.class
+SHA1-Digest: xWoFsxb2qcKiz4JS/h6ywuEwfHM=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardConfiguration.class
+SHA1-Digest: pcAaoKtgcBSxo1AzhQCdvQqUqF4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$58.class
+SHA1-Digest: JbApXQD0NlBV2xqrO6oCY9OwlSc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$ChartsAction$1.class
+SHA1-Digest: s2zed6Wp0G9wbwvX4/jtjGJ1T2o=
+
+Name: com/collabnet/ee/editor/TeamEditPart$1.class
+SHA1-Digest: qnVArCvN3LFcE5whcBgmTwpQ9j4=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$4.class
+SHA1-Digest: VC42pRXJJ0C7lRcp/Hnvyc9Odc8=
+
+Name: com/collabnet/ee/planningboard/PlanningBoard.class
+SHA1-Digest: 0XfSxGzBKLH/etB/e2A3gb+FeIw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$46.class
+SHA1-Digest: JxjCGmdGlVXslYhU4Xo/w+8UKcU=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$SaveAction.class
+SHA1-Digest: K81ZezbfybT94cMse/4dAN2gzz4=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$CopyToClipboardA
+ ction.class
+SHA1-Digest: EvSw35nEutoiLcegHHg9CyW8jBw=
+
+Name: icons/project-docs.gif
+SHA1-Digest: DmXuWj+saEPSWR1GaiccDBu6Ff4=
+
+Name: com/collabnet/ee/model/Field.class
+SHA1-Digest: jp3di5+OOltKS4vfFxSD3uvlQGM=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$66$2.class
+SHA1-Digest: sph9pSL/DCschEg+ns1cB3gNB2w=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage.cl
+ ass
+SHA1-Digest: W5mtR8dSVWlu+RomsNmOGjnyDqo=
+
+Name: icons/taskboard.gif
+SHA1-Digest: 62YyfDVCfzktCVyYbxgE56eTa4M=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizard$1.class
+SHA1-Digest: pqBwLr7f4mdOdrEAcJY4RIdiNTo=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$Co
+ nfigurationContentProvider.class
+SHA1-Digest: q85z8k4VE/sCK/2JQeBl8RjX6fA=
+
+Name: com/collabnet/ee/actions/MarkActiveAction.class
+SHA1-Digest: FIjZT2+ev6IaUCq9r8dOfwHkaME=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog.class
+SHA1-Digest: 5SxgTK0KubndPcTSMOl359hFy9w=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$10.class
+SHA1-Digest: erLmYGVav1FyrnbWaIEbjCLy0Rs=
+
+Name: com/collabnet/ee/dialogs/AddAttachmentDialog$2.class
+SHA1-Digest: ArXXcfCeXxRu9MI49h/+39qUJE0=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$14.class
+SHA1-Digest: mQ1LBybDSxIIr58sYylAjJe7VsI=
+
+Name: com/collabnet/ee/wizard/TrackerQueryProjectPage$3.class
+SHA1-Digest: EVieY/zvziQflBXlqDmIJ2dAs8Q=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$5.class
+SHA1-Digest: 5KyoKUzbbD6hcmxweqtdA9KIoRs=
+
+Name: com/collabnet/ee/editor/TaskBoardSavePage.class
+SHA1-Digest: XtLTeqUgbr5KAb8eIw0+fCaoBgE=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$2.class
+SHA1-Digest: uNSovnxBs2koc1/PndlHGS+2sOU=
+
+Name: com/collabnet/ee/actions/MoveDocumentAction$1.class
+SHA1-Digest: rYR0sfGsgH2H0cWFvvuLGj2rcSg=
+
+Name: icons/backlog_browser.gif
+SHA1-Digest: iC2n/WgRiQORVPIjj9lNOt7OZIQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$5.class
+SHA1-Digest: mFuNxzQiSKAS0sr8bl1Z5/56xBw=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$5.class
+SHA1-Digest: Q+eABca6BTbGqzAyRuFDFVWGPNM=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$5.class
+SHA1-Digest: zCWCc3TZenUckEUrf50RtwOgFxM=
+
+Name: com/collabnet/ee/editor/PlanningBoardColumnEditPart$2.class
+SHA1-Digest: joW/JIW+nWHHLnNWjqCQboi/rR8=
+
+Name: com/collabnet/ee/actions/NewTopicAction.class
+SHA1-Digest: Erzv3XTXDGBu6IB45/3mciPHRLo=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$5.cla
+ ss
+SHA1-Digest: 8h4XjWUrdfBXs2BGbjT00h/mRvY=
+
+Name: com/collabnet/ee/taskboard/AbstractTaskBoardGroup$1.class
+SHA1-Digest: NYlk+R9ltI2MzCpUjjeROKsi1Eg=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$DocumentCo
+ ntentProvider$2.class
+SHA1-Digest: N6WRsRW3bXkZip9dUFdy7HRm6TA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$4.class
+SHA1-Digest: TV1PHjTT1PjnW2UaFVBU31ei4dE=
+
+Name: icons/editor/project-tasks.gif
+SHA1-Digest: tlmXDf7R6dAgOECPw3RTzm8fkLQ=
+
+Name: com/collabnet/ee/actions/OpenDocumentAction.class
+SHA1-Digest: Sy46V+LpDJQVFy5ZZqWetbsyz94=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$2.c
+ lass
+SHA1-Digest: adFrUFdAn2I8HX5iRCMiinYRvOI=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$8.cla
+ ss
+SHA1-Digest: j7cD49UpCQGZMf92JVxdEux3lIE=
+
+Name: com/collabnet/ee/dialogs/FavoriteProjectsDialog$ProjectsContentP
+ rovider.class
+SHA1-Digest: na111gAgPGmwJ7GcQidC/IItI6Y=
+
+Name: com/collabnet/ee/wizard/NewPlanningBoardTaskWizardTrackerPage$Tr
+ ackersContentProvider.class
+SHA1-Digest: bkwHOW+NgFTalTh7ZXEcC+7bpBg=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardBackgroundJobSchedul
+ ingRule.class
+SHA1-Digest: U5XiqMhwcC7QZCVLs+oUSP3AUQA=
+
+Name: com/collabnet/ee/IPlanningFolderListener.class
+SHA1-Digest: haFSHO0tZtuN+13SebBPSbL+fy0=
+
+Name: com/collabnet/ee/dialogs/CreateFrsReleaseDialog$2.class
+SHA1-Digest: uv20VoYAxC9wbrr/C76vxUUYx4A=
+
+Name: com/collabnet/ee/editor/KanbanBoardActionBarContributor$FindArti
+ factAction.class
+SHA1-Digest: oWSB57B88v+5n9ipi91Sx5WSYEc=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1$1.class
+SHA1-Digest: utklwK7LaKInwcj7QIMOw/14YOg=
+
+Name: com/collabnet/ee/actions/UpdateFrsFileAction$1$1.class
+SHA1-Digest: SEA4pmUb8YAgh/O1cc0Vu3vXdg4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$45.class
+SHA1-Digest: VhLZ9A42opohluOpjcsaKNXL7co=
+
+Name: com/collabnet/ee/editor/BoardDragSourceListener.class
+SHA1-Digest: cmbHx+jKohWrkVAYxg7aiZhbVb8=
+
+Name: com/collabnet/ee/editor/TaskBoardStatusStoryTasksGroupFigure$1$1
+ .class
+SHA1-Digest: hTeEfmXxApxIJwm+7CvTVXb0M3Q=
+
+Name: com/collabnet/ee/wizard/TrackerQueryProjectPage$2.class
+SHA1-Digest: Yh44QCLG7rtxJPofdAzkS9X+740=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$1.class
+SHA1-Digest: 3H1a1wMQSdBJxh29KQTx1kbmc9Y=
+
+Name: com/collabnet/ee/QuerySite$1.class
+SHA1-Digest: Cvo4t8NaNPX9SacYHWxnj6BnMv8=
+
+Name: com/collabnet/ee/editor/StatusStoryTasksGroupFigure.class
+SHA1-Digest: oH6Den3GYewDtGaXpzOYe0kci9M=
+
+Name: icons/capacity.gif
+SHA1-Digest: uwxXnvpeBSHqFy7J8muikjaF4YE=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$UsersContentProvider.class
+SHA1-Digest: wD1rtG3YtdIFMwZ+nPPqm/rQCk8=
+
+Name: com/collabnet/ee/taskboard/ITaskBoardGroup.class
+SHA1-Digest: veFvZTNg6vkLLAsnY+fRcEmflNA=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$25.class
+SHA1-Digest: kU0KqO8riGJ4oCAYiYvaD1ED0Xs=
+
+Name: com/collabnet/ee/preferences/KanbanBoardAutomationPreferencePage
+ .class
+SHA1-Digest: U5kTBTc4NW8Qlq7BvCfd3cMoNHY=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardTracker.class
+SHA1-Digest: umeTAlRKjwsnYHnZ+1LDWwCzJ6s=
+
+Name: com/collabnet/ee/editor/PlanningBoardMenuProvider$SaveAction.cla
+ ss
+SHA1-Digest: xQTNpc8cvCupgLbj88IjMV3ds4U=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$53.class
+SHA1-Digest: 9Q+xAXzQef2eXI0gFZkYq4N2+4g=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$19.class
+SHA1-Digest: VkOnULHylRKTcEDIOtHWPAPvo/I=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInput$1.class
+SHA1-Digest: UgGO+omEiNf+xUGvCheA+DfkAjQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$4.clas
+ s
+SHA1-Digest: fRRh415IDpUIJ0y0GlyKR+BHj/E=
+
+Name: icons/board_preferences.png
+SHA1-Digest: IfGCF3kv7JkogDYWZP36diPyZbY=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$8.class
+SHA1-Digest: bL4flyKoZRAr8JD8+/D8JCPmw1k=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$49.class
+SHA1-Digest: WAejq2ZrMRZH4bm/4h0hVXfNTx4=
+
+Name: com/collabnet/ee/AssociationsSite.class
+SHA1-Digest: 9xgqbTACI7OKq69owQg63UZYp4g=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerSpecificCriteriaPage.
+ class
+SHA1-Digest: hg0PwdOA9VfvpXngLUSNzbeMrO4=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$28.class
+SHA1-Digest: /1Xima9luZRJ/muUO6XV+CJapgM=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$8.c
+ lass
+SHA1-Digest: ss6Nw8nAKzUbtJpXmswI/Nc7Bow=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$24.class
+SHA1-Digest: vwYv0bgiUEzZq3iP93dLkOt2kqU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$42.class
+SHA1-Digest: huvcJDcckxY1cTgeSSHyEror8hI=
+
+Name: com/collabnet/ee/actions/ShowMonitoringUsersAction$1.class
+SHA1-Digest: 6FMPQe1k+NfEJM3bMOuA215USXo=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$9.class
+SHA1-Digest: eVMcJtiKnc49NntE8HQ4iZfaVqE=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$2$1.class
+SHA1-Digest: KOEXJLlqcPkc0K1wYcrgTgTNn68=
+
+Name: com/collabnet/ee/actions/AuditHistoryAction.class
+SHA1-Digest: hoOTXcsJKee9McwKIHtSCQK1C9Y=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage.class
+SHA1-Digest: RtyuIG6G4ZCv45eCPhb9RhQChn4=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardTracker.class
+SHA1-Digest: EUi7+XJBNQeKOlyBdETmj5zq6Ys=
+
+Name: com/collabnet/ee/views/AuditHistoryView$3.class
+SHA1-Digest: 8KxJeVfs1UHE4E9PmBY+KRpUQD4=
+
+Name: com/collabnet/ee/actions/TrackerQueryArtifactReportAction$1.clas
+ s
+SHA1-Digest: 48ifZTLHw6Cj0eJs5l8W2fHHSuY=
+
+Name: icons/user_task_query.gif
+SHA1-Digest: 1KnrtKDP0+qaI7vejOC7QQAP25o=
+
+Name: icons/forums.gif
+SHA1-Digest: bxdYWff3Y+o0pesdQD6Ya8jO9I0=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$6.class
+SHA1-Digest: ncfomIjNzESttG0Lj8o/cpCXmjE=
+
+Name: com/collabnet/ee/model/Document.class
+SHA1-Digest: u1zcryAGw89isvWIoBhrKk/9FgM=
+
+Name: icons/obj16/cmmt.gif
+SHA1-Digest: YsX9cqDklZfSMAmvQFlUHFKulR4=
+
+Name: com/collabnet/ee/model/DocumentReview.class
+SHA1-Digest: IsKmWxoNFN4WGyzHEPzSxl6+zYg=
+
+Name: com/collabnet/ee/views/AssociationsView$2.class
+SHA1-Digest: QH04Y+eKGh9eJIov/j63h4aBcsw=
+
+Name: icons/link16.gif
+SHA1-Digest: Zulr+cMPSbdckSFZD1V550teoj4=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$14.class
+SHA1-Digest: nB8PZoNLtrl2Jxq9ZfIFpOp8318=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$ChartsAction$3.class
+SHA1-Digest: zCgODGwTdWhD3J5p+2WgD4VtpxQ=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditPart.class
+SHA1-Digest: XOmY/0spTvFoGxQ30ZiX/1dJc7M=
+
+Name: com/collabnet/ee/dialogs/CreateFrsPackageDialog$2.class
+SHA1-Digest: cI0GW19b7Pymh4btRf069HJArSE=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$5.class
+SHA1-Digest: zRhB+lpXWTBLeRaUR7YYWTwltCc=
+
+Name: com/collabnet/ee/editor/TrackerDetailPage.class
+SHA1-Digest: sMpm0pP7rIPSBSnTA+ORlSbP0AE=
+
+Name: com/collabnet/ee/actions/UpdateDocumentAction$1.class
+SHA1-Digest: IPQL84M4sPV03kAm4kIYlS+U/vo=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$2.cla
+ ss
+SHA1-Digest: l6rDIQMYuwPNwYDAwcuO2CjKWHQ=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$6.class
+SHA1-Digest: i2qMoW/f0NEkAMHMdp6f7JsfmBo=
+
+Name: com/collabnet/ee/actions/ExportDocumentAction$ExportDocumentJob$
+ 1.class
+SHA1-Digest: uMYKxv9a4yENpRf/bZAbl3P6wgQ=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$29.class
+SHA1-Digest: 56lUj3dt856RzM8obkOMQtPUtqI=
+
+Name: com/collabnet/ee/wizard/NewTaskBoardStoryWizardTrackerPage$Track
+ ersContentProvider.class
+SHA1-Digest: pwFWy9JTIw12z4XBmr/99Gp4Ors=
+
+Name: icons/obj16/artf.gif
+SHA1-Digest: Y4hyWELA+Pe+HqY3qB8s/3LUqwM=
+
+Name: com/collabnet/ee/actions/ShowAllToolsAction.class
+SHA1-Digest: dUWzClDNdVC3VDZ6g4e0AHoS9Dk=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardContext$1.class
+SHA1-Digest: xZy/fTevQMDuKUMsTyDTork8sB8=
+
+Name: com/collabnet/ee/actions/UpdateTeamAction$1.class
+SHA1-Digest: D6Sh9ah8MQWybCaBgU4tNFd0K20=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$Te
+ mplatesContentProvider.class
+SHA1-Digest: lrfj+PGj9BZd8EhA8C6MiRpEeWA=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$5.class
+SHA1-Digest: jLlcxQNj3tZ76adJ2HOHEApGyWo=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardDropTarget.class
+SHA1-Digest: VzEnds4nV8ZBNePUosuTUKRSJf0=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardFilePage.class
+SHA1-Digest: guB3yDBA0B3IIcl83ie4mSYptSs=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardUsersPag
+ e$4.class
+SHA1-Digest: DvO/zgVkUa+x32eZ4f8+DycC08w=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$Te
+ mplatesLabelProvider.class
+SHA1-Digest: B3iTJZo0TB7ANVaoA49roDqx4LA=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$6$1.class
+SHA1-Digest: RLWSf9Y8UCntdRDrGe/I1pTvJQg=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction.class
+SHA1-Digest: FqsuO/ebzSzfIPRzCrY4+ksKHIw=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsConfirmationDialo
+ g$ArtifactsLabelProvider.class
+SHA1-Digest: voVtrlFjbF2XKy4I1GMtJHIuR3M=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$2.class
+SHA1-Digest: xvyfNqOWNnPxkm/5RXnF64GocRo=
+
+Name: com/collabnet/ee/actions/DeleteTeamAction.class
+SHA1-Digest: a3AgMu7lQrZChd/+IFlw3Z4/jqw=
+
+Name: icons/post.gif
+SHA1-Digest: TrpL5fZHPYstiYH7BOKtkkQuyNU=
+
+Name: icons/highlightTasks.png
+SHA1-Digest: 7csIm69opP3XyWHTTK/pFVY365A=
+
+Name: com/collabnet/ee/dialogs/FavoriteTeamsDialog$1.class
+SHA1-Digest: RflTvR67RIB8uyVakJ2a4wVoa4A=
+
+Name: com/collabnet/ee/taskboard/TaskBoardInitializationData$1.class
+SHA1-Digest: 7wcMQ4HMlyR8bj6nUoTHzDDtoG8=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$Co
+ nfigurationLabelProvider.class
+SHA1-Digest: 4gKjQ/C03mnT7JxK6npHFE/7nlU=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$11.class
+SHA1-Digest: PjLFrNW3l29hU9r5f4E/SoCgAdc=
+
+Name: com/collabnet/ee/ITeamListener.class
+SHA1-Digest: 3VFrm6HV/MAU2KPrNAIAgSDsX0Y=
+
+Name: com/collabnet/ee/actions/ShowProjectsAction$1.class
+SHA1-Digest: 8F+OjNLy3WREMU1N3AZHoO44uwI=
+
+Name: com/collabnet/ee/actions/ExportFrsFileAction$ExportFrsFileJob$1.
+ class
+SHA1-Digest: ga77fTmnnGjz+xmblCHKRSJQ4C8=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$7$1$1.class
+SHA1-Digest: gITSdf/uKtHWLj4SxhJOBOz4ea8=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$2$1.class
+SHA1-Digest: XxQBmm3lsRVSH4/v+NY0ODSriA4=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardFilePage$2.class
+SHA1-Digest: TJAalCkSytVFM0NMdzD6Wd2euns=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$15.class
+SHA1-Digest: RyjRj+r3C+hkdhcdcpm43iYIRI0=
+
+Name: com/collabnet/ee/editor/TaskBoardDropAdapter.class
+SHA1-Digest: AAIaPNcdk34xswlRaORK62Lfyws=
+
+Name: com/collabnet/ee/NonHostedTeamForgeSite.class
+SHA1-Digest: 9Uj0adPMcUYJqkb81lbambLEGVg=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$7.class
+SHA1-Digest: +fvCer5g2S6AxptYsqvZ0wwrRUM=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$3.class
+SHA1-Digest: nJ2+WcQkPqY7Eme3FxiuDsorjSg=
+
+Name: com/collabnet/ee/dialogs/TeamMemberSelectionDialog$UsersContentP
+ rovider.class
+SHA1-Digest: 7JhZaCYxQaVBS/hyCvL18MUgmM8=
+
+Name: com/collabnet/ee/editor/TaskBoardSimpleTaskPage.class
+SHA1-Digest: flE706uGdfqIlLm2z7TieGvIAaE=
+
+Name: com/collabnet/ee/preferences/TaskBoardAutomationPreferencePage.c
+ lass
+SHA1-Digest: Sa++sl9uFHUuojoJWB2k9l/QDNY=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardFilePage$1.class
+SHA1-Digest: 4lfWD/ckc1S3W1zzBiXZUKcqoTo=
+
+Name: com/collabnet/ee/editor/TaskBoardSortDialog.class
+SHA1-Digest: sqQG8YwKsm/Mg82q2UxpFnVEI6g=
+
+Name: com/collabnet/ee/views/AssociationsView.class
+SHA1-Digest: xhQ4K1tZavERzuc00QRkDFJz6L8=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage$DocumentCo
+ ntentProvider$1.class
+SHA1-Digest: odm+zC2mlTc9GQRFI7JUJ8xh/1k=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider.class
+SHA1-Digest: 9CZoYwa45zJc5JxtJfokdPuzbcA=
+
+Name: com/collabnet/ee/dialogs/ImportQueryResultsDialog$ImportedQuerie
+ sLabelProvider.class
+SHA1-Digest: iQEzOl+cT6KR0vFsQXv4Hm2gonA=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardConfiguration.class
+SHA1-Digest: v/RWMJzTR2vbnpa/cvnk0GmFHlY=
+
+Name: com/collabnet/ee/SourceForgeSiteProvider.class
+SHA1-Digest: 1vNU5bUpslGJm1ci7d7wARkWaO0=
+
+Name: icons/obj16/pkg.gif
+SHA1-Digest: TAzEv4kYyock9dC9OENnoK2FF1Y=
+
+Name: com/collabnet/ee/actions/UpdateFrsReleaseAction.class
+SHA1-Digest: BrYp+oMJ6iylLYMNl9ZXl8y5TmI=
+
+Name: com/collabnet/ee/actions/NewDocumentFolderAction.class
+SHA1-Digest: fyK+aOBQZ9Epiwkrtkj2QixJzsk=
+
+Name: com/collabnet/ee/dialogs/ReorderPlanningFoldersDialog$1.class
+SHA1-Digest: mmWIr1DKl5lBAOxFupVJsFZhJ2o=
+
+Name: com/collabnet/ee/editor/TaskBoardNewTaskAction.class
+SHA1-Digest: gDpxjT4WmLWR6Pju8g5tUP1kUiQ=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$HighlightAction$4.class
+SHA1-Digest: sIgoPNmQGZm1r0FMyZlmFUdbL2I=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction$4.
+ class
+SHA1-Digest: 8ytJhPYzIk275OMWpCT3GY3glC8=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$1$1.class
+SHA1-Digest: PH8BgvpOGM12G7mlU7GXL4bU3C8=
+
+Name: com/collabnet/ee/ISourceForgeSubversionRepositorySite.class
+SHA1-Digest: SccOfjPu9/xCB7CxxuiVGwibVBc=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerPage$2.class
+SHA1-Digest: 1Wfz89w52eLYkVyuzXPQJs4WbM0=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$13.class
+SHA1-Digest: CdFTi9DQhXmaajDqoU5524XzJZ4=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog$1.cla
+ ss
+SHA1-Digest: mNGMrc+jyuogoIWaYQ47do+mGs8=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$1.class
+SHA1-Digest: uv3ony/ecIZnGw2aLd4atoDdreI=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$8.class
+SHA1-Digest: sQ3a9YDcr3Bb+Cg7XMqjzsN7Iok=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$4.class
+SHA1-Digest: sHrtUv+lVjLUsdznamRCO8AiJ4M=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$2.class
+SHA1-Digest: JRvzrGiVDLy5VURvZfpVt7Vdkd4=
+
+Name: icons/select_planning_folder.gif
+SHA1-Digest: 1Br+MWF5CuXftf+uYL/xgacCLiQ=
+
+Name: icons/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: com/collabnet/ee/editor/TaskBoardScalableRootEditPart.class
+SHA1-Digest: vHGEAJJq6kGhbjblHkNNJJaxsFs=
+
+Name: com/collabnet/ee/dialogs/AssociationSelectionDialog$2.class
+SHA1-Digest: BpMQoTvk66LkFoQx+qbPULTWImY=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$Ta
+ sksContentProvider.class
+SHA1-Digest: pv4GkULAJk+D/WZCd0742VtViKo=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$FindArtifa
+ ctAction.class
+SHA1-Digest: U1p23Z+Wrgzdcgf/JF48muTFAEQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardMenuProvider$MassUpdateActi
+ on.class
+SHA1-Digest: 85Q4a/G60adq/INsrkfpB7EPibM=
+
+Name: com/collabnet/ee/IGerritQueryContainer.class
+SHA1-Digest: OBC+5Hcj5bKNLJnmeaOh+pfJIro=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$3$1.class
+SHA1-Digest: 9/rASfXJm451e8ftsIieT/90PKA=
+
+Name: com/collabnet/ee/editor/KanbanBoardActionBarContributor$AddArtif
+ actAction.class
+SHA1-Digest: PBUVk1O9hBFBvsVPOYuM/JBcq0s=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$2.class
+SHA1-Digest: nPzd/pboyJ5WZieuhD4ig6i8WEQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$5$1$1.class
+SHA1-Digest: enN0QeEpCUyc+g00iRtl9P9bNz8=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$AddArt
+ ifactAction.class
+SHA1-Digest: LF4PFr/RciQ+uXG8VrvH5WCBXX4=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$11.class
+SHA1-Digest: wqKSz9sHy0FpXgZmnzQad9TgizQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$62.class
+SHA1-Digest: iNmCZwzAMPOKDf4xhYvLTa9neGw=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$20.class
+SHA1-Digest: Pd8v0K6ZY3Wivhec+lFuCbV0oXY=
+
+Name: com/collabnet/ee/dialogs/ReorderPlanningFoldersDialog$4.class
+SHA1-Digest: Ax5ZF3v98w7aPK5bAa2GUPm6VR4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$25.class
+SHA1-Digest: u6omagQh1RV61IdHb+lwGMtNBP8=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$16.class
+SHA1-Digest: JJECgOj8nrXdyzo8Ewqiv4yYDFY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$9.class
+SHA1-Digest: EvgnIliMrGz7obbNeAc4vzIXl+k=
+
+Name: com/collabnet/ee/DocumentFileSite.class
+SHA1-Digest: HKa8Ucz1epfEM+1EMIMLxALsR0Q=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$7.class
+SHA1-Digest: PisfcQQfWbXyqMl5sJK+yPA9HFQ=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$29.class
+SHA1-Digest: BJ5yS8A2KHi+h9pYVVYhnPLrjIY=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$13.class
+SHA1-Digest: J7xLqa5+XvzQ4h5t+cG5HaFzMwY=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$3.class
+SHA1-Digest: pIx0L6pbu79wFCWHJ3gOgdRUAGk=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$CreateMultipleDocumen
+ tsJob.class
+SHA1-Digest: sdfskHwvnZKyvsjm6Av79Zo3EKo=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$CreateMultipleFrsFiles
+ Job.class
+SHA1-Digest: CPErO+tvMG5/+Cv+kJdlSh2kWLM=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$32.class
+SHA1-Digest: BF2yzSZQpXamsbyBjTpmOQnp/4w=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardStoryFieldsPage$
+ 2.class
+SHA1-Digest: xUgURIUfEbEXEhN+SRY/ZqQtLvA=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$8$1.class
+SHA1-Digest: +2Cd7kJLbwBZCZ8wOVQ502VMaiI=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$FindArtifactAction
+ .class
+SHA1-Digest: JPwnzWK9vafQRsoxFv46H5aqmrw=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$8.class
+SHA1-Digest: HI/jCYM6ldeNqA4UpsnduIS8WQ0=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$6.
+ class
+SHA1-Digest: wumqpNeUGBxEPRd1Whsj3I4UWYU=
+
+Name: com/collabnet/ee/editor/PlanningBoardDropTargetListener.class
+SHA1-Digest: XuyAPKUaoRso5RTwsCr6o8WDioI=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackers
+ Page$TrackersLabelProvider.class
+SHA1-Digest: pclf+JFERUOilUYX+/FH4ta6MZA=
+
+Name: com/collabnet/ee/editor/TaskBoardProgressEditPart$1.class
+SHA1-Digest: PDnm9SLcpzOyJqczS7CJ21rEXos=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardUsersPag
+ e$1.class
+SHA1-Digest: 4ZYDEZDhZpIJX/4iBCjz92lFCPo=
+
+Name: icons/queryexport.png
+SHA1-Digest: VvtTbi1rWnBpBoZwGHJjSv727Dc=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$4$1$1.class
+SHA1-Digest: lGQ/6fBnTh3Jn1AwJP04vWHoyZQ=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$FindArtifactActi
+ on.class
+SHA1-Digest: fPQowAZjEQ0bSKICOgLjMW72VsY=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$ShowPl
+ anningFoldersAction.class
+SHA1-Digest: mpnAREZZ3cdC52fFJjKE74kI3/E=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactEditPart$1.class
+SHA1-Digest: nrhpDYxpo5GHwc6xRvmS79/VY8U=
+
+Name: com/collabnet/ee/dialogs/CreateDependencyDialog$4.class
+SHA1-Digest: 64O8U0ky3afWI0vWVJ6AFz4sb4w=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1$5.class
+SHA1-Digest: yexZlh2O3FUv8jTuoOYxe2ggTCA=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$8.cla
+ ss
+SHA1-Digest: zTKF51VDLQ0u6F3Zr9yjbjSlMcM=
+
+Name: com/collabnet/ee/actions/ConfigureFavoriteTeamsAction$1.class
+SHA1-Digest: SzoHmnoCJVoLYUGqRSFdJt0I3MQ=
+
+Name: com/collabnet/ee/preferences/KanbanBoardPreferencePage$1.class
+SHA1-Digest: cIZcC8cotw8K2YdnPCR2hTxBpIs=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$4.class
+SHA1-Digest: HIWeW6Wvc+5FrAMT/7JRVajSA2Y=
+
+Name: com/collabnet/ee/ArtifactDependencySite.class
+SHA1-Digest: bYl9gXO6EU/ZS/R4tgaT7ovn5kE=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage$Proje
+ ctsLabelProvider.class
+SHA1-Digest: 4UsdlFahgjT2j/b8pU8hSmaD7Dg=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$MoveArtifactActi
+ on.class
+SHA1-Digest: PACcqHXuatkPuCdqrbtjwlOkOLY=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog$PlanningF
+ olderLabelProvider.class
+SHA1-Digest: Wh1gbCQfOncpbs+JpcxGq64a+x4=
+
+Name: icons/obj16/report.gif
+SHA1-Digest: hLdGAP46cAj+exZwu9RrY9jMlYU=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$2.class
+SHA1-Digest: 1cyuv/dYu4W/EHZDP37XfXafXhE=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$27.class
+SHA1-Digest: tm3vCA5uFSmhTVDkr+Q0VIjsNqk=
+
+Name: com/collabnet/ee/actions/ShowFavoriteTeamsAction.class
+SHA1-Digest: DnonofYGOHgOKQce3KFlK837gus=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardInitializationData$1
+ .class
+SHA1-Digest: zUve6kF39egEjy+WMVxxH6XKW5w=
+
+Name: com/collabnet/ee/DocumentSite.class
+SHA1-Digest: mVqnOOAUJJU4xcw0MnSJDWkm8cw=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$18$1$1.class
+SHA1-Digest: Qlasy7UTVJHQlZbH1VH+jbi5mmk=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsDialog$3.class
+SHA1-Digest: s459dq6IKXCPJ77SeRIxdl/5lIY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$21$2.class
+SHA1-Digest: ZyZEtmePE07pbZ+rYDlKu9lcXD0=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$21$3.class
+SHA1-Digest: BNrtYs6jdBfDRozLEeOuEUupx3c=
+
+Name: com/collabnet/ee/editor/TaskBoardStatusStoryTasksGroupFigure$1$1
+ $1.class
+SHA1-Digest: 1b2DxPvENJohz8FEHWLGujRVnbY=
+
+Name: com/collabnet/ee/kanbanboard/KanbanGroups.class
+SHA1-Digest: IrmhVkLL1gnTHN4OL6LtFWOF2gw=
+
+Name: com/collabnet/ee/editor/PlanningBoardMenuProvider.class
+SHA1-Digest: BQQOVHkzcPT/EIgD4vozA0Gc0MY=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage.clas
+ s
+SHA1-Digest: RYXq2Z6IPSFqSuqdXp8joW2Tbzc=
+
+Name: com/collabnet/ee/actions/ShowFavoriteToolsAction.class
+SHA1-Digest: AijjkJSKdntwLdQuI8BU3YZzIdk=
+
+Name: com/collabnet/ee/editor/MoveArtifactCommand$1.class
+SHA1-Digest: lbkgOws/c3EWOtuUYexG3gKGhsk=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$5.class
+SHA1-Digest: VIPW+dTftuEqQZ7vxaCi4iHBM1E=
+
+Name: icons/collapse15.gif
+SHA1-Digest: RdwaHeEnADz0N/CGCl80qOP7WC0=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$4.class
+SHA1-Digest: A5/zZqlpe+ttUVewIkjsMU8oAPk=
+
+Name: com/collabnet/ee/editor/TaskBoardProgressEditPart.class
+SHA1-Digest: EelJbIoZDik38d7LOil25vxAxLM=
+
+Name: com/collabnet/ee/wizard/TrackerQueryProjectPage$4$1.class
+SHA1-Digest: pZfJc032FKRITBft/CH1N89nrfc=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$HighlightAction$3.class
+SHA1-Digest: cN9u8wlb5iSJXeqDo9Qk4lSwyX4=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$7.cla
+ ss
+SHA1-Digest: OXuoCrSDRKRwll9Y34okHdw9e/U=
+
+Name: plugin.properties
+SHA1-Digest: 3+c0MzzrauCpm2opQKvllDQUuio=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$3.cl
+ ass
+SHA1-Digest: CrnQaRUKGaB6GOxZjZZSjWYfff8=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$4$1.class
+SHA1-Digest: e2ali9YKrideoItuvbqbqSauvzc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$66$1.class
+SHA1-Digest: PV0SaPRyGu0lG7lQGR4Ptmxs8FY=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$UpdateAction.
+ class
+SHA1-Digest: UeySEBluiDjDWLVxHdyaqoqmcBs=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardFilePage.class
+SHA1-Digest: PzJzfdBtfm9kI1DT6t9zSVhLlT4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$TreeContentProvider$
+ 1.class
+SHA1-Digest: twwbhWK/A1AgyzRIhzzqpWtkLYo=
+
+Name: com/collabnet/ee/IQuerySite.class
+SHA1-Digest: 73E9UyI1JLqftIMQoaxGhHWob2A=
+
+Name: icons/expand.gif
+SHA1-Digest: yoxjmqMtVphUpFQAd45TKQuy8gU=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$13$1.
+ class
+SHA1-Digest: o7EZRTUvUCpRXPDRPWE34Q0zC6k=
+
+Name: icons/list.gif
+SHA1-Digest: Q3IMVa9PMVKBx1svJI1vYby71a0=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$5.
+ class
+SHA1-Digest: btcMX4eaqa81uW47+8T3IXJ0Ft8=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$4.clas
+ s
+SHA1-Digest: nw7oEKk1LzoCr314N7Xos7AkbU4=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$3.
+ class
+SHA1-Digest: +w6GEYZkLOiNCVYJ6xw3jXMQ/Wg=
+
+Name: com/collabnet/ee/actions/UpdateDocumentAction.class
+SHA1-Digest: IGUPogrAIZ5gSXyKuhmwo+Juc9A=
+
+Name: com/collabnet/ee/dialogs/TaskSelectionDialog.class
+SHA1-Digest: A2gJeWNOqA2EqqEc0L8g/bsalc0=
+
+Name: com/collabnet/ee/dialogs/NewStoryTemplateTaskDialog.class
+SHA1-Digest: GoqdNUt04IdiVCi2A51DnY1A68s=
+
+Name: icons/favorite_projects.gif
+SHA1-Digest: 4Ln/P0hbIqCUaG/PRgNFjxm9mKY=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$2$1$1$1.class
+SHA1-Digest: pdKPyha60NWn2tpjmjWCaaXcd/A=
+
+Name: com/collabnet/ee/taskboard/TaskBoardStoryTracker.class
+SHA1-Digest: cEB0MihtKB6AWY6TdRYTPtgenGc=
+
+Name: com/collabnet/ee/actions/DeletePlanningFolderAction.class
+SHA1-Digest: zHA+rG45jy0Uatjvw0xb4g8olmY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$49$1.class
+SHA1-Digest: 6XQI3JSotGXNPAhkXl+2WbR+BjI=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$UpdateTeamAct
+ ion.class
+SHA1-Digest: h+hznx1wZZJd4gf8Twf/pCQyWe8=
+
+Name: com/collabnet/ee/editor/KanbanGroupStateEditPart$1.class
+SHA1-Digest: aRzlwLYU32OKab4tkf7FRvPr1s4=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$HighlightAction$2.clas
+ s
+SHA1-Digest: eKHf2ZIz8Ql3SmDefeGyp+/NZyM=
+
+Name: com/collabnet/ee/editor/PlanningBoardNonResizableEditPolicy.clas
+ s
+SHA1-Digest: KGxvKf8fRS4h/TWHKSIe/dzujXM=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$8.class
+SHA1-Digest: MNS1olC5vIeQKjjeq8ibTLs0miQ=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$5.cl
+ ass
+SHA1-Digest: QagIMgNbrpY5Gb7A1txuK6ccRvM=
+
+Name: icons/obj16/docf.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$18.class
+SHA1-Digest: Jq7lvviUGU+mvS2uexftOjX3qSo=
+
+Name: com/collabnet/ee/PlanningFoldersSite$2.class
+SHA1-Digest: BZIaSUYZJCdqwCjw1WCbSz12Tr8=
+
+Name: com/collabnet/ee/PlanningFoldersSite.class
+SHA1-Digest: SS9FGF0py0BKS26N/yshXvnBupQ=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$5.class
+SHA1-Digest: h9owjfEgqvEje4iyUrVwEmTX6GI=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$17.class
+SHA1-Digest: HPEzPnD29wTkhbiUEArcHHU+yJU=
+
+Name: com/collabnet/ee/actions/UpdateDocumentAction$UpdateDocumentJob.
+ class
+SHA1-Digest: vpSyCIMYYJAjrtzQXyxwEC4G0hI=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$3$1$1.class
+SHA1-Digest: wTN6xH38q1xkJ//1B340beqCRgI=
+
+Name: com/collabnet/ee/actions/NewTeamAction.class
+SHA1-Digest: Be27F/4WFlXs9yMUj4LV0Vdvk20=
+
+Name: com/collabnet/ee/SourceForgeSite$3.class
+SHA1-Digest: lDwxTfte8yW3BxpQIsnyb3vVyUw=
+
+Name: com/collabnet/ee/dialogs/ArtifactSelectionDialog$2.class
+SHA1-Digest: fLRZVxfweB/iqsp/nbM+ELkkjhA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditPart.class
+SHA1-Digest: gMMnEM+2yOphZnQtB2Hk6YVYDtE=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$1.c
+ lass
+SHA1-Digest: XD3tC2mOK/6nMFYbWRA9OVXz5uI=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$3.class
+SHA1-Digest: BvQYyNB7SrEH95OPwXlVI8G0SwY=
+
+Name: icons/queryimport.png
+SHA1-Digest: 9P/0+b1ULrnra8slJIshtlW6VEs=
+
+Name: com/collabnet/ee/actions/ExportFrsFileAction$ExportFrsFileJob.cl
+ ass
+SHA1-Digest: U3r5zc7zITLbD+wvojdh4m1zrpM=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$3.cla
+ ss
+SHA1-Digest: J1SoquqsOJIjkue/t0CrjbHCZII=
+
+Name: icons/editor/configure-table.gif
+SHA1-Digest: rorgiMSomwJUb4aXTD4aSXKHG3s=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$2.class
+SHA1-Digest: Cf+pUEQHi8KTK1hX2XngL3ymDog=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$3.class
+SHA1-Digest: 6z5Vlp+blaoTV19c9vVhDiY2o3c=
+
+Name: com/collabnet/ee/views/AuditHistoryView$AuditHistoryFilter.class
+SHA1-Digest: 94P7zj2ueIyrLWjOaqGpUP+VpkU=
+
+Name: com/collabnet/ee/editor/PlanningBoardFlowEditPolicy.class
+SHA1-Digest: pE7XOmTe9yGL0gMmydjVdWOX5tQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$3.class
+SHA1-Digest: 9YGRaAQkKV04xSsX15QccMpqHlE=
+
+Name: com/collabnet/ee/editor/PriorityEditPart.class
+SHA1-Digest: yPzMwvLctUOeaeI2/E2DMLqCG5o=
+
+Name: com/collabnet/ee/dialogs/CreateFrsReleaseDialog.class
+SHA1-Digest: wgNgSeUl+lEh6krFn7IoRCceBA0=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$SelectionProviderInt
+ ermediate$1.class
+SHA1-Digest: cQbphUEcFC2rjJx4cnVbmXLgjYI=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$TeamMemberSorter
+ .class
+SHA1-Digest: BmjCrW1O9mRfoni7YAHBHS+USFo=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$64.class
+SHA1-Digest: 4ceWrn/yeWsxfQZarEibqNvz1Ok=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardSelectionPage.class
+SHA1-Digest: AxmOrrUjSIeaz3wUNv99or2pydc=
+
+Name: icons/audit_history.gif
+SHA1-Digest: R8HcObKb0v2GdTsmx2C6Lk5iM7U=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$26.class
+SHA1-Digest: lZqO18OGpxXlWn4MvvhdS68Zd+c=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$65.class
+SHA1-Digest: TsIGrq7OR5kh3jzfOSBlPzw+a3I=
+
+Name: com/collabnet/ee/actions/ConfigureTeamHighlightingAction$1.class
+SHA1-Digest: DdFR5xvMRTAmKVFJJzMsdK0IdIw=
+
+Name: com/collabnet/ee/editor/KanbanGroupStateFigure$1$1.class
+SHA1-Digest: 689xx+s4CIvxQpFHygL0/U6Ise8=
+
+Name: com/collabnet/ee/actions/UpdateFrsPackageAction$1.class
+SHA1-Digest: uwNb8D9/MybvrWEcFAiPxJatRFc=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$28.class
+SHA1-Digest: 2GiuwwGawW/WYDppyPaVIQCNy2g=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$6.class
+SHA1-Digest: Cmv624AxQQVXJxpwj16VVIUKN9s=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerPage$4.class
+SHA1-Digest: CXKKT13OjQzBq14O4BXsDMY91KQ=
+
+Name: icons/obj16/proj.gif
+SHA1-Digest: C6sy73hNuFN3Mt+IYqojn2okhS4=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$5.class
+SHA1-Digest: rdPUTVPuAw+cJ7DfNbuPm9X35Cc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$15.class
+SHA1-Digest: bxUn/7S3FNCdnHYOG+m95QSjrUA=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$DocumentLa
+ belProvider.class
+SHA1-Digest: pL7xoKRj4N7ycMR7AYJZyURdaWk=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage$5.class
+SHA1-Digest: zQ6anzGEzJgUbUkUDpSFgdu13MM=
+
+Name: com/collabnet/ee/actions/CreateAssociationAction.class
+SHA1-Digest: YudRz5XuDTVVl4XqMrxx3m4mj94=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$25.class
+SHA1-Digest: vE13kd8ZCJ72rnsN3gk0L2pApZc=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$4.cl
+ ass
+SHA1-Digest: reFuzkaNoyMw+bP1MNoREqMp1E4=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$6.class
+SHA1-Digest: r2WQpHSUKfNB0GJifUT0gq5nBgo=
+
+Name: com/collabnet/ee/editor/summary.xml
+SHA1-Digest: 3/CdgHBzjVQ5VpsTSVpuWz4FlrI=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$Trac
+ kersLabelProvider.class
+SHA1-Digest: IRKrf84e4sV9/bUlYph7LgplNFc=
+
+Name: com/collabnet/ee/taskboard/ArtifactSortField.class
+SHA1-Digest: VjVcNrJQf2abLwsvxWfO7RqlT3o=
+
+Name: com/collabnet/ee/actions/ConfigureTeamHighlightingAction.class
+SHA1-Digest: oStPbWZTa0VMm/it1ZxbSKxePkM=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog.class
+SHA1-Digest: AZC236In9fi0zSKceyMqTa3KSfQ=
+
+Name: icons/file_obj.gif
+SHA1-Digest: OTIaEAHeJKMlx0H/h+IV9QXx9kE=
+
+Name: com/collabnet/ee/dialogs/CreateFrsPackageDialog$1.class
+SHA1-Digest: 1c4TP04ZAri2Dg+p7U8clwHCBSg=
+
+Name: icons/new_artifact_wizban.png
+SHA1-Digest: c88yuofGsYgsWmNqAplcZ+R62Rc=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$21.class
+SHA1-Digest: 18xOPSnlmoLov0xJAoz0K2G3oaY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$55.class
+SHA1-Digest: kuGfoulEd/biH+bZyW73VXdVQWI=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$2$2.
+ class
+SHA1-Digest: SyzdjMHKhD8RI+HM/2fzGmlFQVU=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$ChartsAction$2.class
+SHA1-Digest: NHvQCogiIU4A3AK0o3EU5oAo+lg=
+
+Name: com/collabnet/ee/TeamConfigurationArtifactBoard$1.class
+SHA1-Digest: oTmm+y8uE353jAgYkygB1FaF1Qk=
+
+Name: com/collabnet/ee/editor/PlanningBoardListViewDropAdapter$1.class
+SHA1-Digest: MEhpWJk+NVNSFK24nOZQnsAivaE=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardContext$2.class
+SHA1-Digest: McOIexFfllDOEMGZdNlrKkptqe0=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$18.class
+SHA1-Digest: UgVVt86smvB4nq3cSjY2Q+OQqE0=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$21.class
+SHA1-Digest: v5TyijbaedhFZw5dgsE2zjgJKBM=
+
+Name: com/collabnet/ee/actions/OpenWithWebBrowserAction.class
+SHA1-Digest: uZeQeEiAuFmHKviP6PmKLXHZ84E=
+
+Name: icons/planning_folder_hidden.gif
+SHA1-Digest: fqSEQTjnbuLb1WxTaRpGxG9JN7Y=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatesPage
+ $1.class
+SHA1-Digest: 8t0K/lq7fIezLjekTrNuDd+Buqk=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$12.class
+SHA1-Digest: H4Y51e462wnSHgnTIa3ysmjvcbs=
+
+Name: com/collabnet/ee/integratedapps/IntegratedAppSite.class
+SHA1-Digest: ngkUK6eJxBnTcd28gLrKxCb8pmE=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$7.class
+SHA1-Digest: 8ujNiRxJu88crIKO1053dQ0tZiE=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$4.cl
+ ass
+SHA1-Digest: 9umvrYes1OnabLz3iXwMGqwlrp8=
+
+Name: icons/browser16.gif
+SHA1-Digest: IG2Wiw03HyTtX5dujgzOvSvpuFA=
+
+Name: com/collabnet/ee/actions/RemoveDependencyAction.class
+SHA1-Digest: +U7Wn8oVxIGF5rI2TBt9aU0+cYE=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$12.class
+SHA1-Digest: 2asj33LD8a1sI3u8gg5hcfj6Qas=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardRankChange.class
+SHA1-Digest: 2g3A3hsY/lZOzJMNF5PPl2qr+7I=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$50.class
+SHA1-Digest: 2UwR30oAcsV9BNrN581YR2Et248=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$12.cl
+ ass
+SHA1-Digest: I0C4aXo102MKHyDvYtYC7FB4MZQ=
+
+Name: com/collabnet/ee/dialogs/ArtifactSelectionDialog.class
+SHA1-Digest: hrF6lZ6QUZ0DhFLay+tmBGfLz5o=
+
+Name: com/collabnet/ee/actions/ConfigureFavoriteProjectsAction$1.class
+SHA1-Digest: eg6hjwvpap3NNQGXRSBoLNDPANk=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$6.class
+SHA1-Digest: TVoIjZA9njaxKiHmA0EJRpzu4Ag=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$2.clas
+ s
+SHA1-Digest: 6fUI249hKrNS7wgMMmUWhCW2e0Y=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$UsersLabelProvider.class
+SHA1-Digest: iW7O3P2vhSedgYc8cGKvyNnueJE=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage.cla
+ ss
+SHA1-Digest: l/+4Z6T5iSz+UtqJi9CLYLYMN2E=
+
+Name: icons/query_category.gif
+SHA1-Digest: +qtPrDKpe6LoIvP44rxgsSmCEJ4=
+
+Name: icons/activerelease16.png
+SHA1-Digest: jFslSW2j7AjP3TugSsrQTQrWGxI=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10.class
+SHA1-Digest: ORYvDJu1muLUUeUsYzwGUSFpRkM=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$13.class
+SHA1-Digest: MyLaVM6KlULFbmZnsnoJAcEYs3Y=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$7.class
+SHA1-Digest: ldafjNXXFElx9uiQW0fgkXDBwtw=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$2.class
+SHA1-Digest: cv09ZIo0wQIV/rmh1Jb48JiUtmE=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderChartDialog$1.class
+SHA1-Digest: D/itKvmw3+N6FQ2PNHhnMziY8pc=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$13.class
+SHA1-Digest: qb5yqmDvmnn5Ma8YQyu5KXeT4zA=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction$3.
+ class
+SHA1-Digest: tOCMMZABkB9YYKipgK9Gwsl+ptk=
+
+Name: com/collabnet/ee/dialogs/FavoriteProjectsDialog$1.class
+SHA1-Digest: tRtE7U9Wfvvr3JdZkMkaUPqjxHA=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$23.class
+SHA1-Digest: rt/ADR0hDJHJvvb3p6eKbzs3+qo=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$2$1.class
+SHA1-Digest: n9SCUCbG8jsjA6IOJcG8g/wtVUI=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackers
+ Page$1.class
+SHA1-Digest: ksI+bb+2yL0mPjydLicHewfbct4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$14.class
+SHA1-Digest: f6qLjLtfHVLe4WiHAAMjI8xXaPM=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$3$1$1.class
+SHA1-Digest: QAC075ObCTw91tGTcTI+ZaKyaJk=
+
+Name: com/collabnet/ee/editor/TeamFigure$1.class
+SHA1-Digest: sYliAgO8GcABQV7xXrK/Syv3x8s=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$11.class
+SHA1-Digest: hO5zLpDwuK11JoaiYb2LcWE0NY8=
+
+Name: icons/editor/project-trackers.gif
+SHA1-Digest: SdcrJwsBbMUpP0oskAnvWoGYY64=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$22.class
+SHA1-Digest: zClh57P9v3vs8FNzge+38yjJqbQ=
+
+Name: icons/kanban16.png
+SHA1-Digest: EPTVbaz7yEt6smunDQYb5dpllTM=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$2.class
+SHA1-Digest: /1NSAer1pTomYoZIFlZxT4gUft4=
+
+Name: com/collabnet/ee/editor/TaskBoardEditPart.class
+SHA1-Digest: 0L9MPwqdD9OYezOXhNItbfPw5/o=
+
+Name: com/collabnet/ee/editor/PriorityFigure.class
+SHA1-Digest: Z40VVXVMdbDkLILf5b3nGSh9fos=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$4.class
+SHA1-Digest: W0sr64VALTyVk+V086zC6PyOG98=
+
+Name: com/collabnet/ee/editor/DropTargetEditPart.class
+SHA1-Digest: C69OIE3RN/CMngvFDCJ7GsuGXus=
+
+Name: com/collabnet/ee/DocumentsSite.class
+SHA1-Digest: 09VQp2vVkn7bMLEdjYYqLDoJc4w=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$SelectionProviderInt
+ ermediate.class
+SHA1-Digest: b8caumYEV68X5wZCSaW2Pz/OAn8=
+
+Name: com/collabnet/ee/editor/UserEditPart$1.class
+SHA1-Digest: CMf1xlGWvztAihfBMhBlK569plo=
+
+Name: com/collabnet/ee/editor/PlanningFolderFigure$1.class
+SHA1-Digest: 8N5PPazFezO5LMuSFzhipytGWO0=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$6.class
+SHA1-Digest: 7naH9UXsy579ynZtbslTY4SdI9o=
+
+Name: com/collabnet/ee/actions/AssociationsAction.class
+SHA1-Digest: 6Pf+Qm+SN+bBnBEE8EFeQYpoA90=
+
+Name: com/collabnet/ee/actions/ConfigureFavoriteTeamsAction.class
+SHA1-Digest: a/znGuTQHWuYXqQazS9caPEk8Uo=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardColumn.class
+SHA1-Digest: 18FAvXUHH4S9guPv+cofjlcv+BM=
+
+Name: icons/sort.gif
+SHA1-Digest: LsbLDmKD8jNlIPsYQWR82Jn5Y6k=
+
+Name: com/collabnet/ee/dialogs/CreateMultipleDocumentsDialog.class
+SHA1-Digest: QRMT7AdowhDrNLboKtRnaGeYRss=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$1.class
+SHA1-Digest: iSmAexYLU49ErzleD4K2kYvauFs=
+
+Name: com/collabnet/ee/actions/ShowToolsAction.class
+SHA1-Digest: 1us54sX2x6x0AxwUUJMx6ADUfFs=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$4.class
+SHA1-Digest: 1z0uZRbYg+3GvfvdELlQNUUZj64=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$3.class
+SHA1-Digest: 1F3hF0Ip5AIngn6HNlc8Cwa8Uq4=
+
+Name: com/collabnet/ee/model/DocumentReviewQuery.class
+SHA1-Digest: NxWcE/EOY0gDwHVOLMVMdAaP3DY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$17.class
+SHA1-Digest: t24pIP5yLb9gzFHPUyKiI9tEmHI=
+
+Name: com/collabnet/ee/editor/ColumnsViewMoveArtifactCommand$1.class
+SHA1-Digest: vxHke4/t4eeGpdVaU0NpwjEbS1o=
+
+Name: icons/expandall.gif
+SHA1-Digest: s8M27dkBqoZwlsuYC/q9kXcbvTA=
+
+Name: com/collabnet/ee/model/Association.class
+SHA1-Digest: 8mYepmoCovwtk+jB+ue93AqAMCg=
+
+Name: icons/collapse.gif
+SHA1-Digest: uMxBCMBbqTkhPryhv4ACcxx91pY=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage.class
+SHA1-Digest: a/Owugd+IhS/i3e224NBd4KCYJA=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1.class
+SHA1-Digest: QDvG3sdw7H4jql5VsacZL3x019A=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$4.cla
+ ss
+SHA1-Digest: lYUMmqmKtF5LfR0Na2EhgieIrso=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$66.class
+SHA1-Digest: XlSwQPiq+YLn+emtwpZHlfJ51sg=
+
+Name: com/collabnet/ee/DependenciesSite.class
+SHA1-Digest: norOHxLM1iYBbzaIGNA9ScgiwWo=
+
+Name: com/collabnet/ee/dialogs/AssociationSelectionDialog.class
+SHA1-Digest: 4/cVRiYT+2UnmrRSUhHIccfnbHQ=
+
+Name: com/collabnet/ee/actions/ShowAllProjectsAction.class
+SHA1-Digest: DMzs9WiFnh2yQtJvC4fRCDubl08=
+
+Name: com/collabnet/ee/actions/ShowAllTeamsAction.class
+SHA1-Digest: xeWUbp4e7hrQ7ADJS/NdJaB+c+M=
+
+Name: com/collabnet/ee/editor/PlanningBoardDropAdapter.class
+SHA1-Digest: iTZqVdk8MIIhaOaq0OTm3Ad7qa8=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$UsersLabelProvider.class
+SHA1-Digest: DPat8LgJcYnw2odi77CADNTaC/g=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$TrackersContentPr
+ ovider.class
+SHA1-Digest: wgtedXEedMa47I+3K1qIh8xO8HE=
+
+Name: com/collabnet/ee/wizard/NewTaskBoardStoryWizardTrackerPage$Track
+ ersLabelProvider.class
+SHA1-Digest: M3NlIKwC3Q2pPSk1oVLZyXHFcZg=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentFolderDialog$1.class
+SHA1-Digest: dhnEz0NZlKXISl8PdNXVM7G0Wo0=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardInitializationData$1.cla
+ ss
+SHA1-Digest: 5Yuw+YLyLeTfqpHUPKMZ8dz/7oU=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$9.class
+SHA1-Digest: MRbIqlhuIXkGPrwicOfvCcpruiQ=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$5.class
+SHA1-Digest: wYHlWtRW6gUf7uu+gJ9gguIx2jQ=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$3$1.class
+SHA1-Digest: z4CYwB0YNGEx4x9BMc+Ab9ZVrCo=
+
+Name: com/collabnet/ee/actions/DeleteFrsReleaseAction.class
+SHA1-Digest: rueEW+D9S1DwN9y787y85msuS4Y=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$8.class
+SHA1-Digest: Nu41uODbJYqnLGgFblXCiki91bQ=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage$1.cla
+ ss
+SHA1-Digest: ERFIbn7oLE5ue/xH64CjI0qxrtY=
+
+Name: com/collabnet/ee/IArtifactReportActionProvider.class
+SHA1-Digest: RflWOBlGoTJwa/eXOjXM9W86Eeg=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$18.class
+SHA1-Digest: whyWOKTlnd+j/qSvAWPXk4isGl0=
+
+Name: com/collabnet/ee/editor/PlanningBoardMenuProvider$DeleteArtifact
+ Action.class
+SHA1-Digest: 83bxOocZA8M9FYLLCvpEvfUmecE=
+
+Name: com/collabnet/ee/preferences/BoardAutomationPreferencePage.class
+SHA1-Digest: 3NNdZ2i88v+e/Pryei0uVIpgliM=
+
+Name: com/collabnet/ee/actions/DeleteFrsPackageAction$1.class
+SHA1-Digest: Lv6S87g89E1A1K67RdC2kHKISJE=
+
+Name: com/collabnet/ee/SourceForgeSite$2$2.class
+SHA1-Digest: njdD52zLScCvYZETi90OFO3UMaQ=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$12.class
+SHA1-Digest: hcFDeLwwWu4I80anluTzbohDd9Q=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$8$1$1.class
+SHA1-Digest: hstK4fBgRTOF7/IpD6X1Pid9SPA=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$1.class
+SHA1-Digest: REL01E2rb9FGl98BS7OAKGc7oAw=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizard.class
+SHA1-Digest: 0wrQ2lhPYdYL3XFMmuVsQGsBXs0=
+
+Name: com/collabnet/ee/dialogs/TeamHighlightingDialog$UsersLabelProvid
+ er.class
+SHA1-Digest: FvWL4+dwxcQsz56H3GPHAWjP1CQ=
+
+Name: com/collabnet/ee/actions/DeletePlanningFolderAction$1.class
+SHA1-Digest: L2z2pZNCskBO1Oi5yCIw9HUQnQ8=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$8.class
+SHA1-Digest: l+5CoQVIJ/7X3M0Pk+wWR6gHbMo=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$DeleteArtifactAc
+ tion.class
+SHA1-Digest: j+A5mny4ZThN3EhcpIOzdBO9cbA=
+
+Name: icons/create_planning_folder.gif
+SHA1-Digest: ZULobUBVpQL5DakuciFSr8eNB5Q=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction$5.cl
+ ass
+SHA1-Digest: PltjVQ/RHyliVsawTeg224q5ypI=
+
+Name: com/collabnet/ee/editor/MassUpdatePage.class
+SHA1-Digest: dQRHKa2aK24ZkHd0jjLiD2/wI1I=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor.class
+SHA1-Digest: hC3ylBL254oGB9cPrCHDSEYnkvo=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInputElementFactory.
+ class
+SHA1-Digest: cYOj3ICu2WxN0OJW8YDD/0w8vDE=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$3.class
+SHA1-Digest: ZgsJP5g/HmegIM/eNYgu+R60vfY=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard$3.class
+SHA1-Digest: ScvAdq8yS6R8QdbGmdXALb1PY+c=
+
+Name: com/collabnet/ee/ProjectQueriesSite.class
+SHA1-Digest: EobGlVbE9ka50lB2i1CjyVZ68DE=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$SelectionProviderInt
+ ermediate$2.class
+SHA1-Digest: f+rwiRP82l1zcozAOMrMGq4A89Y=
+
+Name: com/collabnet/ee/actions/UpdateDocumentAction$2.class
+SHA1-Digest: yqtym9siwkaU3xgkrEjGuysBxBc=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$FieldValuesP
+ rovider.class
+SHA1-Digest: ng1Arb9VG9sc8jHINQ0FnQO5fO0=
+
+Name: com/collabnet/ee/webclient/SourceForgeHTTPSender.class
+SHA1-Digest: AYLlVbwWcO3oj7OmO+U1NoYV9aI=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog$2.cla
+ ss
+SHA1-Digest: UMjznhRwudyYu+G1THkqyWzBjes=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditPart.class
+SHA1-Digest: jWWb0Buw7UavsH7NJMlZ20lqGkg=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$5.class
+SHA1-Digest: KO2+ji5UYXlFOOaw/3K+eka/g6Q=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$66$3.class
+SHA1-Digest: a4MRBnl/SlwNPCA1C5Hfo+85tAE=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1$5.class
+SHA1-Digest: lNNgyFTwPx6c/ikcO/FAxKAhf2k=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$3.class
+SHA1-Digest: LJWjSmcMTqdvqgYzGQxBBHbotdk=
+
+Name: com/collabnet/ee/editor/DropTargetEditPart$1.class
+SHA1-Digest: 2jZ/QRQLTt2uruk/c/h/eXSLl0I=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$2.class
+SHA1-Digest: drF/B6f86DyWeVsBrOk7iyLyjqc=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$2.cla
+ ss
+SHA1-Digest: NiCStvfThcqFHLz5buiO8ZkdNHc=
+
+Name: com/collabnet/ee/wizard/NewTaskBoardStoryWizardTrackerPage$1.cla
+ ss
+SHA1-Digest: xpsfzI1O1aQ7FN0Rw3bXg4OeC6I=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$56.class
+SHA1-Digest: 4LRkwZ29+55rNTDORlb3j4p27QA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$2.class
+SHA1-Digest: trhS7fF1rpwD9031daADA9X3gDU=
+
+Name: icons/planning_board_context.gif
+SHA1-Digest: abFUKb+e+v8UYsbagOsC3qtgi/0=
+
+Name: com/collabnet/ee/dialogs/FavoriteProjectsDialog$ProjectsLabelPro
+ vider.class
+SHA1-Digest: B00rZGlYOF8dacXMZIjEYeQg0zE=
+
+Name: com/collabnet/ee/editor/MoveKanbanArtifactCommand.class
+SHA1-Digest: SiwXc9mw7mkeOjEGUoXzBVOjg2k=
+
+Name: com/collabnet/ee/kanbanboard/IKanbanBoardConstants.class
+SHA1-Digest: E3LcPcvRzzz1NN2cmIwvVXQ8aE0=
+
+Name: icons/obj16/doc.gif
+SHA1-Digest: OTIaEAHeJKMlx0H/h+IV9QXx9kE=
+
+Name: com/collabnet/ee/actions/UpdateFrsReleaseAction$1.class
+SHA1-Digest: gfjXou+BgUclX6PfDBxP+P4DV6o=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog$1.class
+SHA1-Digest: n0XdO+Ssmq1UEBZPJ/nBs7zSUes=
+
+Name: icons/save_changes_wizban.png
+SHA1-Digest: gRTABwde41ppDhbMd0OpKdXJmrg=
+
+Name: com/collabnet/ee/editor/TaskBoardStatusStoryTasksGroupFigure$1.c
+ lass
+SHA1-Digest: 7Apwgak1IkkYMXAZ3TcI6ym9VgY=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$2$1.class
+SHA1-Digest: RmY5itFyCNfv+v8WbGSv1c8qBzY=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$1.class
+SHA1-Digest: sZqAs7DwdmMERhdz0dDA2m3+wXQ=
+
+Name: com/collabnet/ee/SourceForgeSite$2$1.class
+SHA1-Digest: qTt/LQeA4w8y5V1fzjVIaHE6fLc=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard$4.class
+SHA1-Digest: glgG8obeQWLTyX6eg0X7sMSvRGs=
+
+Name: com/collabnet/ee/actions/ShowProjectsAction.class
+SHA1-Digest: czbk7OQ+2XjUQQ0hTugDorNgca0=
+
+Name: com/collabnet/ee/actions/ShowMyTeamsAction.class
+SHA1-Digest: dvc9rSEKR2wDVBsWzY4r86jJ2oo=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$5.class
+SHA1-Digest: pCi5Rp+BGnC8nlxDk+8ICpU28pg=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$48.class
+SHA1-Digest: QslSVQhqghwlHUpEMXfvVPUT3K0=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$2.
+ class
+SHA1-Digest: r9X8D5Kk+T3Ddv+6ogEEAjzp+pw=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog$Query
+ LabelProvider.class
+SHA1-Digest: NP8Uqj7pv5QHuG3eU6j+JO/QH3Q=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor.class
+SHA1-Digest: TNNKR7LcrcELoAno89rBJ4Xtiks=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$5$1.class
+SHA1-Digest: zjLh6VrWHEFIuT4MFqcBrNUvswo=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$TreeContentProvider.
+ class
+SHA1-Digest: 5tNBghbj40OhY5jifzSztFL4NnI=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$40.class
+SHA1-Digest: sCiRr83ZgHp801C6CR3CaNTeL9A=
+
+Name: icons/planningboard.gif
+SHA1-Digest: TelrJBaGXPhf8Ch0N0LFJuO8nHQ=
+
+Name: com/collabnet/ee/editor/TaskBoardStoryEditPart.class
+SHA1-Digest: eH5RlhvCfCw80e1sJVRtGRMaUEM=
+
+Name: com/collabnet/ee/kanbanboard/KanbanGroupState.class
+SHA1-Digest: XIUNOJV+raEXfQN0FU+6Nf8sd70=
+
+Name: com/collabnet/ee/views/RelationshipTreeJob$4.class
+SHA1-Digest: pdgViWGzJjwGDnIP1srUTp6bRD8=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard.class
+SHA1-Digest: X2fvsoT9bPx79tHOTVGTBKLrV90=
+
+Name: com/collabnet/ee/actions/DeleteAssociationAction$1.class
+SHA1-Digest: Dk3Ok1h1CzvPEJB6Q8iaiPOmZuo=
+
+Name: com/collabnet/ee/actions/MassUpdateAction$3.class
+SHA1-Digest: zknL5NCjH9t9ziGmJEB88hV4Oug=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog$3.class
+SHA1-Digest: zsSMmm/Bo4DxWVVZSECmeLuQV9w=
+
+Name: com/collabnet/ee/actions/UpdateFrsPackageAction$2.class
+SHA1-Digest: +Ph2lYzcCiM73r6mu1KautaH+U4=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactSorter.class
+SHA1-Digest: pZNUNU0HSTYpz6DgWazzN/odfYs=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$ChartsAction$5.class
+SHA1-Digest: Sdi5s7pQlkOnEO9hqETxMeTa2ac=
+
+Name: icons/source-cvs.gif
+SHA1-Digest: fJd8wTEIR66QIeRXw28RzL9Vtq4=
+
+Name: com/collabnet/ee/actions/TaskBoardAction.class
+SHA1-Digest: sqMAwp/7IjTnoTygDix4tQitlCc=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$4.class
+SHA1-Digest: oU6prr5iGHY2bs/ITofMhwb9iHw=
+
+Name: com/collabnet/ee/model/Query.class
+SHA1-Digest: xteNkkPkG8T0tZpys6BUwYkOIGE=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$67.class
+SHA1-Digest: H2hLnvOvWg/4I+yP/VSxeRhIU5E=
+
+Name: com/collabnet/ee/taskboard/StatusStoryTasksGroup.class
+SHA1-Digest: 8+U/c3JkMDOcpWBMwB9N0/xrKmw=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog.class
+SHA1-Digest: B3tAmATHbpdfYKiovm9Wae8NTbU=
+
+Name: com/collabnet/ee/editor/PlanningBoardListViewDropAdapter$2.class
+SHA1-Digest: iwK3S+poYzZAfRuUQ5lhqiEBqhc=
+
+Name: icons/editor/project-documents.gif
+SHA1-Digest: DmXuWj+saEPSWR1GaiccDBu6Ff4=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$10.class
+SHA1-Digest: kw4qk65GAHh/87Vlua2ai+VoNnM=
+
+Name: com/collabnet/ee/SourceForgeSchedulingRule.class
+SHA1-Digest: /K3WgM5ZvW0ZrOBxLUlLfFxUDxI=
+
+Name: com/collabnet/ee/ProjectSite.class
+SHA1-Digest: 3PYW3w0GkH0pho11jiCrtwdRO3E=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatesPage
+ $3.class
+SHA1-Digest: shXg4AwMXtaSauvWM1dRwqQXmIA=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$2$1$1.class
+SHA1-Digest: tqt8Ir6/7DnEHxF93mQyswhKD7M=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$9$2.class
+SHA1-Digest: o2pHJS/141p7KAllFvobBnA0uLA=
+
+Name: com/collabnet/ee/views/AssociationsView$AssociationsContentProvi
+ der.class
+SHA1-Digest: q+O7u93tCnI2OtLh0knFFeiguKk=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$5.cla
+ ss
+SHA1-Digest: M0sc0uHtoaGk19W2+bwiWdjpCE8=
+
+Name: icons/obj16/rank.png
+SHA1-Digest: RzUoT/Fgn46THBRuvsl7fz9UBzY=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentFolderDialog.class
+SHA1-Digest: bwDh6lQFCXboAjGj9WXvL8l3y/c=
+
+Name: com/collabnet/ee/preferences/PlanningBoardPreferencePage.class
+SHA1-Digest: TeijgARp9vmZpVVsJFEfnlGqzuw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$70.class
+SHA1-Digest: RHPyZz62i1BtHwGtBT/vqwfZ6Jw=
+
+Name: com/collabnet/ee/TrackerSite.class
+SHA1-Digest: N1glGJ48OcmL96+PtDN/pIjzsPw=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure.class
+SHA1-Digest: PmGQLODpmuTP1MQsLdKmpRJTSdw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$54.class
+SHA1-Digest: B+pbrc8luCZJIXjsu/HUlJW+Img=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$52$2.class
+SHA1-Digest: GEEaKOzVnRdkT/0txeYwEnR0Dlg=
+
+Name: com/collabnet/ee/SourceForgeSiteProvider$2.class
+SHA1-Digest: xS49MWaTDFApUtthbKmTWzIkxMk=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizard$1.clas
+ s
+SHA1-Digest: NC+2umUuVkH/kQiTH28JS4e6rTI=
+
+Name: com/collabnet/ee/actions/ConfigurePlanningBoardAction.class
+SHA1-Digest: hWDkzOAt+VZhnEQ1M+ys+M4LZ0c=
+
+Name: icons/obj16/task.gif
+SHA1-Digest: K39DWhLktJvVDGoDDF9+I/glmCI=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardSelectionPage$1.class
+SHA1-Digest: 7aSzM7JK7ZMYj5j2gyqBpOEIsQQ=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$4.class
+SHA1-Digest: blOWV6chx0B0n7dza+wA3Akw63Q=
+
+Name: icons/log16.gif
+SHA1-Digest: gH/opE/JhQirbDClcwL92P/hGU8=
+
+Name: com/collabnet/ee/dialogs/TeamMemberSelectionDialog.class
+SHA1-Digest: dPLrQ3BPL/Lbve+/bexnQtxMFpA=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$1.cla
+ ss
+SHA1-Digest: qCErLEYO8NROYrh2Ea1d7P9Qqtk=
+
+Name: com/collabnet/ee/editor/StoriesArtifactFigure$1.class
+SHA1-Digest: vafvjAe3Jkdr9SEEs/g3/fSI9QA=
+
+Name: com/collabnet/ee/taskboard/TaskBoardInitializationData.class
+SHA1-Digest: a97+8ExFIqMqUZ1JuwzThvsya+s=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$CopyToClipboardAct
+ ion.class
+SHA1-Digest: mLKD04rQ6nu8VKogKk3vhiPp/P0=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$6.clas
+ s
+SHA1-Digest: nPhDdh6xGJhcMkg78xkLUTsvjV4=
+
+Name: com/collabnet/ee/actions/ChangeSiteAction.class
+SHA1-Digest: bZneCp/RQAavxD7PLSFUYz1J/yg=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage$DocumentLa
+ belProvider.class
+SHA1-Digest: ITfeH9TcuT9dUi57M7B659ui3cg=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$37.class
+SHA1-Digest: Pcm//L7WaLl5YCTvAcm4j98Qptk=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage.class
+SHA1-Digest: P+SjPNYqeNkpQ6UZWpghFNmM/p8=
+
+Name: com/collabnet/ee/QueryDefinitionDocumentVersionSite.class
+SHA1-Digest: stt8UOnNVo/ES/WEnZ5lTv6O9cM=
+
+Name: com/collabnet/ee/DocumentReviewSite.class
+SHA1-Digest: BDhsys1QdlWktmXOLOc0dkH1Kmw=
+
+Name: com/collabnet/ee/dialogs/ImportQueryResultsDialog$IgnoredQueries
+ LabelProvider.class
+SHA1-Digest: yXvduG4s4DoDMcyJsVdb7FGx2rE=
+
+Name: icons/filter_highlight_users.gif
+SHA1-Digest: 9DUPKI4jaQRbTPvYtdLHgiRx9R0=
+
+Name: com/collabnet/ee/actions/ShowTeamsAction$1.class
+SHA1-Digest: Gn4CktjjfW3aFkmh60M1B5zwrZ0=
+
+Name: com/collabnet/ee/actions/NewFrsReleaseAction$1.class
+SHA1-Digest: 5uu8DM5yZ64o2G0fBSohY6dBKdw=
+
+Name: com/collabnet/ee/dialogs/TeamMemberSelectionDialog$UsersLabelPro
+ vider.class
+SHA1-Digest: Hxvs8/q5vrI/DGKD8Det3bkwswA=
+
+Name: com/collabnet/ee/DocumentVersionSite.class
+SHA1-Digest: u14LIV4cEMxqPs5knkcLvp6b5Mw=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$2.class
+SHA1-Digest: 0DeMYYKVIufsgT6A2rgR1mCvRn8=
+
+Name: com/collabnet/ee/wizard/NewPlanningBoardTaskWizard.class
+SHA1-Digest: 6Gcdzw3hjLwNCrjLl8li5ZvTcQE=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$1.class
+SHA1-Digest: TM6iwFgSrQGoryCzGBDGTXnGCaE=
+
+Name: com/collabnet/ee/editor/PlanningBoardMenuProvider$EditArtifactAc
+ tion.class
+SHA1-Digest: qm728Cm6lR4tjcknAMQ0sx1wqfI=
+
+Name: com/collabnet/ee/actions/UpdateFrsPackageAction.class
+SHA1-Digest: o4CGIx5turU91/mgbLGedjJdx7M=
+
+Name: com/collabnet/ee/actions/PlanningFolderOpenByPriorityChartAction
+ .class
+SHA1-Digest: dX2LSxEAcAbWAMt4U89yk5vgytA=
+
+Name: com/collabnet/ee/dialogs/TaskSelectionDialog$1.class
+SHA1-Digest: mc709JhExuE9j0fVl3u3uZuNPV0=
+
+Name: icons/orchestrate.gif
+SHA1-Digest: 2d+QKMnRzX1UhF8UWFhLRqtiun8=
+
+Name: com/collabnet/ee/RepositoriesSite.class
+SHA1-Digest: HQbhd+7rEOFu1EP1/+X/6z9G0Yw=
+
+Name: icons/obj16/post.gif
+SHA1-Digest: eSH4+yUnHnZZkhRHkOuu34HK3wU=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$8.class
+SHA1-Digest: twz82Iynwrqyce5HEsMmTI0cf9s=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerSpecificCriteriaPage$
+ 1.class
+SHA1-Digest: scKgzFl61tL96vvHOmuv4pZrSyo=
+
+Name: com/collabnet/ee/ISourceForgeObjectSite.class
+SHA1-Digest: f1wWTr3TRslX7YNCj5JcMoDD1hM=
+
+Name: com/collabnet/ee/editor/MassUpdatePage$6.class
+SHA1-Digest: 9GofuDK1b2ou4Wpsro8nYrefcAQ=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizard$1.class
+SHA1-Digest: ThId65VZmZraKeuZOptTi/5wyZU=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$1.class
+SHA1-Digest: Kp0nEaMpEvDABrf72Gi1uBm/8NA=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$4.class
+SHA1-Digest: UpxgPpsxhYLjW58MAQlLWEUvuJ0=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$10.class
+SHA1-Digest: 7PCFmm7WVmxNU1s4ACMwyMVMCc0=
+
+Name: icons/obj16/topc.gif
+SHA1-Digest: 26C+PIcO7vP3WgzFdcx4Yxb7H3g=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$14.class
+SHA1-Digest: L3QAYj6MBoWqvnrf/o25HL5XF7s=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage.clas
+ s
+SHA1-Digest: VF+tOpNd6RkIx9U3PsreWLi9tp0=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$20.class
+SHA1-Digest: 7TZnKNyDJHW2r6XtoOhDFXce/fc=
+
+Name: icons/taskboard_preferences.gif
+SHA1-Digest: fA4pes54+F9SjzVFrBcYbF+jcBo=
+
+Name: com/collabnet/ee/editor/TaskBoardDropTargetListener$3.class
+SHA1-Digest: t29pEx/vDvm3LupzgnE6vhC1zTg=
+
+Name: com/collabnet/ee/editor/ArtifactChangeNotificationJob$1.class
+SHA1-Digest: rf7lW1U+4N+NVZHAfBxTcGU/6ls=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage$DocumentCo
+ ntentProvider$1.class
+SHA1-Digest: EGHNeeJan0V1orwbELbHcZxWLKY=
+
+Name: icons/gerrit.png
+SHA1-Digest: grz/sE6m+34mQRrLxXB2rKf/pfQ=
+
+Name: com/collabnet/ee/views/AssociationsView$DeleteAction.class
+SHA1-Digest: TFK6lS3EsC9im1vRCjigzILEEt4=
+
+Name: com/collabnet/ee/actions/UpdateTeamAction.class
+SHA1-Digest: Psp9/Ho/SeMqtJUuw7Voevz7lhE=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$5.class
+SHA1-Digest: d5uzTa4dO+LbHysBHLPctE9yBlU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$43.class
+SHA1-Digest: 63EPeYkmZ+6SQv6smTNrjM2Xxn8=
+
+Name: com/collabnet/ee/editor/MoveArtifactCommand.class
+SHA1-Digest: 4rG3SjqPZf+gvC/RlCDF1vwaZZs=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$9$1.class
+SHA1-Digest: tynBX8C4yZeE438rE3CSdOiw6cs=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$3$1$1.class
+SHA1-Digest: K4qT1hdvnuI7MitG6X8nxojcX7s=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardStoryFieldsPage.
+ class
+SHA1-Digest: K/RqvrW95XO9a2hasy0SL/AgQko=
+
+Name: icons/autoSummingOff.gif
+SHA1-Digest: f0/DwhMYGehCpnT/8HBGrJ0V6N4=
+
+Name: com/collabnet/ee/actions/NewFrsReleaseAction.class
+SHA1-Digest: FKRvoQXn805ev0OZVvS5wGHvVJs=
+
+Name: com/collabnet/ee/editor/PlanningBoardColumnEditPart$1.class
+SHA1-Digest: 7VzBqOGnLtAon+a//CGLeC31RS4=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditPartFactory.class
+SHA1-Digest: fjfOZuFYeopOd/DXG6ojg2MmhqM=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$6.class
+SHA1-Digest: +Fzj5vH06NclgWX5gNLyU8UrAPs=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardUsersPag
+ e.class
+SHA1-Digest: kBoc1R+6IsP8Acxz7FvJbb5k0oc=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatesPage
+ $4.class
+SHA1-Digest: vmZvz+ccvYQpFxaCHylzahBhijg=
+
+Name: com/collabnet/ee/ForumSite.class
+SHA1-Digest: RrXc38qpTkIGudK1W/kskYzwyLo=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$1.class
+SHA1-Digest: aHUG0KAVbqfii47yUvdTWnsGkAk=
+
+Name: com/collabnet/ee/actions/UpdateFrsFileAction$UpdateFrsFileJob$1.
+ class
+SHA1-Digest: UkM3HM2UJezj+CF/ySVbQEKJ1Ac=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage$1.class
+SHA1-Digest: 9bIYBXFsfpsMyXMTzALYpSXcmBY=
+
+Name: com/collabnet/ee/actions/PlanningFolderSummaryAction$1.class
+SHA1-Digest: nkMYSssf9WjU4OHnV52BWUoARzg=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsDialog.class
+SHA1-Digest: GNU0wg6UAMZfg+eGjXcwC4YKBVo=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$29.class
+SHA1-Digest: Qsb04rUx0NkKM0jmOO7SnTRFDOU=
+
+Name: com/collabnet/ee/actions/NewDocumentFolderAction$1.class
+SHA1-Digest: AtmBTYa0i448hDshScBtmd9SOgw=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1$4.class
+SHA1-Digest: esxkVI8b5kyOWdEPt7+pG6GjCW4=
+
+Name: com/collabnet/ee/model/HistoryFilter.class
+SHA1-Digest: Ug6Ai/JeFB+sLqCRP7KMl7pAoP8=
+
+Name: com/collabnet/ee/wizard/NewPlanningBoardTaskWizardTrackerPage$1.
+ class
+SHA1-Digest: WrSTqV/4MR7e05jTTt30LFBYJTc=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$2.class
+SHA1-Digest: BNFccVXFVHq5HyaQ7wbs+a3nhmo=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction$4$
+ 1.class
+SHA1-Digest: YJKD/3uaLhjyBnUL3zp3QPrsmN4=
+
+Name: com/collabnet/ee/actions/UpdatePlanningFolderAction$1.class
+SHA1-Digest: hsBMG5rtA3Pi4Kp7bnFGzJayxOs=
+
+Name: icons/owner-team.png
+SHA1-Digest: iko4J0Ptie3c6vXP5JNKsGuZ8Gk=
+
+Name: com/collabnet/ee/model/Forum.class
+SHA1-Digest: tDhnlX2j1McscvT8ryiBzypgb+w=
+
+Name: schema/gitRepositoryChildProviders.exsd
+SHA1-Digest: /apHM+TACYbI/PbRCn+2ilAyEmo=
+
+Name: com/collabnet/ee/actions/DeleteArtifactAction$1.class
+SHA1-Digest: UJh/Qm9ggR5L+UhuI4Js+BvwsHE=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$1.class
+SHA1-Digest: Ox4IPH7mqgsSMPXlOXRH15YYe9Q=
+
+Name: com/collabnet/ee/AssociationSite.class
+SHA1-Digest: QAzKb4JXB3OBILwsOPj/0dFjfh8=
+
+Name: com/collabnet/ee/actions/ShowTeamsAction.class
+SHA1-Digest: 4tDf+DrlzHBHr8jbCY4i4asoIBE=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor.class
+SHA1-Digest: EuHbzT3sZq+87pQyCmeqRDAIw/4=
+
+Name: com/collabnet/ee/dialogs/FavoriteToolsDialog$1.class
+SHA1-Digest: uOc+uMapq9ESA9JYzbcHCIWIxhc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction$4.cl
+ ass
+SHA1-Digest: LAeCJtPMthX5ZZ/RJpM14XYaqe0=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$4.class
+SHA1-Digest: CdTIhTnoeSKB2qTfZrv1hqqgNnU=
+
+Name: com/collabnet/ee/dialogs/AssociationSelectionDialog$3.class
+SHA1-Digest: /POWK9Co+1ZCGGftxG3cVb9CodM=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$7.cla
+ ss
+SHA1-Digest: Ly8HvrK1dKtyiajqQHoHOO+luE0=
+
+Name: com/collabnet/ee/views/AssociationsView$RefreshAction.class
+SHA1-Digest: jclL0O1EOG8pXXPhS+i1EmA3JBc=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$2$1.class
+SHA1-Digest: DRrwHJXtjtA1kHCjEAX5gDJU+1E=
+
+Name: com/collabnet/ee/editor/TeamEditPart.class
+SHA1-Digest: hzfFGFyUx56x8IXROvPeEd8vrR4=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$DeleteTeamAct
+ ion.class
+SHA1-Digest: 9Gz/Oafdfw2Pw7U9hmkl56S7bwI=
+
+Name: com/collabnet/ee/webclient/SoapClient.class
+SHA1-Digest: y2YsKlQPgmTfWOyg3zdg1RBqcXw=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage.class
+SHA1-Digest: vB5Bmwydn5IE/MB78/TPibWaRWk=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$ArchiveAction.cl
+ ass
+SHA1-Digest: lvecUnAzqy7ntGIy/tXXHhdFN7s=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$6.class
+SHA1-Digest: BJnRVHIupYUnlH6ONBKqNsZEHhI=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$Config
+ urationLabelProvider.class
+SHA1-Digest: Da0N5Bi5vgo36akfqhttX5Xi4dA=
+
+Name: com/collabnet/ee/dialogs/ChangeSiteDialog$4.class
+SHA1-Digest: WFZ1v+Z3YAooOZgVKcRMR5KJ3TA=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$11.class
+SHA1-Digest: UzP852i74ycgK907mfwaFACP7bU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$2.class
+SHA1-Digest: FxHKAu9H5CgE1KoSh27cKpaeZxw=
+
+Name: com/collabnet/ee/editor/InitializeInputJob$1.class
+SHA1-Digest: bnfW3UbWop1YTKuUyP5VIBiDRaU=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$1.class
+SHA1-Digest: sO4J61DDw2JcGvQSpv3wA2eEUPQ=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$9.class
+SHA1-Digest: 1XV/Gkbuepmfmd9YmdciUZqsoKg=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$6.cl
+ ass
+SHA1-Digest: 3opfFeG4aIkR1M/WDpCnf8SiMyg=
+
+Name: icons/obj16/user.gif
+SHA1-Digest: VGGKl00asdcN9l5kCH1YBpozszA=
+
+Name: com/collabnet/ee/editor/UserFigure.class
+SHA1-Digest: V6GTQNcUzmM88g5Eo5cV4Y1BWJ0=
+
+Name: com/collabnet/ee/actions/ConfigureTaskBoardAction.class
+SHA1-Digest: Szdz4vINN/nVi5VcZf2b7eKlv3A=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog$2.class
+SHA1-Digest: qoy+rb1K0o2mUBa4cVB7liV7CiQ=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1$6.class
+SHA1-Digest: SKIQWHQmb5miFcesqwhPCtxdpdY=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$7.class
+SHA1-Digest: ihixrwctBDqie0O4ioZMM7WTCTw=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$7.class
+SHA1-Digest: FYZQAyV8vbgqBl/GeYYikbTAgpY=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$7.
+ class
+SHA1-Digest: CThjuQrAipAx0CyN7kP8dzgJAVo=
+
+Name: com/collabnet/ee/editor/TaskBoardEditPartFactory$1.class
+SHA1-Digest: QS0805EaYBBw5SCe4Wt3gtHWH6Y=
+
+Name: com/collabnet/ee/kanbanboard/KanbanGroupHeader.class
+SHA1-Digest: v2ohasH6iSIZZyg14qd+CK6P6No=
+
+Name: com/collabnet/ee/actions/CreateDocumentReviewAction.class
+SHA1-Digest: I3otXQ6LS6awjzaeCkfNE46TZVs=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$5.cl
+ ass
+SHA1-Digest: vca5C+7MnKv00fwBVKYfgys18Nw=
+
+Name: com/collabnet/ee/actions/DeleteDocumentAction.class
+SHA1-Digest: cDyK0ooPUhstX6VXCr1DAfMzDfU=
+
+Name: com/collabnet/ee/editor/PlanningBoardDropTargetListener$1.class
+SHA1-Digest: JhWIfxsDNmebiK5UvqsHSLcIGCI=
+
+Name: icons/group_by.gif
+SHA1-Digest: q18GA/yOw/0tzCGP5qMz+TE4oSM=
+
+Name: com/collabnet/ee/actions/NewFrsFileAction$2.class
+SHA1-Digest: yrG38By67gdyQ52ULfWqEqQhn9c=
+
+Name: com/collabnet/ee/FrsReleaseSite.class
+SHA1-Digest: rsYOOcJXqi+PE/cgKfel/He9s/c=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardSelectionPage$ExportQue
+ ryLabelProvider.class
+SHA1-Digest: Z2LprcVZZzsF+WKsZeTLXnIXAfE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$2.class
+SHA1-Digest: vZ8rzJqZaS52W/fOZofGLuI1r+w=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$HighlightAction$1.clas
+ s
+SHA1-Digest: JTmCGwB9cYrqM1LNPpAJqgwtizc=
+
+Name: com/collabnet/ee/dialogs/NewStoryTemplateDialog$1.class
+SHA1-Digest: 0kFn6di1UhoKwHu57GmnGeBtDtg=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardPlanningFolder.class
+SHA1-Digest: asjJ1UrWz35lX8jfjEhBPfDzZwo=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatesPage
+ .class
+SHA1-Digest: pMNLYHYyTHlGPzi8GLcLENKUOok=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$Conf
+ igurationLabelProvider.class
+SHA1-Digest: CRpB8nt6nt7NBBcpapPYejE4lWk=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditPart$1.class
+SHA1-Digest: 000s3J5yd/7eOKg9kXEoFRkNxDY=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardFieldsPage$4.cla
+ ss
+SHA1-Digest: 1WUR3NdgO/vMEseTNyhjNpAZYXA=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$7.class
+SHA1-Digest: CvQLKuHiFbd5OKgot5j+yjGX2Tc=
+
+Name: com/collabnet/ee/dialogs/NewStoryTemplateDialog.class
+SHA1-Digest: kd10+fUNA+Ml2KEBJ3k+4pqsykQ=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage$2.class
+SHA1-Digest: CqJce5CEuXOyGo+pZc513po6GsQ=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardTrackerPage$2.cl
+ ass
+SHA1-Digest: 6NmnuNHxkb3T2osW4TBIKZiHUYM=
+
+Name: com/collabnet/ee/dialogs/CreateMultipleDocumentsDialog$1.class
+SHA1-Digest: eTyYEoM35MuzMkGsRQ/VNj9kOsg=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage$2.cla
+ ss
+SHA1-Digest: r4s+QzGNkegYZMHIyeK8Di+L2UE=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardSourcePage.class
+SHA1-Digest: NmtUgjki/LdhSlQjg87FRU/ZFRg=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$63.class
+SHA1-Digest: Eo9LzZOyhlevH3QdyPj6YHEgmIc=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1.class
+SHA1-Digest: r/oBr1JnHRh42idgNBci2iAQk/Q=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$15.class
+SHA1-Digest: ypWkb2CvtG6fQT64M8T+QiwoiLA=
+
+Name: com/collabnet/ee/SourceForgeSite.class
+SHA1-Digest: ORG1dV1bbUZggbyvTE9kEa0meas=
+
+Name: com/collabnet/ee/editor/PlanningFolderMenuProvider$AddAction.cla
+ ss
+SHA1-Digest: XOI9b4n9JG6b3AMNqS/8hCND7DE=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$24.class
+SHA1-Digest: po2EywnXihKT/Zd2udmSdbNymdQ=
+
+Name: com/collabnet/ee/editor/TaskBoardSimpleTaskPage$2.class
+SHA1-Digest: T/4odqNm9rkA9cUAYdfsLxTMFY0=
+
+Name: com/collabnet/ee/model/ArtifactDependency.class
+SHA1-Digest: hcB6vRZVQ+z62iI+uuat+VJIEDA=
+
+Name: icons/obj16/rel.gif
+SHA1-Digest: oGhLFO5zvxwOQGL/tYm1Senvxu0=
+
+Name: com/collabnet/ee/dialogs/ImportQueryResultsDialog.class
+SHA1-Digest: BFUhfU1HWvyz6n6Gh8vA5sAIH/Q=
+
+Name: com/collabnet/ee/editor/PlanningBoardDropTargetListener$2.class
+SHA1-Digest: /ik71mjvvW5V47jC82GufDT3uDc=
+
+Name: com/collabnet/ee/actions/ExportFrsFileAction.class
+SHA1-Digest: peDcUgOclgaSSYrIxSYO/W7f1Ag=
+
+Name: com/collabnet/ee/actions/UpdateDocumentAction$UpdateDocumentJob$
+ 1.class
+SHA1-Digest: 2iyXSXz1w3qCJV6ZfItMl4n8Km8=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$30.class
+SHA1-Digest: jcypolHnvECxhNWxWz3gpulR0+U=
+
+Name: com/collabnet/ee/taskboard/AbstractTaskBoardGroup.class
+SHA1-Digest: ybntwao+wl+GrwA12BVI4jfJ6k4=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$12.class
+SHA1-Digest: Bvt2jTf5KXB9oDjb62FHoTALrkM=
+
+Name: com/collabnet/ee/ITeam.class
+SHA1-Digest: 59LZQ0b1DwWUOvRUWM1amQGzycY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33.class
+SHA1-Digest: JGY39rAQSKPgBSPcZSUcLF5lGbk=
+
+Name: com/collabnet/ee/QueryXmlHelper.class
+SHA1-Digest: wY+Ws7378EAMU/V4eFWzb7NEs8E=
+
+Name: com/collabnet/ee/FrsArtifactsSite.class
+SHA1-Digest: XDs6PKqEKjwZ5liKBixXv4j5YPw=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$11.cl
+ ass
+SHA1-Digest: lKJ2X3Ex17ie7S+IndZLOuWGQ80=
+
+Name: icons/all_teams.gif
+SHA1-Digest: rr7lvuJJ6GnNMwtAQaYJJoRVCfs=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$FieldVal
+ uesProvider.class
+SHA1-Digest: PxUuXua+fRCJLBkN44Gt8KH8YFI=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$1.class
+SHA1-Digest: 05enpKneODQ79o84ky3c6HAu0X0=
+
+Name: com/collabnet/ee/dialogs/TaskSelectionDialog$TasksContentProvide
+ r.class
+SHA1-Digest: uX3oitcaWRKtjoTxtX5sMKHofNU=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizard$1.class
+SHA1-Digest: 6b26HdtG+5puS0C/kfBnNwrl9uE=
+
+Name: com/collabnet/ee/actions/NewTeamAction$1.class
+SHA1-Digest: ydxsis5XXqExjzYvQlelAPPOaFY=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardInitializationData.c
+ lass
+SHA1-Digest: US8VGYP8ltN/RuvGmCh+tsZYelY=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage$6.class
+SHA1-Digest: MYwppFPyASCAk+xLWv4lBRy+bkY=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$19.class
+SHA1-Digest: ZCCSiTxt61C9Dt/mfi9zNQlF1nk=
+
+Name: icons/project-frs.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: icons/barcharticon.gif
+SHA1-Digest: FN0K5WD73nGp2r/YYlqpn36RWlA=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage$4.cla
+ ss
+SHA1-Digest: ceIq/7QldS+Ypbj3xzDrdI9q6Jo=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$12.class
+SHA1-Digest: Q2HPR4IYvaqJpGzCZpDtyyRcO8A=
+
+Name: com/collabnet/ee/editor/KanbanGroupsEditPart.class
+SHA1-Digest: lHbthcMfDtoSRFcfXPL2HAEfBbE=
+
+Name: icons/obj16/page.gif
+SHA1-Digest: vVN3oElkAT6+yO3/DIzYTp6wFLk=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction.clas
+ s
+SHA1-Digest: B/JYHI1eRIQgsUn7O8byoLesffM=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$1.
+ class
+SHA1-Digest: HkEgdow+amDbxlbxyVQ6bxo4Ev4=
+
+Name: com/collabnet/ee/editor/FileTransferDropTargetListener$1.class
+SHA1-Digest: 85VbnR3DIV0/Dw4MeDYRdKTwVdA=
+
+Name: com/collabnet/ee/actions/PlanningFolderBurndownChartAction.class
+SHA1-Digest: Jso4GubZcIRMZ9Cn4CSNwQ2vxxU=
+
+Name: com/collabnet/ee/actions/NewPlanningFolderAction.class
+SHA1-Digest: 3FjC5YtskaREnxg+c5xQErP4Qp8=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$7.
+ class
+SHA1-Digest: BVQUkLV2AEYOe18K1Bk96Drnz/s=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog.class
+SHA1-Digest: cgBdBe6GfOYC/RNmZMwqxRjN2b4=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$2$1.class
+SHA1-Digest: etK+NzlYNOKKLykBb23PwXwykDc=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerPage.class
+SHA1-Digest: IyQzRvLyh8KZOHxShImAZl0rxbo=
+
+Name: com/collabnet/ee/ForumsSite.class
+SHA1-Digest: 0kZuZMnBiliyKiw79nDhbBRBUSw=
+
+Name: com/collabnet/ee/editor/FileTransferDropTargetListener.class
+SHA1-Digest: hq4xRVu79DmQNGU2CCLqMwFUwWc=
+
+Name: com/collabnet/ee/editor/TeamFigure.class
+SHA1-Digest: 5JdMw2UlgPJoNbyzqn+1MLQvlrw=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$6.
+ class
+SHA1-Digest: VAqsIwYCxa/7qjWpgOFalM1H8MQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$2.class
+SHA1-Digest: adPGKrXTWh/iF+qmK6vxzHbspcY=
+
+Name: com/collabnet/ee/editor/KanbanBoardFlowEditPolicy.class
+SHA1-Digest: QTKSqRsgzEB626eDqwGQWslSqzg=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$HighlightAction$2.class
+SHA1-Digest: lEME7u6gXCIq2R6GWzKKw82Wkss=
+
+Name: com/collabnet/ee/actions/TaskBoardAction$1$7.class
+SHA1-Digest: kOvKRDIJgYkQN3/eMXJWL/R/gH0=
+
+Name: com/collabnet/ee/actions/MarkActiveAction$1.class
+SHA1-Digest: Y0TJALdnSkIhSA9PfBjo+qgLS24=
+
+Name: com/collabnet/ee/taskboard/TaskBoardFindArtifactDialog.class
+SHA1-Digest: NNwmRLmWp8HdCMQKfJ7Js6S2UFk=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage$4.class
+SHA1-Digest: VBijN0MBHWcoirMKXk4Z5W+vLTY=
+
+Name: com/collabnet/ee/actions/NewTrackerQueryAction.class
+SHA1-Digest: rmVUDFJ79XaFsp45/1Y7GpvO9Io=
+
+Name: icons/obj16/wiki.gif
+SHA1-Digest: HqhflAH6pcX35QaZR+5wg2cQiE8=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$9.cla
+ ss
+SHA1-Digest: Kg9tyGM/zieR0L08wpWRW8fSQ80=
+
+Name: icons/ctf-16.png
+SHA1-Digest: MoOCJu8cVcxh/0hU6e5T3pNYtzo=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$33$3.class
+SHA1-Digest: ikbTh/WBSJVZHb2/qLv+dajLBSI=
+
+Name: icons/editor/project-releases.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatusesPa
+ ge$StatusesLabelProvider.class
+SHA1-Digest: K2cRxeSrXqBm3Im1WF/egps3hRU=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$16.class
+SHA1-Digest: /VJSKOesrMm8Ktyf6MIZXBn3yPc=
+
+Name: com/collabnet/ee/wizard/TrackerQueryProjectPage$1.class
+SHA1-Digest: qKtjSjkOJhi2qozML8Xck7j7OEE=
+
+Name: com/collabnet/ee/EEConstants.class
+SHA1-Digest: UlgUzOCTFl31/Wpz05gXkamlqp0=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$3.class
+SHA1-Digest: ZBzkmunJ42SywfcztzK3s+mMGA4=
+
+Name: com/collabnet/ee/views/RelationshipTreeJob$1.class
+SHA1-Digest: ZjNMYqJLfcTH9P7m57REF5wSUnk=
+
+Name: taskboardconfig.xsd
+SHA1-Digest: hQCOOziKNQ/iRbOBYQ1Y3J6yL8I=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$9.cl
+ ass
+SHA1-Digest: XS4qrGevWwmKqVDtatiw+8osNZ4=
+
+Name: com/collabnet/ee/actions/ConfigureTeamsAction$1.class
+SHA1-Digest: EXMx17T6ysDtVZN6aFxVFcVxHlw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor.class
+SHA1-Digest: BjgzsDaW/48XMWbJPEKx3GCiWiI=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$32.class
+SHA1-Digest: gw6UeQ4QEz9dEInw77HjqiPBQyU=
+
+Name: icons/planning_folder.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: com/collabnet/ee/model/FrsPackage.class
+SHA1-Digest: LJUejhDsV1GF51+WBuE7x4OcozY=
+
+Name: com/collabnet/ee/dialogs/QueryAlreadyExistsDialog$1.class
+SHA1-Digest: TnOI+8Y7gLMR/B16dFS/X6EBl/Y=
+
+Name: icons/obj16/forum.gif
+SHA1-Digest: I1BTXiTDhxJ4xoAqtd4QNsL0bPY=
+
+Name: com/collabnet/ee/dialogs/FavoriteToolsDialog$2.class
+SHA1-Digest: CD10Ia2z3iUVfilxzAGtH74uZNY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$36.class
+SHA1-Digest: Jd7zMIeHX+TxJfdDdk8b6AJ8TZs=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$8.
+ class
+SHA1-Digest: Txy13E+o65ayUo/3gLM+Yv5Oglw=
+
+Name: com/collabnet/ee/TeamConfigurationArtifactBoard.class
+SHA1-Digest: 85XsGZU3D+AYKs/ziXoWs9Gf7j8=
+
+Name: com/collabnet/ee/dialogs/AddAttachmentDialog$3.class
+SHA1-Digest: w+u141v55raXQ7Vwq3FBFSud45I=
+
+Name: com/collabnet/ee/IReplicaRepository.class
+SHA1-Digest: eIkBjmrPTlaxbcw/oWNsJiA7uWE=
+
+Name: com/collabnet/ee/dialogs/ReorderPlanningFoldersDialog$5.class
+SHA1-Digest: 6srk47OOzddRH0dPHB60oaVpOC4=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$17.class
+SHA1-Digest: nFL3hGX2xl9Lzv04tW3fG+ZRvZM=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInputElementFactory$
+ 1$1.class
+SHA1-Digest: CyO3qFxqGWQW1X5FxZ6ZUqqO/k8=
+
+Name: com/collabnet/ee/editor/PlanningBoardActionBarContributor$1.clas
+ s
+SHA1-Digest: HsyQ6d0oJf36lV7p5AfvY1vSzgo=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$1.class
+SHA1-Digest: 51jifutM0hEjKr8NNAosVW2/Nb8=
+
+Name: com/collabnet/ee/actions/DeleteArtifactAction.class
+SHA1-Digest: ePpQb96BuE/WivCqxkpAh/KgLMI=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$1.class
+SHA1-Digest: HLg1JFf4VhtwB970pJsmjUJw4Kc=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard$6.class
+SHA1-Digest: SlM420hw8aDl8ofjielr/ztOlL0=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$9.class
+SHA1-Digest: hwFURJDXGFHba3Ze3IMWVU0D6AQ=
+
+Name: icons/activeiteration16.png
+SHA1-Digest: Eph5wKNOS4wpC7RlIKc4mOBcItI=
+
+Name: com/collabnet/ee/actions/TrackerQueryArtifactReportAction.class
+SHA1-Digest: 5QAQIF9CbXGt0gCI1zVXXSYfCao=
+
+Name: com/collabnet/ee/kanbanboard/KanbanGroup.class
+SHA1-Digest: ELXvUsgL5DkmsrAoHrcLzKG1Csg=
+
+Name: com/collabnet/ee/DocumentFolderViewSite.class
+SHA1-Digest: QntvE9yUi4Iu7MQh5v+jHs9kg0M=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$CreateDocumentJob.cla
+ ss
+SHA1-Digest: f5xp2cCMpE/u6NgJTzCpyTBlmhs=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$44.class
+SHA1-Digest: XswgakPqk4692tUSKsDEbnBxsMA=
+
+Name: com/collabnet/ee/model/FrsFile.class
+SHA1-Digest: BCZ+hsCUe5EJlCp+yJyobo0aBzQ=
+
+Name: com/collabnet/ee/dialogs/CreateFrsFileDialog$2.class
+SHA1-Digest: Ox191iDDNuK0FVKF34k16Jv4RzE=
+
+Name: com/collabnet/ee/taskboard/TaskBoardConfiguration.class
+SHA1-Digest: n4ulDkc0FxFLjUV5DLr8gHmSnPI=
+
+Name: com/collabnet/ee/actions/CreateDependencyAction.class
+SHA1-Digest: yuADxbDTTIE9Cpnuu2qjFpOyLRo=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$4.class
+SHA1-Digest: svPV2VlGliQmF/hg5bPTggDj5+c=
+
+Name: com/collabnet/ee/actions/NewTaskAction.class
+SHA1-Digest: UaPhofaOSnpZPrdlOURJPvBSWrI=
+
+Name: com/collabnet/ee/actions/DeleteFrsPackageAction.class
+SHA1-Digest: r/E0c/SS6YeP9VEdsVoUYOZzZRc=
+
+Name: icons/inactiverelease16.png
+SHA1-Digest: qN9Zwv7dIPp6CXD/rFYIzO1BPz8=
+
+Name: icons/query.gif
+SHA1-Digest: 1KnrtKDP0+qaI7vejOC7QQAP25o=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskboardWizardStoryFieldsPage$
+ 1.class
+SHA1-Digest: /bzKiupWyunBp+e/x3KKU89uXcI=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$CreateFolderDocuments
+ Job.class
+SHA1-Digest: Y/QgzUULRZkbpT48rmtkp8vZ40M=
+
+Name: com/collabnet/ee/editor/PlanningBoardColumnEditPart.class
+SHA1-Digest: Otxz6V8sz0I5t/a39ev9Ihrd2Ms=
+
+Name: icons/my_projects.gif
+SHA1-Digest: S3tv7xmf03EsnXZRgN4VhRsD5V8=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$8.class
+SHA1-Digest: 0tkAuc1jiB/vHys85KV8u70UVjc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$22.class
+SHA1-Digest: yoP5QNtELzLbCKEveXm6r4Ozv2k=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$57.class
+SHA1-Digest: 2YhmjzNP5o+NyN7BIQuXZYb8dJY=
+
+Name: com/collabnet/ee/actions/ConfigureTaskBoardAction$1.class
+SHA1-Digest: LljrwxRB8+zmB+NA/2SX7bh/KOY=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardTeam.class
+SHA1-Digest: 7tbdGJx7ZK78oqvyTxRLKMYQvwk=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1$3.class
+SHA1-Digest: iaTFFUx9HXggIUYO8+CFqIPAycM=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerPage$3.class
+SHA1-Digest: I6n2RGMialOZxz5QM2kSBgbMcQ0=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$20$1.class
+SHA1-Digest: AdRZItLVGubJIpvaaBoQ5dG85+I=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage$6.class
+SHA1-Digest: A0+FgYDyPgIUq1FNdbrH71rUVrs=
+
+Name: com/collabnet/ee/dialogs/TeamMemberSelectionDialog$1.class
+SHA1-Digest: ab9cvHAsPKdWDJTUhaldB2yBLn0=
+
+Name: com/collabnet/ee/taskboard/TaskBoard.class
+SHA1-Digest: tIuZZqy4glntaZP2YeYdlRHQNRM=
+
+Name: icons/task-new.gif
+SHA1-Digest: axZQ5hs/QtPAyEUf91bHE4pE1qM=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$34.class
+SHA1-Digest: FwHFSyZ2udX8ByILjX3il+ztFhs=
+
+Name: com/collabnet/ee/editor/PlanningFolderEditorInputElementFactory$
+ 1$2.class
+SHA1-Digest: y1HdgHwa8Yx4MKX6jKsOT5nF+Js=
+
+Name: com/collabnet/ee/editor/PlanningFolderStatusTransitionPage$6.cla
+ ss
+SHA1-Digest: stHP6SPubTW+ayFBjCMEPpiklSk=
+
+Name: icons/obj16/taskgrp.gif
+SHA1-Digest: k+TF0JnLc5GuXPdA6zgO/lVZE3c=
+
+Name: com/collabnet/ee/MyQueriesSite.class
+SHA1-Digest: 49GmGmpdXx5qoNsHSU/XW9U+jlg=
+
+Name: com/collabnet/ee/model/ModelConstants$FieldValueType.class
+SHA1-Digest: JF2WkGP77lA10q/i598EBhEH4CA=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$2.class
+SHA1-Digest: +MczaGHdqXi5xmX7WXMTvNCF3rk=
+
+Name: com/collabnet/ee/editor/UserFigure$1.class
+SHA1-Digest: zvM9E6h/+RtDq1yj393vgATFDxE=
+
+Name: com/collabnet/ee/TrackersSite.class
+SHA1-Digest: CLWS08g8Zjsr+bm9hI807fortgA=
+
+Name: com/collabnet/ee/model/ModelConstants$FieldType.class
+SHA1-Digest: fZD2zbr71FNfU4N9QeA7sKFQYq4=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$3$1.class
+SHA1-Digest: Ob6NaXJTeshr4PZxiquMzMQDesk=
+
+Name: com/collabnet/ee/views/AuditHistoryView.class
+SHA1-Digest: i+GK4JM5aBzCj+vuCKo9Z+9mopI=
+
+Name: com/collabnet/ee/editor/KanbanArtifactFigure$6$1.class
+SHA1-Digest: 6XrzJi2QtDUwYLX8NoExPNIeKy0=
+
+Name: com/collabnet/ee/editor/KanbanBoardMenuProvider$SaveAction.class
+SHA1-Digest: X6Gcw97QX1iBddwpwz6D9KIqygM=
+
+Name: com/collabnet/ee/wizard/ImportQueryWizardDocumentPage$1.class
+SHA1-Digest: 4bugQulS1inPQ7WIc3awzLhyiBw=
+
+Name: com/collabnet/ee/actions/NewFrsPackageAction$1.class
+SHA1-Digest: 9T3oLfFLulM8DlUz0O1rFQAFXX8=
+
+Name: com/collabnet/ee/actions/UpdateDocumentAction$2$1.class
+SHA1-Digest: HYdgaS1dl4pYRZuWZ7n9Iovkvk8=
+
+Name: com/collabnet/ee/editor/TaskBoardMenuProvider$EditArtifactAction
+ .class
+SHA1-Digest: JOIP/WA1ZQCwXL33YIP6wMaAD+g=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$17.class
+SHA1-Digest: B+6hG/rWNCRzMgyQATSjfgFYFvk=
+
+Name: com/collabnet/ee/webclient/SoapClient$2.class
+SHA1-Digest: M5MDFY8NWcpWS4d8m5hIcbIsJtU=
+
+Name: icons/user_query.gif
+SHA1-Digest: 1KnrtKDP0+qaI7vejOC7QQAP25o=
+
+Name: schema/repositorySiteProviders.exsd
+SHA1-Digest: ioOR/2m43ANpFkqmO1jfGeag0sQ=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$52$1.class
+SHA1-Digest: 2xi3USOqnwXeFKOpUEJgShTipk8=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$8.class
+SHA1-Digest: GOc34N1T95aWblvSLTrqB4tA9Yk=
+
+Name: com/collabnet/ee/editor/PriorityEditPart$1.class
+SHA1-Digest: ne0RfY1uajV9394gZJuAjFYEV30=
+
+Name: com/collabnet/ee/TrackerSite$1.class
+SHA1-Digest: 36Ujli7s//lPOhbaa6QS/139OVo=
+
+Name: com/collabnet/ee/views/AssociationsView$AssociationsDropAdapter.
+ class
+SHA1-Digest: K0eTxDWxQ1XW+vL/qVc38gVMceM=
+
+Name: icons/refresh.gif
+SHA1-Digest: 3NWUc5UjsZeI5q6NCFvfEyeUB1I=
+
+Name: com/collabnet/ee/editor/TaskBoardStatusStoryTasksGroupFigure.cla
+ ss
+SHA1-Digest: rVqEX+kwrDdijBg0Hyfc970mdpU=
+
+Name: icons/associations.gif
+SHA1-Digest: r0KCwgaLUhpNi48DGXn7+fhKO6Y=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$31$1$1.class
+SHA1-Digest: wHJTQQN1bTeIU0Dd0miOlnYsreE=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$ChartsAction$4.class
+SHA1-Digest: qgFtnap+VSdO8k+geElhPe/WIP0=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$31.class
+SHA1-Digest: eav278KHLoe6olShcSRJeVekq+w=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$21.class
+SHA1-Digest: 5tDce8duK5WiKvUnFBvfVp0a87w=
+
+Name: icons/team16.png
+SHA1-Digest: JumaQRmcgeif/9Dk18vs7rgQIgc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$3.class
+SHA1-Digest: +rucPohKCQASDvukAz6ykNqItuE=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$SortAction
+ .class
+SHA1-Digest: y9dJtjSNyR3Xb3JXDVrWK80ro+4=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$11.class
+SHA1-Digest: J94rjmUgaaXMm1EalYeLvm8J4dQ=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$Conf
+ igurationContentProvider.class
+SHA1-Digest: hLp+lrL+QMU4G2315JV6rqxPjTI=
+
+Name: com/collabnet/ee/editor/TaskBoardSavePage$SaveChangesContentProv
+ ider.class
+SHA1-Digest: lynAmKkxvM0TqaMAnJDcW0ig3bE=
+
+Name: com/collabnet/ee/TeamSite$1.class
+SHA1-Digest: o5eiKQxSH2OhzTDMvm1t2OxxjZU=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$ChartsAction$4.class
+SHA1-Digest: zSen2q6a5EkqMs3oErgh0dJipR8=
+
+Name: com/collabnet/ee/actions/EditTrackerQueryAction.class
+SHA1-Digest: s4NnnpQ6mMpJ6+w2ClpJdIUhD5Q=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1$2.class
+SHA1-Digest: wueS4ajl4MzC0qXwJEa89xzn2cE=
+
+Name: com/collabnet/ee/editor/KanbanGroupStateEditPart.class
+SHA1-Digest: 09WZTMZ0JueHhp5wakQLF4wCJWI=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardStatusesPa
+ ge$1.class
+SHA1-Digest: C0gRm7panYPJDF5jzwpIHrPMlr4=
+
+Name: com/collabnet/ee/actions/CreateAssociationAction$1.class
+SHA1-Digest: KTimwliOymoeRQWnXhk+qY+64AI=
+
+Name: icons/information.gif
+SHA1-Digest: mUtH6JOLdcPH0zYHzxxaDo/tNgE=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$9.
+ class
+SHA1-Digest: TQ2kKmNjD2usPl3VnIPfUSa4/Ow=
+
+Name: com/collabnet/ee/dialogs/CreateAssociationDialog$1.class
+SHA1-Digest: 31Npsb72BTmthCwFfZ8HAju7YnQ=
+
+Name: com/collabnet/ee/dialogs/PlanningBoardQuerySelectionDialog$3.cla
+ ss
+SHA1-Digest: ImQbcLvdEruwwQKHAv1mXPmLWEk=
+
+Name: com/collabnet/ee/dialogs/ChangeSiteDialog$5.class
+SHA1-Digest: XVPl4bnCu9HsaFLimnMJoyLRE9g=
+
+Name: com/collabnet/ee/editor/PlanningBoardColumnEditPolicy.class
+SHA1-Digest: QfF1r5ARvOx2pgjbE7QP6Wr2Ao0=
+
+Name: com/collabnet/ee/actions/ReorderPlanningFoldersAction.class
+SHA1-Digest: qwScCB18nzESsR/kKC4zw8dwGro=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$ChartsAction$2.class
+SHA1-Digest: FWVNyjl2CTx2JLiTlKOEhMDH/tg=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$14.class
+SHA1-Digest: X8t4C4xDLobwpzPszQBhO988B/4=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$20.class
+SHA1-Digest: 0po68gSZEZhVVidK6EorNJMP2ac=
+
+Name: com/collabnet/ee/ReplicatedGitRepositorySite.class
+SHA1-Digest: zuCvMzBIxhUemSREqb/hgV7eAjY=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$7.class
+SHA1-Digest: gaiI+LmuwG1bihGrlRRxQetf1K0=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$1.clas
+ s
+SHA1-Digest: 6GBCrnVtgi5w6hVxDrrXEtx8tVQ=
+
+Name: com/collabnet/ee/dialogs/FavoriteTeamsDialog.class
+SHA1-Digest: hIZKWZaBWfauMVTOFMYPsH6nZcg=
+
+Name: com/collabnet/ee/actions/NewTopicAction$1.class
+SHA1-Digest: ZpJ/9NyEz5nRt1maF3k56FBfxlw=
+
+Name: com/collabnet/ee/planningboard/PlanningBoardColumns.class
+SHA1-Digest: pDOSG8PQS9RqaA86UrMTDeZ9Exw=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$1.class
+SHA1-Digest: vQeTM+69I3DvpLvYDUVL0yY5llY=
+
+Name: icons/folder-item.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardDocumentPage.class
+SHA1-Digest: 4mkTpRevFgBcctk7k8GCMxX9E84=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$10$9.class
+SHA1-Digest: rm3OoiSlWz5xrTUKpT/epFsPIVM=
+
+Name: com/collabnet/ee/views/AuditHistoryView$2.class
+SHA1-Digest: QTZD+N+l66DPlffjiBOkmoNHqDs=
+
+Name: com/collabnet/ee/dialogs/CreatePlanningFolderDialog$1.class
+SHA1-Digest: pwzV8e6Sh/m4L0AbgVm48tgsMOs=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardUsersPag
+ e$2.class
+SHA1-Digest: d0OK5LfxJVg1D0QOBC5bCZ2emao=
+
+Name: com/collabnet/ee/dialogs/CreateDocumentDialog$4.class
+SHA1-Digest: pxOXfIuUf4Hcpgkbcr/2EY+EVgY=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$1.class
+SHA1-Digest: O1IJKhuKRnGDLRw5ywIajcSu4Uw=
+
+Name: com/collabnet/ee/IArtifact.class
+SHA1-Digest: 02h9FqmFy1C0njk7BE855rRkLPs=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$5.clas
+ s
+SHA1-Digest: ndZJl3ZjDTjKk74xfEfe+iaDHhY=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$HighlightT
+ asksAction.class
+SHA1-Digest: 3LUfkLE/re3uSof2XJiezvGDJho=
+
+Name: com/collabnet/ee/actions/DeleteDocumentAction$1.class
+SHA1-Digest: Pn7x+dXOGlNGlqype7xKU3GBXyg=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog$4.class
+SHA1-Digest: re9d6vGQrrqFEJoSkeTs1ziafxw=
+
+Name: com/collabnet/ee/dialogs/TaskSelectionDialog$TasksLabelProvider.
+ class
+SHA1-Digest: Meeyd+Em6BjeNl9jgq+3UP1IRnc=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$2.class
+SHA1-Digest: gCXa3CzcY3O707+vJ+kfmkijp7Y=
+
+Name: com/collabnet/ee/dialogs/CreateFrsFileDialog$1.class
+SHA1-Digest: ECzlG9BtaY6wL2ub20/1vNw1hKg=
+
+Name: com/collabnet/ee/dialogs/BoardConfigurationSelectionDialog$1.cla
+ ss
+SHA1-Digest: ItKDrHlIJ/TbgT4paRJT3ktHmsg=
+
+Name: icons/project-tasks.gif
+SHA1-Digest: tlmXDf7R6dAgOECPw3RTzm8fkLQ=
+
+Name: com/collabnet/ee/actions/ImportQueryDefinitionAction$1.class
+SHA1-Digest: iteRQKdODU5hVyYxWISyGT/cB3k=
+
+Name: com/collabnet/ee/dialogs/PlanningFolderSelectionDialog$PlanningF
+ olderContentProvider.class
+SHA1-Digest: HtU1IOjYGymedq73bAVvFCrL+AM=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage.class
+SHA1-Digest: YDO1roCBa4/AQwUnNpyL59WX+Dc=
+
+Name: com/collabnet/ee/editor/TaskBoardSavePage$SaveChangesLabelProvid
+ er.class
+SHA1-Digest: TYOKUxl3eh7c8HV+Jjrve1aElvQ=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationsWizardPage$1.cl
+ ass
+SHA1-Digest: zwAgZYzSVyRjWIexZVJVjp7jtGI=
+
+Name: com/collabnet/ee/editor/ArtifactUpdateOrderComparator.class
+SHA1-Digest: sXleFr1tg06yOvHJczhGT5MaRvc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$ChartsAction.class
+SHA1-Digest: SrSBzvYBYiTPt4VINX675geAHkE=
+
+Name: com/collabnet/ee/actions/CreateDependencyAction$1.class
+SHA1-Digest: gH9vOFPPj7R2TSuFu9ph0nAw6Nc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$69.class
+SHA1-Digest: odxoSukUJpcnawShfKIGXpjMQrw=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$59.class
+SHA1-Digest: AYnsKrYj48GTVtqNEla3QWQnmoY=
+
+Name: icons/my_teams.gif
+SHA1-Digest: S3tv7xmf03EsnXZRgN4VhRsD5V8=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactUpdatePage$13.class
+SHA1-Digest: yerT1Vo198hFlmcGdQJKNshV1Rw=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerSpecificCriteriaPage$
+ 4.class
+SHA1-Digest: +w9dGRgGDDcbHjCEDlwHFXv7fN8=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTeamFiel
+ dsPage$3.class
+SHA1-Digest: hUhJODD56TLBMA+/2YRgTPqzbgM=
+
+Name: com/collabnet/ee/Messages.class
+SHA1-Digest: vp23wWy6qzaVllU/4/Q/56uXc3M=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardPlanning
+ FolderFieldsPage$3.class
+SHA1-Digest: +i2VYoPeDtwD4YFMaYHhQn1lbKo=
+
+Name: com/collabnet/ee/wizard/KanbanBoardConfigurationWizardTrackersPa
+ ge$3.class
+SHA1-Digest: wgfdwd5dGsUb0q7fd1uRSt4XjeQ=
+
+Name: com/collabnet/ee/editor/KanbanArtifactEditPart$1.class
+SHA1-Digest: 1oczRb5L0riKOC/oLf7zyefQsLw=
+
+Name: icons/project-queries-container.gif
+SHA1-Digest: Bq1fDQZrso4zNEd6QZ4V6mRvXTA=
+
+Name: icons/obj16/reps.gif
+SHA1-Digest: rhsDFyk0WoiRK0dZ4L2IeaLP0Ak=
+
+Name: com/collabnet/ee/editor/TaskBoardActionBarContributor$PlanningFo
+ lderAction.class
+SHA1-Digest: PNl+AxKc70g1S1LRMpyypr0ncHI=
+
+Name: com/collabnet/ee/wizard/TrackerQueryCrossTrackerCriteriaPage$6.c
+ lass
+SHA1-Digest: vC+oWyj9tlaOhQ7f1i879m6HqUc=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$73.class
+SHA1-Digest: ratkrf65NiFdNJTo9KsP0/Xfgjc=
+
+Name: com/collabnet/ee/IIntegratedAppChildSiteProvider.class
+SHA1-Digest: nL6dIlVfxqOjfG1OOG+TF7xRgow=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$10
+ .class
+SHA1-Digest: kqDWdWLk9gAcspQ/zuBFDngeXdk=
+
+Name: com/collabnet/ee/dialogs/ChangeSiteDialog.class
+SHA1-Digest: +QYvVo07ABpKqdypljz5unN0OwA=
+
+Name: plugin.xml
+SHA1-Digest: rEx3XeVn0w++LxaCPUrxhYTXm6Q=
+
+Name: com/collabnet/ee/taskboard/TaskBoardStoryTemplate.class
+SHA1-Digest: 1LNQExFcPAdGG+j4htSsoUlCN5k=
+
+Name: com/collabnet/ee/editor/ArtifactFigure$3$1.class
+SHA1-Digest: BTxD9oebTeYpY4NLxFIZSfEjS1g=
+
+Name: com/collabnet/ee/wizard/NewCollabNetSiteWizardProjectsPage$Proje
+ ctsContentProvider.class
+SHA1-Digest: RFXRAjcP2ps1JIYPzLzayU//sjM=
+
+Name: com/collabnet/ee/dialogs/ExportDataDialog.class
+SHA1-Digest: JgpOJGaENhYfjqbGrK76fxmtoXk=
+
+Name: com/collabnet/ee/webclient/ServerConfiguration.class
+SHA1-Digest: rd3HCRwQu5vDknb1J0xvyx0E8sM=
+
+Name: com/collabnet/ee/PlanningFolderSite$2.class
+SHA1-Digest: 4rLILL46uFWo9t1lChMaPsYMdYE=
+
+Name: icons/admin16.gif
+SHA1-Digest: yhsLwhfljJYK24LMznZpSrB7Yzs=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage.class
+SHA1-Digest: ObbfQjWurO5YYrJJeYsjhiH184E=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$15.class
+SHA1-Digest: /1itjpTBOaUyZPKLX7iAsCuu4Fw=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$3.class
+SHA1-Digest: yBnqdi+j4QodsB4ORlcEDFobxAk=
+
+Name: com/collabnet/ee/dialogs/TeamDialog$TeamMemberSorter.class
+SHA1-Digest: mO/izyU1RbzP5IkJliOYbdRG9I8=
+
+Name: com/collabnet/ee/editor/PlanningBoardArtifactFigure$6$1.class
+SHA1-Digest: xC+VfwSPMOrt5TUqhsJZXVPUjVk=
+
+Name: schema/integratedAppChildSiteProviders.exsd
+SHA1-Digest: BoqcDnPq+poyG0yVgOXfnR7MlBQ=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$10.class
+SHA1-Digest: yjikW/KeBb5w7hmql5ligyXxwK4=
+
+Name: icons/review.gif
+SHA1-Digest: Y4hyWELA+Pe+HqY3qB8s/3LUqwM=
+
+Name: com/collabnet/ee/MylynQuerySite.class
+SHA1-Digest: LEC/dmTAL9S9ImC1jT5kZ3N5f88=
+
+Name: com/collabnet/ee/editor/IColumnProvider.class
+SHA1-Digest: rWRsIWde/bOlWIZdN551jqqzMEs=
+
+Name: com/collabnet/ee/Activator.class
+SHA1-Digest: MyJD+oa4Yy6w/n9tgItA3Jp0r2U=
+
+Name: com/collabnet/ee/actions/PlanningFolderCapacityChartAction.class
+SHA1-Digest: TR9gz3ZtNmHW63sfjGdxh/mrL14=
+
+Name: com/collabnet/ee/dialogs/ReorderTrackersDialog$4.class
+SHA1-Digest: 8B4upqC1CEU6+q194YIYQ36fwjk=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$HighlightAction$3.cl
+ ass
+SHA1-Digest: lLv5jihqmHqXWNiWNN1bi5QG0Is=
+
+Name: com/collabnet/ee/NotAuthorizedSite.class
+SHA1-Digest: WkHJBUqvvfoAarpi403GV6JhTyg=
+
+Name: com/collabnet/ee/editor/TaskBoardArtifactUpdatePage$15.class
+SHA1-Digest: mDYhiohgzSe/3E9u+gBb9t8Bpg0=
+
+Name: com/collabnet/ee/actions/DeleteTrackerQueryAction.class
+SHA1-Digest: 0LKtGh1daZPdm1XxjcKY+kGBoKE=
+
+Name: com/collabnet/ee/dialogs/AddAttachmentDialog.class
+SHA1-Digest: 5MCXMfIp1+9rr/K1DVg5WyCNQiw=
+
+Name: com/collabnet/ee/actions/RemoveDependencyAction$1.class
+SHA1-Digest: zBs6n0M5byox/8y/eQLjibu7X7U=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationsWizardPage$1.
+ class
+SHA1-Digest: N3YpmfwI/a2bDW4YYfiVhgGHlRw=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$19.class
+SHA1-Digest: jmOlF2ugzG1RWWZBirCyxta1tn0=
+
+Name: com/collabnet/ee/actions/PlanningBoardAction$3.class
+SHA1-Digest: LZAi+OJ0dX+DsdhD0XyCvljXfJM=
+
+Name: com/collabnet/ee/IPlanningFolder.class
+SHA1-Digest: DXFvt7XoNrpOeB/KhzLil0g8mdk=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$31.class
+SHA1-Digest: nAvWljcpcdy9YvPMxKEXyAKWs6o=
+
+Name: com/collabnet/ee/IMonitorable.class
+SHA1-Digest: St8mz87GWEwAMfZ9GZbJ3vJBVTk=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$12.class
+SHA1-Digest: xoaZJaXaBiH9hUrQ+ZyGFizuS7Y=
+
+Name: com/collabnet/ee/editor/KanbanBoardEditor$6.class
+SHA1-Digest: Xdn7RL2P+fVumsEkQULyRZ3WAE4=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardStateTracker.class
+SHA1-Digest: sQxCFM285v1UKmkmITNIRsSt59M=
+
+Name: com/collabnet/ee/editor/KanbanBoardArtifactUpdatePage$11.class
+SHA1-Digest: yEh9MX1iTWFhSKjV7BJDCVuMBrI=
+
+Name: com/collabnet/ee/wizard/ExportQueryWizardSelectionPage$ExportQue
+ ryContentProvider.class
+SHA1-Digest: kiJNsOV/jrp/XQEovf2Qv/Ao0YU=
+
+Name: com/collabnet/ee/editor/PlanningBoardEditor$68.class
+SHA1-Digest: aXEVokcZj5e2CaFSGDwkmDIqff8=
+
+Name: com/collabnet/ee/planningboard/IPlanningBoardConstants.class
+SHA1-Digest: DU6xRT6g0ttfNiLoCxeCma5Nme0=
+
+Name: com/collabnet/ee/taskboard/TaskBoardFindArtifactDialog$1.class
+SHA1-Digest: +JreZv8Js3/u18PXmxoFNU93knY=
+
+Name: icons/burndown.gif
+SHA1-Digest: AecZHGgz/Au08crKNouk4rE2ojg=
+
+Name: com/collabnet/ee/kanbanboard/KanbanBoardInitializationData.class
+SHA1-Digest: GmCGieOgpajAOWSWklSV9fTBAbk=
+
+Name: com/collabnet/ee/dialogs/ArchiveKanbanArtifactsConfirmationDialo
+ g$ArtifactsContentProvider.class
+SHA1-Digest: IBzdERL4d39JKtIcoIlvL/ebvQQ=
+
+Name: com/collabnet/ee/editor/TaskBoardEditor$13.class
+SHA1-Digest: fokCsvzvAybJE+o/wBSlPzqcyfY=
+
+Name: com/collabnet/ee/wizard/TrackerQueryTrackerPage$4$1.class
+SHA1-Digest: TslkQAMnYvMml+PnRWjHVGnDW48=
+
+Name: com/collabnet/ee/wizard/ConfigureTaskBoardWizardTemplatesPage$1$
+ 1.class
+SHA1-Digest: B76xRrY5kQbHL/RTlWxJUw2R1To=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$9.class
+SHA1-Digest: yUIrYVBvV9serIIWOxYLWJVXv48=
+
+Name: com/collabnet/ee/wizard/TrackerQueryWizard$1.class
+SHA1-Digest: SQNeuu9HB8pvRf2xEPcrSEfoXkg=
+
+Name: com/collabnet/ee/wizard/PlanningBoardConfigurationWizardTrackerF
+ ieldsPage$2.class
+SHA1-Digest: HbV9yGEtUejDYoftjHUeRy77rJQ=
+
+Name: com/collabnet/ee/actions/KanbanBoardAction$1$3.class
+SHA1-Digest: 0wvj+uSlyMaqK1GHSYglRrjhHh0=
+
+Name: com/collabnet/ee/actions/NewDocumentAction$CreateMultipleDocumen
+ tsJob$1.class
+SHA1-Digest: 8rz/2FMCUIw2RaXlsPCjTqk7mn4=
+
+Name: com/collabnet/ee/wizard/TaskBoardConfigurationsWizardPage$Config
+ urationContentProvider.class
+SHA1-Digest: l84NKVHuZ8kny8E06o7Sr4Qp9gg=
+
+Name: com/collabnet/ee/dialogs/BoardConfigurationSelectionDialog$2.cla
+ ss
+SHA1-Digest: MRvuRmbJqPU+WJZYmU6EHOJ3kuw=
+
+Name: com/collabnet/ee/dialogs/NewTeamDialog$3.class
+SHA1-Digest: bAQGC2CD+o3aGcEFPi74NZyQ4y4=
+
+Name: com/collabnet/ee/dialogs/TeamMemberSelectionDialog$2.class
+SHA1-Digest: EJndPN/Mka1alS0it3pw6tq4l+w=
+
